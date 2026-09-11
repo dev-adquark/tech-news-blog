@@ -15,8 +15,10 @@ import urllib.request
 import urllib.error
 import urllib.parse
 
-NEWSAPI_URL = "https://newsapi.org/v2/top-headlines"
+NEWSAPI_TOP_URL = "https://newsapi.org/v2/top-headlines"
+NEWSAPI_EVERYTHING_URL = "https://newsapi.org/v2/everything"
 NEWSAPI_KEY = os.environ.get("NEWSAPI_KEY", "")
+NEWS_QUERY = os.environ.get("NEWS_QUERY", "").strip()  # optional override, e.g. "cybersecurity"
 
 OPENROUTER_URL = "https://openrouter.ai/api/v1/chat/completions"
 OPENROUTER_KEY = os.environ.get("OPENROUTER_KEY", "")
@@ -52,16 +54,29 @@ def http_post(url, body, headers):
 
 
 def fetch_headline():
-    """Get today's top US tech headline from NewsAPI. Falls back if it fails."""
-    params = {
-        "category": "technology",
-        "country": "us",
-        "pageSize": 1,
-        "apiKey": NEWSAPI_KEY,
-    }
-    url = f"{NEWSAPI_URL}?{urllib.parse.urlencode(params)}"
+    """Get today's top tech headline from NewsAPI, or search a specific topic
+    if NEWS_QUERY is set (e.g. 'cybersecurity'). Falls back if it fails."""
     write_debug(f"--- Run at {datetime.datetime.utcnow().isoformat()} UTC ---")
-    write_debug(f"NEWSAPI URL: {NEWSAPI_URL} (params redacted key)")
+
+    if NEWS_QUERY:
+        params = {
+            "q": NEWS_QUERY,
+            "language": "en",
+            "sortBy": "publishedAt",
+            "pageSize": 1,
+            "apiKey": NEWSAPI_KEY,
+        }
+        url = f"{NEWSAPI_EVERYTHING_URL}?{urllib.parse.urlencode(params)}"
+        write_debug(f"NEWSAPI URL: {NEWSAPI_EVERYTHING_URL} (query='{NEWS_QUERY}', params redacted key)")
+    else:
+        params = {
+            "category": "technology",
+            "country": "us",
+            "pageSize": 1,
+            "apiKey": NEWSAPI_KEY,
+        }
+        url = f"{NEWSAPI_TOP_URL}?{urllib.parse.urlencode(params)}"
+        write_debug(f"NEWSAPI URL: {NEWSAPI_TOP_URL} (params redacted key)")
 
     try:
         status, body = http_get(url)
@@ -88,7 +103,17 @@ def generate_post(headline, description, source, source_url):
         "write an original, engaging blog post about it (do not just repeat the "
         "headline text verbatim). Write in Markdown. Start with a single '# Title' "
         "line, then the body. Keep it to roughly 400-600 words, professional but "
-        "readable tone, aimed at tech-savvy readers. Do not include a FAQ section."
+        "readable tone, aimed at tech-savvy readers. Do not include a FAQ section.\n\n"
+        "IMPORTANT ACCURACY RULES:\n"
+        "- Only state facts that are present in the headline/description given to you, "
+        "or that are well-established general knowledge.\n"
+        "- Do NOT invent specific details that were not provided — e.g. do not make up "
+        "product bundle contents, prices, specs, dates, quotes, or statistics.\n"
+        "- If you want to add context or analysis, clearly frame it as commentary or "
+        "background, not as a reported fact (e.g. 'this could suggest...' rather than "
+        "stating it happened).\n"
+        "- It is fine for the post to be shorter and more general if the source details "
+        "are limited — do not pad it with fabricated specifics."
     )
     user_prompt = (
         f"Headline: {headline}\n"
