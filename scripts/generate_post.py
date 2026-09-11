@@ -18,7 +18,7 @@ import datetime
 import urllib.request
 import urllib.error
 
-API_URL = "https://freeblogapi.onrender.com/generate/sync"
+API_URL = "https://freeblogapi.onrender.com/v1/generate"
 API_KEY = os.environ.get("FREEBLOGAPI_KEY", "")  # set as a repo secret if the API requires one
 
 TOPIC = "the latest technology news and trends today"
