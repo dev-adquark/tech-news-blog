@@ -32,3 +32,23 @@ GENERATE BODY: {"topic": "The Legend of Zelda 40th Anniversary Switch 2 Console 
 
 GENERATE HTTPError 401: {"code":"AUTHENTICATION_FAILED","message":"Missing API key.","httpStatus":401,"details":{}}
 
+--- Run at 2026-09-11T11:47:37.536060 UTC ---
+
+NEWSAPI URL: https://newsapi.org/v2/top-headlines (params redacted key)
+
+NEWSAPI STATUS: 200
+
+NEWSAPI BODY: {"status":"ok","totalResults":30,"articles":[{"source":{"id":"ign","name":"IGN"},"author":"Robert Anderson","title":"The Legend of Zelda 40th Anniversary Switch 2 Console and Accessory Preorders Are Live in the UK - IGN","description":"Preorders are starting to go live at Nintendo's UK store and Smyths Toys for the Zelda 40th Anniversary Edition Switch 2 console and accessories. But act fast!","url":"https://www.ign.com/articles/the-legend-of-zelda-40th-anniversary-switch-2-console-and-accessory-preorders-are-live-in-the-uk","urlToImage":"https://assets-prd.ignimgs.com/2026/09/09/zelda-console-article-2-1788945443880.png?width=1280&format=jpg&auto=webp&quality=80","publishedAt":"2026-09-10T09:19:00Z","content":"Update: Sept 10, 11:14 am BST:Amazon is the most recent UK retailer to have preorders up, but it is now out of stock there as well. Stay tuned for more updates. The original article continues below.\r… [+4834 chars]"}]}
+
+OPENROUTER URL: https://openrouter.ai/api/v1/chat/completions
+
+OPENROUTER MODEL: qwen/qwen-2.5-72b-instruct
+
+OPENROUTER USER PROMPT: Headline: The Legend of Zelda 40th Anniversary Switch 2 Console and Accessory Preorders Are Live in the UK - IGN
+Description: Preorders are starting to go live at Nintendo's UK store and Smyths Toys for the Zelda 40th Anniversary Edition Switch 2 console and accessories. But act fast!
+Source: IGN
+
+Write the blog post now.
+
+OPENROUTER HTTPError 400: {"error":{"message":"Provider returned error","code":400,"metadata":{"raw":"{\"code\":400, \"reason\":\"INVALID_REQUEST_BODY\", \"message\":\"model: qwen/qwen-2.5-72b-instruct does not support endpoint: completions\", \"metadata\":{}}","provider_name":"Novita","is_byok":false,"previous_errors":[{"code":429,"message":"Provider returned error","provider_name":"DeepInfra","raw":"qwen/qwen-2.5-72b-instruct is temporarily rate-limited upstream. Please retry shortly, or add your own key to accumulate your rate limits: https://openrouter.ai/settings/integrations"}]}},"user_id":"user_3JBGi8WysgXfs900vYpPyEEXjHo"}
+
