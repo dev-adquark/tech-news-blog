@@ -20,7 +20,7 @@ NEWSAPI_KEY = os.environ.get("NEWSAPI_KEY", "")
 
 OPENROUTER_URL = "https://openrouter.ai/api/v1/chat/completions"
 OPENROUTER_KEY = os.environ.get("OPENROUTER_KEY", "")
-MODEL = os.environ.get("QWEN_MODEL", "qwen/qwen-2.5-72b-instruct")
+MODEL = os.environ.get("QWEN_MODEL", "qwen/qwen-2.5-7b-instruct")
 
 FALLBACK_TOPIC = "the latest developments in technology"
 
