@@ -1,0 +1,80 @@
+:root {
+  --bg: #0e0f11;
+  --card: #16181c;
+  --text: #e7e9ea;
+  --muted: #9aa0a6;
+  --accent: #5b9dff;
+  --border: #24262b;
+}
+
+* { box-sizing: border-box; }
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  background: var(--bg);
+  color: var(--text);
+  line-height: 1.6;
+}
+
+.site-header {
+  padding: 2.5rem 1.5rem 1.5rem;
+  text-align: center;
+  border-bottom: 1px solid var(--border);
+}
+
+.site-title {
+  font-size: 1.8rem;
+  font-weight: 700;
+  color: var(--text);
+  text-decoration: none;
+}
+
+.site-desc {
+  color: var(--muted);
+  margin-top: 0.4rem;
+}
+
+main {
+  max-width: 720px;
+  margin: 0 auto;
+  padding: 2rem 1.5rem 4rem;
+}
+
+.post-preview {
+  padding: 1.5rem 0;
+  border-bottom: 1px solid var(--border);
+}
+
+.post-preview h2 {
+  margin-bottom: 0.3rem;
+}
+
+.post-preview h2 a {
+  color: var(--text);
+  text-decoration: none;
+}
+
+.post-preview h2 a:hover {
+  color: var(--accent);
+}
+
+.post-meta {
+  color: var(--muted);
+  font-size: 0.85rem;
+  margin: 0.2rem 0 0.8rem;
+}
+
+.post-content img {
+  max-width: 100%;
+}
+
+a { color: var(--accent); }
+
+.site-footer {
+  text-align: center;
+  color: var(--muted);
+  font-size: 0.8rem;
+  padding: 2rem 1.5rem;
+  border-top: 1px solid var(--border);
+}

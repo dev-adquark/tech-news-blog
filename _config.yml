@@ -1,0 +1,18 @@
+title: Tech News Daily
+description: Automated daily tech news, generated fresh every day.
+baseurl: "/tech-news-blog"
+url: "https://dev-adquark.github.io"
+
+markdown: kramdown
+permalink: /:year/:month/:day/:title/
+
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+
+defaults:
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
