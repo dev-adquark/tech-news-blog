@@ -1,13 +1,12 @@
 #!/usr/bin/env python3
 """
-Calls the freeblogapi /generate/sync endpoint and writes a new Jekyll post.
+Calls the freeblogapi /v1/generate endpoint and writes a new Jekyll post.
 
-NOTE: The exact request/response field names below are a best-guess default
-based on common "generate blog post" API shapes. If your actual API at
-https://freeblogapi.onrender.com/docs uses different field names, update:
-  - REQUEST_BODY (what we send)
-  - the parsing of `data` below (what we expect back)
-to match the real schema shown in the Swagger docs.
+Confirmed request schema (from the real API):
+  POST https://freeblogapi.onrender.com/v1/generate
+  Header: X-API-Key: <key>
+  Body: topic, keywords, targetAudience, language, region, tone,
+        lengthStrategy, maxWords, maxH2, includeFaq, format
 """
 
 import os
@@ -19,13 +18,22 @@ import urllib.request
 import urllib.error
 
 API_URL = "https://freeblogapi.onrender.com/v1/generate"
-API_KEY = os.environ.get("FREEBLOGAPI_KEY", "")  # set as a repo secret if the API requires one
+API_KEY = os.environ.get("FREEBLOGAPI_KEY", "")
 
-TOPIC = "the latest technology news and trends today"
+TOPIC = "AI-powered content marketing for small businesses"
 
 REQUEST_BODY = {
     "topic": TOPIC,
-    "prompt": f"Write a short, engaging blog post about {TOPIC}.",
+    "keywords": ["AI marketing", "content strategy", "small business growth"],
+    "targetAudience": "small business owners",
+    "language": "en",
+    "region": "US",
+    "tone": "professional",
+    "lengthStrategy": "standard",
+    "maxWords": 500,
+    "maxH2": 3,
+    "includeFaq": True,
+    "format": "markdown",
 }
 
 
@@ -44,7 +52,7 @@ def write_debug(text: str):
 def call_api():
     headers = {"Content-Type": "application/json"}
     if API_KEY:
-        headers["Authorization"] = f"Bearer {API_KEY}"
+        headers["X-API-Key"] = API_KEY
 
     req = urllib.request.Request(
         API_URL,
@@ -58,10 +66,10 @@ def call_api():
     write_debug(f"REQUEST BODY: {json.dumps(REQUEST_BODY)}")
 
     try:
-        with urllib.request.urlopen(req, timeout=60) as resp:
+        with urllib.request.urlopen(req, timeout=120) as resp:
             body = resp.read().decode("utf-8")
             write_debug(f"RESPONSE STATUS: {resp.status}")
-            write_debug(f"RESPONSE BODY: {body}")
+            write_debug(f"RESPONSE BODY: {body[:3000]}")
             return json.loads(body)
     except urllib.error.HTTPError as e:
         err_body = e.read().decode("utf-8", errors="ignore")
@@ -78,9 +86,20 @@ def call_api():
 def main():
     data = call_api()
 
-    # Best-guess extraction — adjust keys if the real API response differs.
-    title = data.get("title") or f"Tech News — {datetime.date.today().isoformat()}"
-    content = data.get("content") or data.get("text") or data.get("post") or json.dumps(data)
+    # Response field names may vary — try common possibilities.
+    title = (
+        data.get("title")
+        or data.get("headline")
+        or f"Tech News — {datetime.date.today().isoformat()}"
+    )
+    content = (
+        data.get("content")
+        or data.get("markdown")
+        or data.get("text")
+        or data.get("post")
+        or data.get("body")
+        or json.dumps(data)
+    )
 
     today = datetime.date.today()
     slug = slugify(title)
@@ -103,3 +122,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
