@@ -21,16 +21,23 @@ jobs:
           python-version: "3.11"
 
       - name: Generate today's post
+        id: generate
+        continue-on-error: true
         env:
           FREEBLOGAPI_KEY: ${{ secrets.FREEBLOGAPI_KEY }}
         run: python scripts/generate_post.py
 
-      - name: Commit and push new post
+      - name: Commit and push new post (and debug log)
+        if: always()
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add _posts/
-          git diff --cached --quiet && echo "No changes to commit" || git commit -m "Daily post: $(date +'%Y-%m-%d')"
+          git add _posts/ debug_log.txt || true
+          git diff --cached --quiet && echo "No changes to commit" || git commit -m "Daily post / debug: $(date +'%Y-%m-%d %H:%M')"
           git push
+
+      - name: Fail job if generation failed
+        if: steps.generate.outcome == 'failure'
+        run: exit 1
         # Pushing to main automatically triggers a GitHub Pages rebuild,
         # since Pages is configured to build Jekyll from the main branch.

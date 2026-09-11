@@ -36,6 +36,11 @@ def slugify(text: str) -> str:
     return text[:60].strip("-") or "post"
 
 
+def write_debug(text: str):
+    with open("debug_log.txt", "a", encoding="utf-8") as f:
+        f.write(text.rstrip("\n") + "\n\n")
+
+
 def call_api():
     headers = {"Content-Type": "application/json"}
     if API_KEY:
@@ -48,14 +53,24 @@ def call_api():
         method="POST",
     )
 
+    write_debug(f"--- Run at {datetime.datetime.utcnow().isoformat()} UTC ---")
+    write_debug(f"REQUEST URL: {API_URL}")
+    write_debug(f"REQUEST BODY: {json.dumps(REQUEST_BODY)}")
+
     try:
         with urllib.request.urlopen(req, timeout=60) as resp:
             body = resp.read().decode("utf-8")
+            write_debug(f"RESPONSE STATUS: {resp.status}")
+            write_debug(f"RESPONSE BODY: {body}")
             return json.loads(body)
     except urllib.error.HTTPError as e:
-        print(f"API HTTPError {e.code}: {e.read().decode('utf-8', errors='ignore')}", file=sys.stderr)
+        err_body = e.read().decode("utf-8", errors="ignore")
+        write_debug(f"HTTPError {e.code}")
+        write_debug(f"RESPONSE BODY: {err_body}")
+        print(f"API HTTPError {e.code}: {err_body}", file=sys.stderr)
         raise
     except urllib.error.URLError as e:
+        write_debug(f"URLError: {e.reason}")
         print(f"API URLError: {e.reason}", file=sys.stderr)
         raise
 
