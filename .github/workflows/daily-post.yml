@@ -24,7 +24,7 @@ jobs:
         id: generate
         continue-on-error: true
         env:
-          FREEBLOGAPI_KEY: ${{ secrets.FREEBLOGAPI_KEY }}
+          OPENROUTER_KEY: ${{ secrets.OPENROUTER_KEY }}
           NEWSAPI_KEY: ${{ secrets.NEWSAPI_KEY }}
         run: python scripts/generate_post.py
 

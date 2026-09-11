@@ -1,14 +1,9 @@
 #!/usr/bin/env python3
 """
 1. Fetches a live top tech headline from NewsAPI.org.
-2. Sends that headline as the topic to freeblogapi's /v1/generate endpoint.
-3. Writes the generated content as a new Jekyll post.
-
-Confirmed freeblogapi request schema:
-  POST https://freeblogapi.onrender.com/v1/generate
-  Header: X-API-Key: <key>
-  Body: topic, keywords, targetAudience, language, region, tone,
-        lengthStrategy, maxWords, maxH2, includeFaq, format
+2. Sends that headline + description to OpenRouter (Qwen model) to write an
+   original blog post about it.
+3. Writes the generated content as a new Jekyll post in _posts/.
 """
 
 import os
@@ -23,8 +18,9 @@ import urllib.parse
 NEWSAPI_URL = "https://newsapi.org/v2/top-headlines"
 NEWSAPI_KEY = os.environ.get("NEWSAPI_KEY", "")
 
-GENERATE_URL = "https://freeblogapi.onrender.com/v1/generate"
-FREEBLOGAPI_KEY = os.environ.get("FREEBLOGAPI_KEY", "")
+OPENROUTER_URL = "https://openrouter.ai/api/v1/chat/completions"
+OPENROUTER_KEY = os.environ.get("OPENROUTER_KEY", "")
+MODEL = os.environ.get("QWEN_MODEL", "qwen/qwen-2.5-72b-instruct")
 
 FALLBACK_TOPIC = "the latest developments in technology"
 
@@ -77,72 +73,86 @@ def fetch_headline():
             article = articles[0]
             title = article.get("title") or FALLBACK_TOPIC
             description = article.get("description") or ""
-            return title, description
+            source = (article.get("source") or {}).get("name", "")
+            url_ = article.get("url", "")
+            return title, description, source, url_
     except Exception as e:
         write_debug(f"NEWSAPI ERROR: {e}")
 
-    return FALLBACK_TOPIC, ""
+    return FALLBACK_TOPIC, "", "", ""
 
 
-def generate_post(topic, description):
-    keywords = [w for w in re.findall(r"[A-Za-z]{4,}", topic)][:5] or ["technology", "tech news"]
+def generate_post(headline, description, source, source_url):
+    system_prompt = (
+        "You are a tech blog writer. Given a news headline and short description, "
+        "write an original, engaging blog post about it (do not just repeat the "
+        "headline text verbatim). Write in Markdown. Start with a single '# Title' "
+        "line, then the body. Keep it to roughly 400-600 words, professional but "
+        "readable tone, aimed at tech-savvy readers. Do not include a FAQ section."
+    )
+    user_prompt = (
+        f"Headline: {headline}\n"
+        f"Description: {description or 'N/A'}\n"
+        f"Source: {source or 'N/A'}\n\n"
+        "Write the blog post now."
+    )
 
     body = {
-        "topic": topic,
-        "keywords": keywords,
-        "targetAudience": "tech-savvy readers",
-        "language": "en",
-        "region": "US",
-        "tone": "professional",
-        "lengthStrategy": "standard",
-        "maxWords": 500,
-        "maxH2": 3,
-        "includeFaq": True,
-        "format": "markdown",
+        "model": MODEL,
+        "messages": [
+            {"role": "system", "content": system_prompt},
+            {"role": "user", "content": user_prompt},
+        ],
     }
-    if description:
-        body["topic"] = f"{topic} — {description}"
+    headers = {
+        "Content-Type": "application/json",
+        "Authorization": f"Bearer {OPENROUTER_KEY}",
+    }
 
-    headers = {"Content-Type": "application/json"}
-    if FREEBLOGAPI_KEY:
-        headers["X-API-Key"] = FREEBLOGAPI_KEY
-
-    write_debug(f"GENERATE URL: {GENERATE_URL}")
-    write_debug(f"GENERATE BODY: {json.dumps(body)}")
+    write_debug(f"OPENROUTER URL: {OPENROUTER_URL}")
+    write_debug(f"OPENROUTER MODEL: {MODEL}")
+    write_debug(f"OPENROUTER USER PROMPT: {user_prompt}")
 
     try:
-        status, resp_body = http_post(GENERATE_URL, body, headers)
-        write_debug(f"GENERATE STATUS: {status}")
-        write_debug(f"GENERATE BODY: {resp_body[:3000]}")
+        status, resp_body = http_post(OPENROUTER_URL, body, headers)
+        write_debug(f"OPENROUTER STATUS: {status}")
+        write_debug(f"OPENROUTER BODY: {resp_body[:3000]}")
         return json.loads(resp_body)
     except urllib.error.HTTPError as e:
         err_body = e.read().decode("utf-8", errors="ignore")
-        write_debug(f"GENERATE HTTPError {e.code}: {err_body}")
+        write_debug(f"OPENROUTER HTTPError {e.code}: {err_body}")
         print(f"API HTTPError {e.code}: {err_body}", file=sys.stderr)
         raise
     except urllib.error.URLError as e:
-        write_debug(f"GENERATE URLError: {e.reason}")
+        write_debug(f"OPENROUTER URLError: {e.reason}")
         print(f"API URLError: {e.reason}", file=sys.stderr)
         raise
 
 
-def main():
-    headline, description = fetch_headline()
-    data = generate_post(headline, description)
+def extract_title_and_body(markdown_text, fallback_title):
+    lines = markdown_text.strip().splitlines()
+    title = fallback_title
+    body_lines = lines
 
-    title = (
-        data.get("title")
-        or data.get("headline")
-        or headline
-    )
-    content = (
-        data.get("content")
-        or data.get("markdown")
-        or data.get("text")
-        or data.get("post")
-        or data.get("body")
-        or json.dumps(data)
-    )
+    if lines and lines[0].strip().startswith("#"):
+        title = lines[0].lstrip("#").strip()
+        body_lines = lines[1:]
+
+    body = "\n".join(body_lines).strip()
+    return title, body
+
+
+def main():
+    headline, description, source, source_url = fetch_headline()
+    data = generate_post(headline, description, source, source_url)
+
+    choices = data.get("choices") or []
+    if not choices:
+        write_debug(f"UNEXPECTED RESPONSE SHAPE: {json.dumps(data)[:1000]}")
+        raise RuntimeError("No choices returned from OpenRouter")
+
+    raw_content = choices[0]["message"]["content"]
+    title, body = extract_title_and_body(raw_content, headline)
 
     today = datetime.date.today()
     slug = slugify(title)
@@ -158,12 +168,12 @@ def main():
 
     with open(filepath, "w", encoding="utf-8") as f:
         f.write(front_matter)
-        f.write(content.strip() + "\n")
+        f.write(body + "\n")
+        if source and source_url:
+            f.write(f"\n*Source: [{source}]({source_url})*\n")
 
     print(f"Wrote {filepath}")
 
 
 if __name__ == "__main__":
     main()
-
-
