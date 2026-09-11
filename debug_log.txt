@@ -18,3 +18,17 @@ HTTPError 401
 
 RESPONSE BODY: {"code":"AUTHENTICATION_FAILED","message":"Missing API key.","httpStatus":401,"details":{}}
 
+--- Run at 2026-09-11T11:32:02.308152 UTC ---
+
+NEWSAPI URL: https://newsapi.org/v2/top-headlines (params redacted key)
+
+NEWSAPI STATUS: 200
+
+NEWSAPI BODY: {"status":"ok","totalResults":30,"articles":[{"source":{"id":"ign","name":"IGN"},"author":"Robert Anderson","title":"The Legend of Zelda 40th Anniversary Switch 2 Console and Accessory Preorders Are Live in the UK - IGN","description":"Preorders are starting to go live at Nintendo's UK store and Smyths Toys for the Zelda 40th Anniversary Edition Switch 2 console and accessories. But act fast!","url":"https://www.ign.com/articles/the-legend-of-zelda-40th-anniversary-switch-2-console-and-accessory-preorders-are-live-in-the-uk","urlToImage":"https://assets-prd.ignimgs.com/2026/09/09/zelda-console-article-2-1788945443880.png?width=1280&format=jpg&auto=webp&quality=80","publishedAt":"2026-09-10T09:19:00Z","content":"Update: Sept 10, 11:14 am BST:Amazon is the most recent UK retailer to have preorders up, but it is now out of stock there as well. Stay tuned for more updates. The original article continues below.\r… [+4834 chars]"}]}
+
+GENERATE URL: https://freeblogapi.onrender.com/v1/generate
+
+GENERATE BODY: {"topic": "The Legend of Zelda 40th Anniversary Switch 2 Console and Accessory Preorders Are Live in the UK - IGN \u2014 Preorders are starting to go live at Nintendo's UK store and Smyths Toys for the Zelda 40th Anniversary Edition Switch 2 console and accessories. But act fast!", "keywords": ["Legend", "Zelda", "Anniversary", "Switch", "Console"], "targetAudience": "tech-savvy readers", "language": "en", "region": "US", "tone": "professional", "lengthStrategy": "standard", "maxWords": 500, "maxH2": 3, "includeFaq": true, "format": "markdown"}
+
+GENERATE HTTPError 401: {"code":"AUTHENTICATION_FAILED","message":"Missing API key.","httpStatus":401,"details":{}}
+
