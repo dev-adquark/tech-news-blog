@@ -8,3 +8,13 @@ HTTPError 404
 
 RESPONSE BODY: {"code":"HTTP_ERROR","message":"Not Found","httpStatus":404,"details":{}}
 
+--- Run at 2026-09-11T11:21:38.481160 UTC ---
+
+REQUEST URL: https://freeblogapi.onrender.com/v1/generate
+
+REQUEST BODY: {"topic": "the latest technology news and trends today", "prompt": "Write a short, engaging blog post about the latest technology news and trends today."}
+
+HTTPError 401
+
+RESPONSE BODY: {"code":"AUTHENTICATION_FAILED","message":"Missing API key.","httpStatus":401,"details":{}}
+
