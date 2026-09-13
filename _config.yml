@@ -9,6 +9,10 @@ permalink: /:year/:month/:day/:title/
 plugins:
   - jekyll-feed
   - jekyll-sitemap
+  - jekyll-seo-tag
+
+# Set this to your real GA4 Measurement ID (format: G-XXXXXXXXXX) to enable analytics.
+google_analytics: ""
 
 defaults:
   - scope:

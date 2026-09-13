@@ -6,7 +6,11 @@ on:
   workflow_dispatch:
     inputs:
       news_query:
-        description: "Optional topic to search instead of general top tech headlines (e.g. 'cybersecurity')"
+        description: "Optional topic to search instead of default discovery (e.g. 'cybersecurity')"
+        required: false
+        default: ""
+      content_mode:
+        description: "Force 'news' or 'evergreen' mode (leave blank to alternate automatically)"
         required: false
         default: ""
 
@@ -32,6 +36,7 @@ jobs:
           OPENROUTER_KEY: ${{ secrets.OPENROUTER_KEY }}
           NEWSAPI_KEY: ${{ secrets.NEWSAPI_KEY }}
           NEWS_QUERY: ${{ github.event.inputs.news_query }}
+          CONTENT_MODE: ${{ github.event.inputs.content_mode }}
         run: python scripts/generate_post.py
 
       - name: Commit and push new post (and debug log)
@@ -39,7 +44,7 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add _posts/ debug_log.txt || true
+          git add _posts/ data/ debug_log.txt || true
           git diff --cached --quiet && echo "No changes to commit" || git commit -m "Daily post / debug: $(date +'%Y-%m-%d %H:%M')"
           git push
 
