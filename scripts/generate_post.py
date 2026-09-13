@@ -215,18 +215,30 @@ def collect_candidate_articles(mode, topic_hint=None):
 # Stage: Relevance Filtering + Deduplication
 # ---------------------------------------------------------------------------
 
-def filter_and_dedup(articles, index):
+def filter_and_dedup(articles, index, query_hint=None):
     recent = recent_topics(index, DEDUP_WINDOW_DAYS)
     recent_words = [word_set(e.get("title", "")) for e in recent]
+    query_words = word_set(query_hint) if query_hint else None
 
     candidates = []
     for a in articles:
         title = (a.get("title") or "").strip()
+        desc = (a.get("description") or "").strip()
         if not title or len(title) < 10:
             continue
         if "[Removed]" in title:
             continue
         tw = word_set(title)
+
+        # Relevance filter: when we searched by a specific topic/query, require
+        # meaningful keyword overlap between the article and the query — NewsAPI's
+        # "everything" search can return loosely-matched or unrelated results.
+        if query_words:
+            combined = tw | word_set(desc)
+            overlap = len(combined & query_words)
+            if overlap < 2:
+                continue
+
         if any(jaccard(tw, rw) >= CANNIBALIZATION_JACCARD_THRESHOLD for rw in recent_words):
             continue
         candidates.append(a)
@@ -279,6 +291,9 @@ def generate_from_brief(brief):
         "quotes, prices, dates, or product specs.\n"
         "- Framing, analysis, and context are fine, but must be clearly presented "
         "as commentary/analysis, not as reported fact.\n"
+        "- Stay tightly focused on the angle/topic given. If a 'known fact' seems "
+        "tangential or unrelated to the main topic, leave it out rather than "
+        "forcing it into the post as a section or case study.\n"
         "- If the brief has limited facts, write a shorter, more general post "
         "rather than padding with invented specifics."
     )
@@ -436,14 +451,17 @@ def main():
         write_debug(f"DISCOVERED EVERGREEN TOPIC: {topic_hint}")
 
     articles = collect_candidate_articles(mode, topic_hint)
-    candidates = filter_and_dedup(articles, index)
+    query_hint = NEWS_QUERY or (topic_hint if mode == "evergreen" else None)
+    candidates = filter_and_dedup(articles, index, query_hint)
 
-    if not candidates and articles:
-        write_debug("All candidates filtered by relevance/dedup — using top raw article anyway.")
+    if not candidates and articles and mode == "news":
+        # For news mode with no query filter, top-headlines are inherently on-topic
+        # (they came from the technology category), so it's safe to fall back to it.
+        write_debug("No candidates passed dedup — using top headline anyway (news mode, no query filter).")
         candidates = articles[:1]
 
     if not candidates:
-        write_debug("No articles available — proceeding with a brief containing no sourced facts.")
+        write_debug("No relevant/sourced articles available — proceeding with brief containing no sourced facts.")
 
     brief = build_brief(mode, candidates, topic_hint)
     write_debug(f"BRIEF: {json.dumps(brief, indent=2)}")
