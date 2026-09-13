@@ -254,3 +254,84 @@ FACT VALIDATION RESULT: PASS
 
 FACT VALIDATION PASSED: True
 
+=== Pipeline run 2026-09-13T11:29:12.733813 UTC ===
+
+MODE: evergreen
+
+DISCOVERED EVERGREEN TOPIC: quantum computing readiness for businesses
+
+SOURCE COLLECTION URL: https://newsapi.org/v2/everything (q='quantum computing readiness for businesses')
+
+SOURCE COLLECTION STATUS: 200
+
+SOURCE COLLECTION BODY: {"status":"ok","totalResults":9,"articles":[{"source":{"id":null,"name":"MarketBeat"},"author":"Jeffrey Neal Johnson, MarketBeat","title":"Quantum Computing Is Raising the Stakes for Cybersecurity: 5 Stocks to Watch","description":"As quantum computing threatens current encryption, IBM, Cloudflare, Arqit, IonQ, Rigetti and D-Wave stand to benefit from mandated post-quantum cybersecurity...","url":"https://www.marketbeat.com/articles/quantum-computing-is-raising-the-stakes-for-cybersecurity-5-stocks-to-watch/?utm_source=yahoofinance&amp;utm_medium=yahoofinance","urlToImage":"https://s.yimg.com/lo/mysterio/api/12b54529bf7127f67431c950e852e494403f230a766f0893d6bdace6a68ba2e1/lightyear_networkapi/resizefill_w1200%3Bquality_80%3Bformat_webp/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Fmarketbeat_955%2Fbabc195c917043bd5c35c1952fefbb57.png","publishedAt":"2026-08-26T13:55:00Z","content":"Key Points\r\n<ul><li>Interested in International Business Machines Corporation? Here are five stocks we like better.\r\n</li><li>Regulatory mandates, including a Treasury Department deadline of 2030, ar… [+10609 chars]"},{"source":{"id":null,"name":"Help Net Security"},"author":"Help Net Security","title":"New TCG guidance gives buyers a way to test PQC-ready TPM claims","description":"The Trusted Computing Group has published requirements that spell out what a Trusted Platform Module has to do before anyone calls it quantum-safe. A TPM is the chip that holds a machine’s keys and records measurements of its firmware, so the platform can lat…","url":"https://www.helpnetsecurity.com/2026/08/25/trusted-computing-group-pqc-ready-tpm/","urlToImage":"https://img.helpnetsecurity.com/wp-content/uploads/2024/02/27150233/security-1600.webp","publishedAt":"2026-08-25T04:30:42Z","content":"The Trusted Computing Group has published requirements that spell out what a Trusted Platform Module has to do before anyone calls it quantum-safe. A TPM is the chip that holds a machine’s keys and r… [+3175 chars]"},{"source":{"id":null,"name":"MarketBeat"},"author":"MarketBeat","title":"Intel Raises $23B to Fund AI Chip Capacity as 14A Roadmap Gains Momentum","description":"Intel (NASDAQ:INTC) Chief Financial Officer David Zinsner said the company’s recent capital raise was intended to support higher capital expenditures, substr...","url":"https://www.marketbeat.com/instant-alerts/event-intel-raises-23b-to-fund-ai-chip-capacity-as-14a-roadmap-gains-momentum-2026-08-26/?utm_source=yahoofinance&amp;utm_medium=yah
+
+BRIEF: {
+  "mode": "evergreen",
+  "angle": "quantum computing readiness for businesses",
+  "facts": [
+    "- Quantum Computing Is Raising the Stakes for Cybersecurity: 5 Stocks to Watch \u2014 As quantum computing threatens current encryption, IBM, Cloudflare, Arqit, IonQ, Rigetti and D-Wave stand to benefit from mandated post-quantum cybersecurity...",
+    "- New TCG guidance gives buyers a way to test PQC-ready TPM claims \u2014 The Trusted Computing Group has published requirements that spell out what a Trusted Platform Module has to do before anyone calls it quantum-safe. A TPM is the chip that holds a machine\u2019s keys and records measurements of its firmware, so the platform can lat\u2026"
+  ],
+  "sources": [
+    {
+      "name": "MarketBeat",
+      "url": "https://www.marketbeat.com/articles/quantum-computing-is-raising-the-stakes-for-cybersecurity-5-stocks-to-watch/?utm_source=yahoofinance&amp;utm_medium=yahoofinance"
+    },
+    {
+      "name": "Help Net Security",
+      "url": "https://www.helpnetsecurity.com/2026/08/25/trusted-computing-group-pqc-ready-tpm/"
+    }
+  ]
+}
+
+GENERATION PROMPT (user):
+Mode: evergreen
+Angle/topic: quantum computing readiness for businesses
+
+Known facts:
+- Quantum Computing Is Raising the Stakes for Cybersecurity: 5 Stocks to Watch — As quantum computing threatens current encryption, IBM, Cloudflare, Arqit, IonQ, Rigetti and D-Wave stand to benefit from mandated post-quantum cybersecurity...
+- New TCG guidance gives buyers a way to test PQC-ready TPM claims — The Trusted Computing Group has published requirements that spell out what a Trusted Platform Module has to do before anyone calls it quantum-safe. A TPM is the chip that holds a machine’s keys and records measurements of its firmware, so the platform can lat…
+
+Write the blog post now.
+
+GENERATION OUTPUT:
+# Quantum Computing Readiness for Businesses: Navigating the New Landscape
+
+Quantum computing is poised to transform the tech landscape, but its potential also comes with significant challenges, particularly in cybersecurity. As quantum computers become more powerful, they threaten to break traditional encryption methods, leaving businesses vulnerable to unprecedented security risks. To stay ahead of these threats, organizations must assess their current cybersecurity measures and ensure they are quantum-safe.
+
+## The Threat of Quantum Computing to Current Encryption
+
+Quantum computers operate on principles fundamentally different from classical computers. They can perform certain calculations much faster, which means they could potentially break many of the cryptographic algorithms currently in use. This is particularly concerning for long-term data security, as quantum computers could decrypt historical data stored today.
+
+### Key Vulnerabilities
+
+- **Public Key Infrastructure (PKI):** Many digital signatures and encryption schemes rely on PKI, which could be compromised by quantum attacks.
+- **Data Encryption Standards:** Algorithms like RSA and ECC, commonly used for secure communications and data protection, are at risk from quantum adversaries.
+
+## Industry Response and Cybersecurity Measures
+
+Recognizing the threat, industry leaders and standards bodies are taking steps to address these vulnerabilities. One of the most notable efforts is the Trusted Computing Group's (TCG) push for post-quantum cryptography (PQC). The TCG has published guidelines that detail what a Trusted Platform Module (TPM) must do to be considered quantum-safe.
+
+### TPM and Quantum-Safe Security
+
+A TPM is a hardware-based security chip that stores cryptographic keys and performs cryptographic operations. Ensuring that TPMs meet the new PQC requirements is crucial for maintaining security in the era of quantum computing. According to the TCG, a quantum-safe TPM must:
+
+1. **Implement Strong PQC Algorithms:** Use algorithms resistant to quantum attacks, such as lattice-based cryptography or code-based cryptography.
+2. **Provide Continuous Monitoring:** Monitor the integrity of firmware and software to detect any tampering.
+3. **Ensure Key Management:** Securely manage and protect cryptographic keys throughout their lifecycle.
+
+## Investing in Quantum-Safe Technologies
+
+Given the potential impact of quantum computing on cybersecurity, it's essential for businesses to invest in technologies that can withstand quantum attacks. Here are some companies leading the charge:
+
+- **IBM:** Known for its IBM Q system, IBM is at the forefront of quantum computing research and development. They offer quantum-safe encryption solutions and support for PQC.
+- **Cloudflare:** With a focus on web security, Cloudflare has integrated quantum-resistant cryptography into their services, ensuring that their clients are protected against future quantum threats.
+- **Arqit:** Specializes in quantu
+
+QUALITY VALIDATION: True (ok)
+
+FACT VALIDATION RESULT: PASS
+
+FACT VALIDATION PASSED: True
+
