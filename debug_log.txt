@@ -335,3 +335,77 @@ FACT VALIDATION RESULT: PASS
 
 FACT VALIDATION PASSED: True
 
+=== Pipeline run 2026-09-14T07:09:41.343874 UTC ===
+
+MODE: evergreen
+
+DISCOVERED EVERGREEN TOPIC: identity and access management trends
+
+SOURCE COLLECTION URL: https://newsapi.org/v2/everything (q='identity and access management trends')
+
+SOURCE COLLECTION STATUS: 200
+
+SOURCE COLLECTION BODY: {"status":"ok","totalResults":101,"articles":[{"source":{"id":"techradar","name":"TechRadar"},"author":"Simon Gooch","title":"CIOs must rethink identity now people are being outnumbered by nonhuman entities","description":"AI-driven nonhuman identities are growing, forcing CIOs to rethink security, access and identity management.","url":"https://www.techradar.com/pro/cios-must-rethink-identity-now-people-are-being-outnumbered-by-nonhuman-entities","urlToImage":"https://cdn.mos.cms.futurecdn.net/9WT9t3hZhDVD84bF8rSypL-2560-80.jpg","publishedAt":"2026-08-28T11:01:57Z","content":"Identity is the fundamental currency in any technology transaction so we need to treat nonhuman assets with the same care as we apply to people.\r\nWe’re outnumbered! Nonhuman identities (NHIs) outnumb… [+5680 chars]"},{"source":{"id":null,"name":"Help Net Security"},"author":"Anamarija Pogorelec","title":"Weak IAM affects up to 98% of cloud environments","description":"Misconfiguration remains one of the leading threats to cloud environments because a single configuration error can result in public network access, unrotated keys, missing encryption, exposed services, and logging gaps. CISA now mandates baseline cloud config…","url":"https://www.helpnetsecurity.com/2026/08/14/intruder-cloud-misconfiguration-trends-report/","urlToImage":"https://img.helpnetsecurity.com/wp-content/uploads/2024/09/26104518/cloud-secure-2.webp","publishedAt":"2026-08-14T05:00:16Z","content":"Misconfiguration remains one of the leading threats to cloud environments because a single configuration error can result in public network access, unrotated keys, missing encryption, exposed service… [+3489 chars]"},{"source":{"id":null,"name":"MarketBeat"},"author":"MarketBeat","title":"ServiceNow AI Control Tower Targets Security, Governance and Enterprise ROI","description":"ServiceNow (NYSE:NOW) President and Chief Financial Officer Gina Mastantuono said customer conversations are increasingly centered on deploying artificial in...","url":"https://www.marketbeat.com/instant-alerts/event-servicenow-ai-control-tower-targets-security-governance-and-enterprise-roi-2026-09-11/?utm_source=yahoofinance&amp;utm_medium=yahoofinance","urlToImage":"https://s.yimg.com/lo/mysterio/api/63ffe3b590dd36f6a8311c485d5a1da2030600e4afe1c89701c9b4d81d28596f/lightyear_networkapi/resizefill_w1200%3Bquality_80%3Bformat_webp/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Fmarketbeat_955%2F13ebc45d3add7cb4c18d9e51f5f8e369.png","publishedAt":"2026-09
+
+BRIEF: {
+  "mode": "evergreen",
+  "angle": "identity and access management trends",
+  "facts": [
+    "- CIOs must rethink identity now people are being outnumbered by nonhuman entities \u2014 AI-driven nonhuman identities are growing, forcing CIOs to rethink security, access and identity management.",
+    "- Weak IAM affects up to 98% of cloud environments \u2014 Misconfiguration remains one of the leading threats to cloud environments because a single configuration error can result in public network access, unrotated keys, missing encryption, exposed services, and logging gaps. CISA now mandates baseline cloud config\u2026"
+  ],
+  "sources": [
+    {
+      "name": "TechRadar",
+      "url": "https://www.techradar.com/pro/cios-must-rethink-identity-now-people-are-being-outnumbered-by-nonhuman-entities"
+    },
+    {
+      "name": "Help Net Security",
+      "url": "https://www.helpnetsecurity.com/2026/08/14/intruder-cloud-misconfiguration-trends-report/"
+    }
+  ]
+}
+
+GENERATION PROMPT (user):
+Mode: evergreen
+Angle/topic: identity and access management trends
+
+Known facts:
+- CIOs must rethink identity now people are being outnumbered by nonhuman entities — AI-driven nonhuman identities are growing, forcing CIOs to rethink security, access and identity management.
+- Weak IAM affects up to 98% of cloud environments — Misconfiguration remains one of the leading threats to cloud environments because a single configuration error can result in public network access, unrotated keys, missing encryption, exposed services, and logging gaps. CISA now mandates baseline cloud config…
+
+Write the blog post now.
+
+GENERATION OUTPUT:
+# Identity and Access Management: Navigating the Era of Nonhuman Entities
+
+In today's digital landscape, the traditional understanding of identity and access management (IAM) is being redefined. As CIOs grapple with the rapid growth of nonhuman entities—such as AI-driven bots and automated systems—the need to rethink IAM strategies has become imperative. This shift not only challenges how we secure our networks but also requires a fundamental reassessment of how we manage access and identity within these environments.
+
+## The Rise of Nonhuman Entities
+
+According to known facts, nonhuman entities are increasingly prevalent in our digital ecosystems. These entities, driven by artificial intelligence, are not just passive components; they actively interact with systems, databases, and applications. For instance, AI-driven bots can perform tasks ranging from data entry to complex decision-making processes. However, this rise poses significant security challenges for organizations.
+
+### Security Implications
+
+One of the primary concerns is the potential for misconfiguration, which remains a leading threat to cloud environments. Misconfigurations can lead to severe security breaches, such as unauthorized public network access, unrotated keys, missing encryption, exposed services, and logging gaps. These vulnerabilities can be exploited by malicious actors, leading to data breaches, loss of sensitive information, and reputational damage.
+
+### CISA's Baseline Cloud Configuration Requirements
+
+To address these concerns, the Cybersecurity and Infrastructure Security Agency (CISA) has mandated baseline configuration requirements for cloud environments. These mandates aim to ensure that cloud configurations are secure and aligned with best practices. While these guidelines provide a framework for securing cloud environments, CIOs must ensure that their IAM strategies are robust enough to handle the unique challenges posed by nonhuman entities.
+
+## Rethinking IAM Strategies
+
+Given the growing presence of nonhuman entities, CIOs must adopt a more comprehensive approach to IAM. This involves several key steps:
+
+1. **Automated Monitoring and Detection**: Implementing automated monitoring tools can help detect unusual activity and potential security threats. By continuously analyzing patterns and behaviors, these tools can identify anomalies that may indicate a security breach.
+
+2. **Dynamic Access Control**: Traditional static access controls may not be sufficient in managing the dynamic nature of nonhuman entities. Dynamic access control mechanisms can adjust permissions based on real-time risk assessments, ensuring that access is granted only when necessary and appropriate.
+
+3. **Enhanced Identity Verification**: With the proliferation of nonhuman entities, it becomes crucial to have robust identity verification processes. Biometric authentication, multi-factor authentication (MFA), and behavioral biometrics can help distinguish between human and nonhuman iden
+
+QUALITY VALIDATION: True (ok)
+
+FACT VALIDATION RESULT: PASS
+
+FACT VALIDATION PASSED: True
+
