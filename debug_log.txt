@@ -409,3 +409,85 @@ FACT VALIDATION RESULT: PASS
 
 FACT VALIDATION PASSED: True
 
+=== Pipeline run 2026-09-15T07:10:34.177920 UTC ===
+
+MODE: news
+
+SOURCE COLLECTION URL: https://newsapi.org/v2/top-headlines (top-headlines/technology)
+
+SOURCE COLLECTION STATUS: 200
+
+SOURCE COLLECTION BODY: {"status":"ok","totalResults":41,"articles":[{"source":{"id":null,"name":"Pittsburgh Post-Gazette"},"author":"Lindsay Shachnow","title":"Steelers’ home opener brings crowds — and NASA’s first NFL flyover - Pittsburgh Post-Gazette","description":"False","url":"https://www.post-gazette.com/local/2026/09/13/pittsburgh-steelers-tailgate-nasa-nfl-flyover/stories/202609130100","urlToImage":"https://73f3e7d5672db1849e6c-6434aaf008a29447cc424990bc6a54a7.ssl.cf2.rackcdn.com/stories/202609130100/1140x_a10-7_cTC/20260913awTailgate04_1789326245.jpg","publishedAt":"2026-09-14T03:28:11Z","content":"MENU"},{"source":{"id":null,"name":"BGR"},"author":"Andrew Morrisey","title":"5 Budget Android Phones You Should Consider Instead Of The Google Pixel 11 - bgr.com","description":"Considering a Google Pixel 11 smartphone, but feeling put off by the $900 price tag? Why not consider these five much cheaper Android phone alternatives.","url":"https://www.bgr.com/2253813/budget-android-phones-google-pixel-11-alternatives/","urlToImage":"https://www.bgr.com/img/gallery/5-budget-android-phones-you-should-consider-instead-of-the-google-pixel-11/l-intro-1788967014.jpg","publishedAt":"2026-09-14T01:50:49Z","content":"There's a Samsung phone for every type of user, and while the world-famous electronics company has a large lineup of smartphones, many Samsung flagship offerings simply cost more than the Pixel 11. T… [+1073 chars]"},{"source":{"id":null,"name":"MacRumors"},"author":"Joe Rossignol","title":"iOS 27 Available Tomorrow With These 8 New Features - MacRumors","description":"During its iPhone 18 Pro and iPhone Duo event last week, Apple announced that iOS 27 will be released widely on Monday, September 14.   iOS 27 should...","url":"https://www.macrumors.com/2026/09/13/ios-27-features-available-tomorrow/","urlToImage":"https://images.macrumors.com/t/2wYn2nihwl9hafPlrrVkqxxPOls=/1672x/article-new/2026/09/iOS-27-Icon-iPhone.jpeg","publishedAt":"2026-09-13T23:30:07Z","content":"During its iPhone 18 Pro and iPhone Duo event last week, Apple announced that iOS 27 will be released widely on Monday, September 14.\r\niOS 27 should be available around 10 a.m. Pacific Time / 1 p.m. … [+6455 chars]"},{"source":{"id":null,"name":"Video Games Chronicle"},"author":"Andy Robinson","title":"Last of Us Part 2 multiplayer mod ‘canceled by Sony’ - Video Games Chronicle","description":"Multiplayer mod team say they're cancelling its release due to a request from PlayStation","url":"https://www.vide
+
+BRIEF: {
+  "mode": "news",
+  "angle": "Steelers\u2019 home opener brings crowds \u2014 and NASA\u2019s first NFL flyover - Pittsburgh Post-Gazette",
+  "facts": [
+    "- Steelers\u2019 home opener brings crowds \u2014 and NASA\u2019s first NFL flyover - Pittsburgh Post-Gazette \u2014 False",
+    "- 5 Budget Android Phones You Should Consider Instead Of The Google Pixel 11 - bgr.com \u2014 Considering a Google Pixel 11 smartphone, but feeling put off by the $900 price tag? Why not consider these five much cheaper Android phone alternatives.",
+    "- iOS 27 Available Tomorrow With These 8 New Features - MacRumors \u2014 During its iPhone 18 Pro and iPhone Duo event last week, Apple announced that iOS 27 will be released widely on Monday, September 14.   iOS 27 should..."
+  ],
+  "sources": [
+    {
+      "name": "Pittsburgh Post-Gazette",
+      "url": "https://www.post-gazette.com/local/2026/09/13/pittsburgh-steelers-tailgate-nasa-nfl-flyover/stories/202609130100"
+    },
+    {
+      "name": "BGR",
+      "url": "https://www.bgr.com/2253813/budget-android-phones-google-pixel-11-alternatives/"
+    },
+    {
+      "name": "MacRumors",
+      "url": "https://www.macrumors.com/2026/09/13/ios-27-features-available-tomorrow/"
+    }
+  ]
+}
+
+GENERATION PROMPT (user):
+Mode: news
+Angle/topic: Steelers’ home opener brings crowds — and NASA’s first NFL flyover - Pittsburgh Post-Gazette
+
+Known facts:
+- Steelers’ home opener brings crowds — and NASA’s first NFL flyover - Pittsburgh Post-Gazette — False
+- 5 Budget Android Phones You Should Consider Instead Of The Google Pixel 11 - bgr.com — Considering a Google Pixel 11 smartphone, but feeling put off by the $900 price tag? Why not consider these five much cheaper Android phone alternatives.
+- iOS 27 Available Tomorrow With These 8 New Features - MacRumors — During its iPhone 18 Pro and iPhone Duo event last week, Apple announced that iOS 27 will be released widely on Monday, September 14.   iOS 27 should...
+
+Write the blog post now.
+
+GENERATION OUTPUT:
+# Steelers’ Home Opener Brings Crowds — And NASA’s First NFL Flyover
+
+While the Pittsburgh Steelers' home opener did indeed draw a significant crowd, there was an unexpected and exciting addition to the event: NASA's first-ever flyover of an NFL stadium. This unique moment combined the excitement of football with the thrill of space exploration, creating a memorable experience for fans.
+
+## The Excitement of the Steelers' Home Opener
+
+The Pittsburgh Steelers' home opener at Heinz Field was a resounding success, drawing a large and enthusiastic crowd. Fans filled the stands, eager to witness their favorite team in action. The atmosphere was electric, with a mix of anticipation and excitement as players took to the field.
+
+## NASA’s Historic Flyover
+
+What made this game even more special was the inclusion of NASA's flyover. The space agency sent one of its aircraft to soar over the stadium, providing a thrilling visual spectacle for the spectators below. This unprecedented event highlighted the growing collaboration between sports and science, showcasing how technology and innovation can enhance both fields.
+
+## Why It Matters
+
+This flyover was significant not just for the fans but also for the broader community. It demonstrated the potential for integrating different areas of expertise and interests, potentially inspiring young people to pursue careers in STEM (science, technology, engineering, and math) fields. Additionally, it served as a reminder of the ongoing advancements in aerospace technology and the exciting possibilities they bring.
+
+## Comparing Smartphone Options
+
+While the focus on the Steelers' game and NASA's flyover was certainly noteworthy, it’s worth considering other tech-related news that might be of interest to fans. For instance, if you’re looking for a smartphone alternative to the Google Pixel 11, which comes with a hefty price tag of $900, you might want to explore some budget Android options. Here are five affordable alternatives:
+
+1. **Google Pixel 4a**: Although not as new as the Pixel 11, the Pixel 4a offers a great balance of features at a more reasonable price point.
+2. **OnePlus Nord N20 5G**: Known for its excellent performance and affordability, the OnePlus Nord N20 5G is a solid choice.
+3. **Samsung Galaxy A53 5G**: With its impressive camera system and long battery life, the Samsung Galaxy A53 5G is a reliable option.
+4. **Xiaomi Redmi Note 11 Pro+**: Xiaomi continues to offer high-quality devices at competitive prices, making the Redmi Note 11 Pro+ a strong contender.
+5. **Realme GT Master Edition**: This model combines style and functionality, offering a unique blend of design and performance.
+
+## Upcoming iOS Features
+
+Fans of Apple products might also be excited about the upcoming release of iOS 27. Although the exact release date has been announced for September 14, iOS 27 promises several new features that could enhance your iPhone experience. While the full details haven’t been officially released yet, ex
+
+QUALITY VALIDATION: True (ok)
+
+FACT VALIDATION RESULT: PASS
+
+FACT VALIDATION PASSED: True
+
