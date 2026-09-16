@@ -491,3 +491,77 @@ FACT VALIDATION RESULT: PASS
 
 FACT VALIDATION PASSED: True
 
+=== Pipeline run 2026-09-16T07:09:14.872993 UTC ===
+
+MODE: evergreen
+
+DISCOVERED EVERGREEN TOPIC: low-code and no-code platforms
+
+SOURCE COLLECTION URL: https://newsapi.org/v2/everything (q='low-code and no-code platforms')
+
+SOURCE COLLECTION STATUS: 200
+
+SOURCE COLLECTION BODY: {"status":"ok","totalResults":406,"articles":[{"source":{"id":null,"name":"Entrepreneur"},"author":"Jeremy Jarry","title":"Your Business Doesn’t Need More Software — It Needs Software That Adapts. Here’s How AI Is Making That Possible.","description":"SaaS solved one problem and created another. Here's how AI can help solve it.","url":"https://www.entrepreneur.com/business-news/tech/your-business-doesnt-need-more-software-it-needs-software-that-adapts-heres-how-ai-is-making-that-possible","urlToImage":"https://www.entrepreneur.com/wp-content/uploads/sites/2/2026/08/ai-software-that-adapts-0826_g1934635026.jpg?resize=1024,683","publishedAt":"2026-08-20T17:00:00Z","content":"Opinions expressed by Entrepreneur contributors are their own.Key Takeaways\r\n<ul><li>SaaS made it easy for any company to adopt new software into their operations, so businesses now run dozens of dis… [+8134 chars]"},{"source":{"id":null,"name":"Mdubakov.me"},"author":"Michael Dubakov","title":"Malleable software = solid bases and custom code","description":"In 2019 I bet on the no-code revolution. That bet aged so-so. Here is the new one.","url":"https://www.mdubakov.me/malleable-software-solid-bases-custom-code/","urlToImage":"https://storage.ghost.io/c/c4/c6/c4c61cc9-7edd-4a33-857b-26f10fd22b0b/content/images/size/w1200/2026/08/malleable-software--1-.png","publishedAt":"2026-08-31T10:36:43Z","content":"I joined the productivity tools market in 2004 and have had the luxury of observing its dynamics for 22 years now. From time to time the market changes and I write a holistic \"visionary\" article. The… [+10418 chars]"},{"source":{"id":null,"name":"Kotaku"},"author":"John Walker","title":"GTA 6 Leaks Could Be Over As Cyberleek Withdraws $250,000 And Leaves Memecoin To Crash","description":"It seems a pretty small prize for gaining the attention of the world's authorities","url":"https://kotaku.com/gta6-grand-theft-auto-6-leaks-cyberleek-memecoin-rockstar-cash-out-2000728825","urlToImage":"https://kotaku.com/app/uploads/2026/08/gta-coin-1200x675.jpg","publishedAt":"2026-08-27T15:15:10Z","content":"Throughout more than a week’s worth of GTA 6 gameplay leaks, one thing that has especially soured the whole experience is the leaker’s repeated, tiresome attempts to push a memecoin. Cyberleek, as th… [+4756 chars]"},{"source":{"id":"the-verge","name":"The Verge"},"author":"Nilay Patel","title":"It’s about ethics in journalism, with Ben Smith","description":"Today I’m talking to Ben Smith, th
+
+BRIEF: {
+  "mode": "evergreen",
+  "angle": "low-code and no-code platforms",
+  "facts": [
+    "- Malleable software = solid bases and custom code \u2014 In 2019 I bet on the no-code revolution. That bet aged so-so. Here is the new one."
+  ],
+  "sources": [
+    {
+      "name": "Mdubakov.me",
+      "url": "https://www.mdubakov.me/malleable-software-solid-bases-custom-code/"
+    }
+  ]
+}
+
+GENERATION PROMPT (user):
+Mode: evergreen
+Angle/topic: low-code and no-code platforms
+
+Known facts:
+- Malleable software = solid bases and custom code — In 2019 I bet on the no-code revolution. That bet aged so-so. Here is the new one.
+
+Write the blog post now.
+
+GENERATION OUTPUT:
+# Evergreen: The Rise of Low-Code and No-Code Platforms
+
+In 2019, I made a bet on the no-code revolution. While it showed promise, the landscape has evolved significantly since then. Today, I'm placing a new bet on low-code and no-code platforms, which have matured into powerful tools that can transform how businesses operate.
+
+## The Evolution from Malleable Software to Low-Code/No-Code
+
+### Malleable Software: Solid Bases and Custom Code
+
+Traditionally, software development involved writing custom code from scratch. This approach offered unparalleled flexibility but required significant resources, including skilled developers, extensive time, and substantial budgets. Businesses could build bespoke solutions tailored to their unique needs, but the process was often slow and expensive.
+
+### Enter No-Code Platforms
+
+The no-code movement gained traction in recent years by providing a way for non-technical users to create applications without writing any code. These platforms offered rapid prototyping and deployment capabilities, making it possible for business analysts, marketers, and even managers to develop basic applications. However, no-code platforms often lacked the depth and customization options needed for more complex or enterprise-level projects.
+
+### Transition to Low-Code Platforms
+
+Low-code platforms represent an evolution beyond no-code. They still aim to reduce the need for traditional coding but offer more advanced features and integration capabilities. Low-code platforms typically include pre-built components, templates, and drag-and-drop interfaces that allow users to design and develop applications with minimal programming knowledge. Additionally, they often provide robust APIs and integration options, enabling developers to extend functionality as needed.
+
+## Why Low-Code and No-Code Platforms Are Here to Stay
+
+### Accessibility and Speed
+
+One of the primary advantages of low-code and no-code platforms is accessibility. These tools democratize software development, allowing organizations to quickly build and deploy applications without the need for extensive technical expertise. This speed and agility are crucial in today's fast-paced business environment where market dynamics can change rapidly.
+
+### Cost Efficiency
+
+By reducing the reliance on specialized developers, low-code and no-code platforms can significantly lower development costs. Organizations can leverage these tools to reduce the time-to-market for new applications and reduce ongoing maintenance costs. This cost efficiency is particularly appealing for small and medium-sized enterprises (SMEs) looking to enhance their digital capabilities without breaking the bank.
+
+### Enhanced Collaboration
+
+Low-code and no-code platforms facilitate collaboration between technical and non-technical stakeholders. Business analysts, project managers, and end-users can contribute to the application development process, ensuring that the final product meets the needs of all stakehold
+
+QUALITY VALIDATION: True (ok)
+
+FACT VALIDATION RESULT: PASS
+
+FACT VALIDATION PASSED: True
+
