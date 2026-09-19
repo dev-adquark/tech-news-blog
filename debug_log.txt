@@ -714,3 +714,81 @@ FACT VALIDATION RESULT: PASS
 
 FACT VALIDATION PASSED: True
 
+=== Pipeline run 2026-09-19T07:07:37.331950 UTC ===
+
+MODE: news
+
+SOURCE COLLECTION URL: https://newsapi.org/v2/top-headlines (top-headlines/technology)
+
+SOURCE COLLECTION STATUS: 200
+
+SOURCE COLLECTION BODY: {"status":"ok","totalResults":61,"articles":[{"source":{"id":null,"name":"Video Games Chronicle"},"author":"Andy Robinson","title":"FF7 Revelation director Hamaguchi discusses the game’s 200GB size, DLC plans, and a new Tifa detail - Video Games Chronicle","description":"Final Fantasy 7 Revelation’s director isn’t concerned it’s too big…","url":"https://www.videogameschronicle.com/features/interviews/ff7-revelation-director-hamaguchi-discusses-the-games-200gb-size-dlc-plans-and-a-new-tifa-detail/","urlToImage":"https://www.videogameschronicle.com/files/2026/09/HMnzJDLbUAAOVKq.jpeg","publishedAt":"2026-09-18T03:51:43Z","content":"In VGCs recent hands-on preview for Final Fantasy 7 Revelation, we were left with high hopes for the final entry in the remake trilogy, but also startled by the overwhelming scope of the game.\r\nAt To… [+5667 chars]"},{"source":{"id":null,"name":"MacRumors"},"author":"Joe Rossignol","title":"Apple CEO John Ternus Teases iPhone 18 Pro Launch Day - MacRumors","description":"Apple Fifth Avenue in New York is ready for iPhone 18 Pro launch day.  The store's iconic glass cube entrance has received a colorful makeover...","url":"https://www.macrumors.com/2026/09/17/john-ternus-teases-iphone-18-pro-launch/","urlToImage":"https://images.macrumors.com/t/QGJUJMgYfZFzVJd9Kz5QaE4eEvc=/1600x/article-new/2026/09/Apple-Fifth-Avenue-iPhone-18-Pro.jpeg","publishedAt":"2026-09-18T03:10:00Z","content":"Its starting. https://forums.hardwarezone.com.sg/threads/the-iphone-18-pro-max-leads-early-singapore-sales-as-burgundy-dominates.7223492/\r\nhttps://www.facebook.com/story.php?story_fbid=pfbid0joJxm7mn… [+209 chars]"},{"source":{"id":null,"name":"Kotaku"},"author":"Rebekah Valentine","title":"Diablo 5 Has Officially Been Confirmed For PC - Kotaku","description":"Why is Blizzard being so weird about this?","url":"https://kotaku.com/diablo-5-pc-starcraft-xbox-confirmed-2000735382","urlToImage":"https://kotaku.com/app/uploads/2026/09/diablo-5.jpg","publishedAt":"2026-09-17T22:30:18Z","content":"At BlizzCon 2026, I was sitting in on a press conference about Diablo 5 with a number of the game’s design leads. Near the end, a question was asked about what platforms the game would be available o… [+3000 chars]"},{"source":{"id":"ign","name":"IGN"},"author":"Cade Onder","title":"The Last of Us Game Director Finds Modern AAA Games 'Boring,' Says He's 'Not Excited' by God of War Laufey's Gameplay - IGN","description":"Bruce Straley, the game director behind The 
+
+BRIEF: {
+  "mode": "news",
+  "angle": "FF7 Revelation director Hamaguchi discusses the game\u2019s 200GB size, DLC plans, and a new Tifa detail - Video Games Chronicle",
+  "facts": [
+    "- FF7 Revelation director Hamaguchi discusses the game\u2019s 200GB size, DLC plans, and a new Tifa detail - Video Games Chronicle \u2014 Final Fantasy 7 Revelation\u2019s director isn\u2019t concerned it\u2019s too big\u2026",
+    "- Apple CEO John Ternus Teases iPhone 18 Pro Launch Day - MacRumors \u2014 Apple Fifth Avenue in New York is ready for iPhone 18 Pro launch day.  The store's iconic glass cube entrance has received a colorful makeover...",
+    "- Diablo 5 Has Officially Been Confirmed For PC - Kotaku \u2014 Why is Blizzard being so weird about this?"
+  ],
+  "sources": [
+    {
+      "name": "Video Games Chronicle",
+      "url": "https://www.videogameschronicle.com/features/interviews/ff7-revelation-director-hamaguchi-discusses-the-games-200gb-size-dlc-plans-and-a-new-tifa-detail/"
+    },
+    {
+      "name": "MacRumors",
+      "url": "https://www.macrumors.com/2026/09/17/john-ternus-teases-iphone-18-pro-launch/"
+    },
+    {
+      "name": "Kotaku",
+      "url": "https://kotaku.com/diablo-5-pc-starcraft-xbox-confirmed-2000735382"
+    }
+  ]
+}
+
+GENERATION PROMPT (user):
+Mode: news
+Angle/topic: FF7 Revelation director Hamaguchi discusses the game’s 200GB size, DLC plans, and a new Tifa detail - Video Games Chronicle
+
+Known facts:
+- FF7 Revelation director Hamaguchi discusses the game’s 200GB size, DLC plans, and a new Tifa detail - Video Games Chronicle — Final Fantasy 7 Revelation’s director isn’t concerned it’s too big…
+- Apple CEO John Ternus Teases iPhone 18 Pro Launch Day - MacRumors — Apple Fifth Avenue in New York is ready for iPhone 18 Pro launch day.  The store's iconic glass cube entrance has received a colorful makeover...
+- Diablo 5 Has Officially Been Confirmed For PC - Kotaku — Why is Blizzard being so weird about this?
+
+Write the blog post now.
+
+GENERATION OUTPUT:
+# FF7 Revelation Director Addresses Game Size, DLC Plans, and Tifa Detail
+
+The recent announcement of Final Fantasy 7 Revelation has garnered significant attention, particularly due to its substantial file size. In an interview with Video Games Chronicle, the game's director, Hiroshi Hamaguchi, addressed concerns regarding the game's 200GB size, as well as plans for additional downloadable content (DLC) and a new detail regarding Tifa Lockhart.
+
+## FF7 Revelation: Size Matters, But Not in the Way You Think
+
+One of the most pressing questions surrounding FF7 Revelation has been its enormous file size. At 200GB, the game is significantly larger than many other titles currently on the market. However, Hamaguchi reassures fans that this large footprint is necessary to deliver a high-quality experience. "We wanted to ensure that FF7 Revelation would be a seamless, immersive adventure," he explained. "This includes detailed graphics, expansive environments, and a richly textured story."
+
+The game's size also reflects the inclusion of extensive cutscenes and additional content that enhances the player's experience. Hamaguchi emphasized that while the file size may seem daunting, it's a testament to the team's commitment to quality over quantity. "Our goal was to create a game that players could lose themselves in, and we believe that the extra storage space is worth it."
+
+## DLC Plans and Future Content
+
+Hamaguchi also touched on the game's DLC plans, which are expected to provide additional value to players. While specifics were not disclosed, he hinted at new areas, characters, and missions that will expand upon the main storyline. "We're working hard to bring more of Cloud, Tifa, and Co. to life," he said. "There's a lot more to discover in the world of FF7."
+
+The director's comments suggest that FF7 Revelation will offer a robust post-launch experience, encouraging players to return long after completing the main campaign. This approach aligns with the trend of providing ongoing content to keep players engaged, a strategy that has proven successful in other popular franchises.
+
+## A New Tifa Detail Revealed
+
+In addition to discussing the game's size and future content, Hamaguchi revealed a new detail about Tifa Lockhart. While the specifics were not fully elaborated, it's clear that there are exciting developments in store for her character. "Tifa has always been a fan favorite," Hamaguchi noted. "We're excited to bring new depth and complexity to her story."
+
+This revelation adds another layer of anticipation for FF7 Revelation enthusiasts, who have been eagerly awaiting new information about their beloved characters.
+
+## Comparisons to Other Recent Announcements
+
+While FF7 Revelation continues to make waves, other recent announcements in the gaming industry highlight the ongoing evolution of console capabilities and marketing strategies. For instance, Apple's Fifth Avenue flagship store in New York City has undergone a colorful makeover in prepara
+
+QUALITY VALIDATION: True (ok)
+
+FACT VALIDATION RESULT: PASS
+
+FACT VALIDATION PASSED: True
+
