@@ -139,5 +139,21 @@
       "addresses",
       "hamaguchi"
     ]
+  },
+  {
+    "date": "2026-09-20",
+    "title": "Ensuring Security in Open Source Software Supply Chains",
+    "slug": "ensuring-security-in-open-source-software-supply-chains",
+    "mode": "evergreen",
+    "keywords": [
+      "ensuring",
+      "supply",
+      "chain",
+      "chains",
+      "open",
+      "software",
+      "security",
+      "source"
+    ]
   }
 ]

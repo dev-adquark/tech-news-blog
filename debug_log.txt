@@ -792,3 +792,81 @@ FACT VALIDATION RESULT: PASS
 
 FACT VALIDATION PASSED: True
 
+=== Pipeline run 2026-09-20T07:07:09.637202 UTC ===
+
+MODE: evergreen
+
+DISCOVERED EVERGREEN TOPIC: open source software supply chain security
+
+SOURCE COLLECTION URL: https://newsapi.org/v2/everything (q='open source software supply chain security')
+
+SOURCE COLLECTION STATUS: 200
+
+SOURCE COLLECTION BODY: {"status":"ok","totalResults":231,"articles":[{"source":{"id":"wired","name":"Wired"},"author":"Andy Greenberg","title":"An Undercover Google Analyst Infiltrated a Notorious Supply Chain Hacking Gang","description":"TeamPCP pulled off the worst-ever software supply chain hacking spree and breached thousands of companies. Now Google’s threat intelligence group has revealed it had a mole inside the hackers’ inner circle.","url":"https://www.wired.com/story/an-undercover-google-analyst-infiltrated-a-notorious-supply-chain-hacking-gang/","urlToImage":"https://media.wired.com/photos/6aac35420820a9282b5f1721/191:100/w_1280,c_limit/Security_An%20Undercover%20Google%20Researcher%20Infiltrated%20the%20Gang%20Behind%20the%20Worst-Ever%20Supply%20Chain%20Hacking%20Spree_v1.jpg","publishedAt":"2026-09-18T16:00:00Z","content":"Before two of its alleged members were arrested and charged in Australia last month, the hacker group known as TeamPCP carried out a hacking spree unlike any other in history. It tainted hundreds of … [+3851 chars]"},{"source":{"id":"the-next-web","name":"The Next Web"},"author":"Callum Turner","title":"The 24-hour CRA deadline is changing software supply chain visibility","description":"According to an analysis published by The Hacker News, manufacturers of products with digital elements sold in the European Union will face a September 11 deadline under the Cyber Resilience Act (CRA) to notify regulators within 24 hours after learning that a…","url":"https://thenextweb.com/news/cra-24-hour-deadline-software-supply-chain-sbom","urlToImage":"https://media.thenextweb.com/2026/09/cra-24-hour-deadline-software-supply-chain-sbom.jpg","publishedAt":"2026-09-03T21:25:02Z","content":"TL;DR\r\nStarting September 11, the EU Cyber Resilience Act will require manufacturers to notify regulators within 24 hours of learning a vulnerability in their product is being actively exploited. For… [+7500 chars]"},{"source":{"id":"business-insider","name":"Business Insider"},"author":"Shefali Kapadia","title":"In supply chain cyberattacks, AI is being used to fight AI","description":"Uber Freight, Ceva Logistics, and Fairlife experience cyberattacks, spotlighting AI's dual role as both risk and remedy in supply chains.","url":"https://www.businessinsider.com/supply-chain-cyberattacks-ai-to-fight-ai-2026-9#article","urlToImage":"https://i.insider.com/6aa3175fec15fe2d3cf16014?width=1200&format=jpeg","publishedAt":"2026-09-11T17:12:17Z","content":"Getty Images; BI\r\n<ul><
+
+BRIEF: {
+  "mode": "evergreen",
+  "angle": "open source software supply chain security",
+  "facts": [
+    "- An Undercover Google Analyst Infiltrated a Notorious Supply Chain Hacking Gang \u2014 TeamPCP pulled off the worst-ever software supply chain hacking spree and breached thousands of companies. Now Google\u2019s threat intelligence group has revealed it had a mole inside the hackers\u2019 inner circle.",
+    "- The 24-hour CRA deadline is changing software supply chain visibility \u2014 According to an analysis published by The Hacker News, manufacturers of products with digital elements sold in the European Union will face a September 11 deadline under the Cyber Resilience Act (CRA) to notify regulators within 24 hours after learning that a\u2026",
+    "- In supply chain cyberattacks, AI is being used to fight AI \u2014 Uber Freight, Ceva Logistics, and Fairlife experience cyberattacks, spotlighting AI's dual role as both risk and remedy in supply chains."
+  ],
+  "sources": [
+    {
+      "name": "Wired",
+      "url": "https://www.wired.com/story/an-undercover-google-analyst-infiltrated-a-notorious-supply-chain-hacking-gang/"
+    },
+    {
+      "name": "The Next Web",
+      "url": "https://thenextweb.com/news/cra-24-hour-deadline-software-supply-chain-sbom"
+    },
+    {
+      "name": "Business Insider",
+      "url": "https://www.businessinsider.com/supply-chain-cyberattacks-ai-to-fight-ai-2026-9#article"
+    }
+  ]
+}
+
+GENERATION PROMPT (user):
+Mode: evergreen
+Angle/topic: open source software supply chain security
+
+Known facts:
+- An Undercover Google Analyst Infiltrated a Notorious Supply Chain Hacking Gang — TeamPCP pulled off the worst-ever software supply chain hacking spree and breached thousands of companies. Now Google’s threat intelligence group has revealed it had a mole inside the hackers’ inner circle.
+- The 24-hour CRA deadline is changing software supply chain visibility — According to an analysis published by The Hacker News, manufacturers of products with digital elements sold in the European Union will face a September 11 deadline under the Cyber Resilience Act (CRA) to notify regulators within 24 hours after learning that a…
+- In supply chain cyberattacks, AI is being used to fight AI — Uber Freight, Ceva Logistics, and Fairlife experience cyberattacks, spotlighting AI's dual role as both risk and remedy in supply chains.
+
+Write the blog post now.
+
+GENERATION OUTPUT:
+# Ensuring Security in Open Source Software Supply Chains
+
+In the digital age, the security of software supply chains has become a critical concern for organizations of all sizes. Recent events have underscored the vulnerabilities within these chains and highlighted the need for robust security measures. From the infiltration by an undercover analyst into a notorious hacking gang to the impending deadlines imposed by the Cyber Resilience Act (CRA), the landscape of supply chain security is evolving rapidly.
+
+## The TeamPCP Incident: A Cautionary Tale
+
+An undercover Google Analyst infiltrated TeamPCP, a notorious supply chain hacking gang known for breaching thousands of companies. This incident serves as a stark reminder of the dangers lurking within the software supply chain. TeamPCP’s operations highlight the sophisticated methods used by cybercriminals to compromise open source software and other digital components. By targeting these elements, hackers can introduce malicious code that can later be activated, leading to widespread damage and data breaches.
+
+### The Role of Open Source Software
+
+Open source software plays a crucial role in modern IT infrastructure. However, its very nature—being freely available and widely used—can also make it a target for malicious actors. Developers and organizations must remain vigilant about the origins and integrity of the open source components they use. Regularly updating and auditing these components can help mitigate risks, but it is not a one-time task. Continuous monitoring and collaboration with the broader developer community are essential.
+
+## The CRA Deadline and Supply Chain Visibility
+
+The Cyber Resilience Act (CRA) sets a 24-hour deadline for manufacturers of products with digital elements sold in the European Union to notify regulators after learning about a supply chain vulnerability. This stringent requirement aims to enhance transparency and quick response times in the event of a breach. Manufacturers now face significant pressure to improve their supply chain visibility and establish robust notification mechanisms.
+
+### Challenges and Opportunities
+
+While the 24-hour CRA deadline presents a challenge, it also opens up opportunities for innovation and improvement. Organizations can leverage advanced technologies such as artificial intelligence (AI) to enhance their supply chain security. AI can be used to detect anomalies, monitor for potential threats, and automate the process of vulnerability management.
+
+### AI in Supply Chain Cybersecurity
+
+The dual role of AI in supply chain cybersecurity is particularly noteworthy. On one hand, AI can be used by attackers to automate and scale their operations. For instance, Uber Freight, Ceva Logistics, and Fairlife experienced cyberattacks that utilized AI to target specific vulnerabilities. On the other hand, AI can also serve as a powerful tool for defense. By analyzing vast amounts of data, AI can identify patterns and anomalies that might indi
+
+QUALITY VALIDATION: True (ok)
+
+FACT VALIDATION RESULT: PASS
+
+FACT VALIDATION PASSED: True
+
