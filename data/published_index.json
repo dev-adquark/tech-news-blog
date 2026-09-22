@@ -171,5 +171,21 @@
       "nintendo",
       "receive"
     ]
+  },
+  {
+    "date": "2026-09-22",
+    "title": "Zero Trust Security Architecture: The Practical Enterprise Access Model",
+    "slug": "zero-trust-security-architecture-the-practical-enterprise-ac",
+    "mode": "evergreen",
+    "keywords": [
+      "trust",
+      "enterprise",
+      "model",
+      "architecture",
+      "access",
+      "security",
+      "practical",
+      "zero"
+    ]
   }
 ]
