@@ -233,5 +233,21 @@
       "review",
       "smaller"
     ]
+  },
+  {
+    "date": "2026-09-26",
+    "title": "MLOps and Machine Learning Infrastructure: Building Blocks for Modern Personal Finance Apps",
+    "slug": "mlops-and-machine-learning-infrastructure-building-blocks-fo",
+    "mode": "evergreen",
+    "keywords": [
+      "blocks",
+      "learning",
+      "modern",
+      "apps",
+      "mlops",
+      "infrastructure",
+      "machine",
+      "building"
+    ]
   }
 ]
