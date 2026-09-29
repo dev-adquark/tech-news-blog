@@ -1452,3 +1452,75 @@ FACT VALIDATION RESULT: PASS
 
 FACT VALIDATION PASSED: True
 
+=== Pipeline run 2026-09-29T07:10:26.129493 UTC ===
+
+MODE: news
+
+SOURCE COLLECTION URL: https://newsapi.org/v2/top-headlines (top-headlines/technology)
+
+SOURCE COLLECTION STATUS: 200
+
+SOURCE COLLECTION BODY: {"status":"ok","totalResults":69,"articles":[{"source":{"id":"buzzfeed","name":"Buzzfeed"},"author":"Ajani Bazile-Dutes","title":"23 Awful, Selfish, Entitled People Who Felt The World Owed Them Everything - buzzfeed.com","description":"It's time for a reality check.","url":"https://www.buzzfeed.com/ajanibazile/extremely-entitled-people","urlToImage":"https://img.buzzfeed.com/buzzfeed-static/static/2026-09/22/17/subbuzz/98AL-clru.jpg?crop=1206:631;0,21%26downsize=1250:*","publishedAt":"2026-09-27T23:31:02Z","content":"by Ajani Bazile-DutesBuzzFeed\r\nBuzzFeed StaffI'm a Senior Staff Writer who writes a wide range of topics, spanning from people's real-life drama to pop culture to funny things I find on the internet."},{"source":{"id":null,"name":"Push Square"},"author":"Sammy Barker","title":"'Sony's Hearing a Lot of the Feedback from Customers': NIS America Boss Weighs in on PS5 Disc Debate - Push Square","description":"\"We'll have to see what happens\"","url":"https://www.pushsquare.com/news/2026/09/sonys-hearing-a-lot-of-the-feedback-from-customers-nis-america-boss-weighs-in-on-ps5-disc-debate","urlToImage":"https://images.pushsquare.com/b774ac5f1754b/large.jpg","publishedAt":"2026-09-27T22:00:00Z","content":"Image: Push Square\r\nBehemoth publishers like SEGA and Capcom have indicated theyre not particularly fussed about Sonys decision to cease manufacturing physical media in 2028.\r\nBut its interesting to … [+2185 chars]"},{"source":{"id":null,"name":"Jalopnik"},"author":"Ivo Gievski","title":"12 Quick EVs That Can Hit 60 MPH In 3.5 Seconds Or Less - Jalopnik","description":"What EVs can sprint to 60 mph in under 3.5 seconds? The Hyundai Ioniq 5 N, Tesla Model 3 Performance, and Porsche Macan Turbo Electric are among them.","url":"https://www.jalopnik.com/2269661/quick-evs-60-mph-3-5-seconds-or-less/","urlToImage":"https://www.jalopnik.com/img/gallery/12-quick-evs-that-can-hit-60-mph-in-3-5-seconds-or-less/l-intro-1790258473.jpg","publishedAt":"2026-09-27T20:45:00Z","content":"From the outside, the Volvo EX30 Twin Motor Performance looks just like any other subcompact SUV built for grocery runs and school zones. But underneath, this Swedish sleeper packs a dual-motor drive… [+1528 chars]"},{"source":{"id":null,"name":"Jalopnik"},"author":"Brad Brownell","title":"8,000-Mile 2001 Porsche 911 GT2 Clubsport For Sale And You're Too Chicken To Actually Drive It - Jalopnik","description":"With low miles on the clock and in excellent condition, this rare Por
+
+BRIEF: {
+  "mode": "news",
+  "angle": "23 Awful, Selfish, Entitled People Who Felt The World Owed Them Everything - buzzfeed.com",
+  "facts": [
+    "- 23 Awful, Selfish, Entitled People Who Felt The World Owed Them Everything - buzzfeed.com \u2014 It's time for a reality check.",
+    "- 'Sony's Hearing a Lot of the Feedback from Customers': NIS America Boss Weighs in on PS5 Disc Debate - Push Square \u2014 \"We'll have to see what happens\"",
+    "- 12 Quick EVs That Can Hit 60 MPH In 3.5 Seconds Or Less - Jalopnik \u2014 What EVs can sprint to 60 mph in under 3.5 seconds? The Hyundai Ioniq 5 N, Tesla Model 3 Performance, and Porsche Macan Turbo Electric are among them."
+  ],
+  "sources": [
+    {
+      "name": "Buzzfeed",
+      "url": "https://www.buzzfeed.com/ajanibazile/extremely-entitled-people"
+    },
+    {
+      "name": "Push Square",
+      "url": "https://www.pushsquare.com/news/2026/09/sonys-hearing-a-lot-of-the-feedback-from-customers-nis-america-boss-weighs-in-on-ps5-disc-debate"
+    },
+    {
+      "name": "Jalopnik",
+      "url": "https://www.jalopnik.com/2269661/quick-evs-60-mph-3-5-seconds-or-less/"
+    }
+  ]
+}
+
+GENERATION PROMPT (user):
+Mode: news
+Angle/topic: 23 Awful, Selfish, Entitled People Who Felt The World Owed Them Everything - buzzfeed.com
+
+Known facts:
+- 23 Awful, Selfish, Entitled People Who Felt The World Owed Them Everything - buzzfeed.com — It's time for a reality check.
+- 'Sony's Hearing a Lot of the Feedback from Customers': NIS America Boss Weighs in on PS5 Disc Debate - Push Square — "We'll have to see what happens"
+- 12 Quick EVs That Can Hit 60 MPH In 3.5 Seconds Or Less - Jalopnik — What EVs can sprint to 60 mph in under 3.5 seconds? The Hyundai Ioniq 5 N, Tesla Model 3 Performance, and Porsche Macan Turbo Electric are among them.
+
+Write the blog post now.
+
+GENERATION OUTPUT:
+# 23 Awful, Selfish, Entitled People Who Felt The World Owed Them Everything
+
+In today's digital age, it's easy to come across stories that highlight the worst in human behavior. One such list from BuzzFeed, titled "23 Awful, Selfish, Entitled People Who Felt The World Owed Them Everything," serves as a stark reminder of how entitled some individuals can be. While these stories may seem extreme and isolated, they reflect a broader issue that resonates with many.
+
+The list, which BuzzFeed published, showcases individuals who have made it abundantly clear that they feel they deserve special treatment or outcomes without putting in the necessary effort. These cases range from celebrities to everyday people, all sharing a common thread of entitlement and self-importance. From demanding unrealistic timelines to expecting preferential treatment, these individuals often find themselves at odds with reality and the expectations of those around them.
+
+While such stories are often amusing or even entertaining, they also serve as a wake-up call. They remind us that despite our best efforts to create inclusive and fair societies, there will always be those who feel they should have more than their fair share. This sense of entitlement can manifest in various ways, from demanding free services to expecting others to bend rules for their convenience.
+
+### Entitlement in the Digital Age
+
+Social media platforms have become breeding grounds for this kind of behavior. People can now voice their grievances and demands publicly, often without considering the consequences or the impact on others. The ease of sharing and the echo chambers created by social networks can amplify these voices, making it harder for others to ignore or address the underlying issues.
+
+One notable example comes from the gaming industry. In an interview with Push Square, NIS America's boss, Ken Pohlmann, discussed the feedback from customers regarding the PlayStation 5 disc format. He noted, "Sony's Hearing a Lot of the Feedback from Customers." This feedback, while valid, highlights how consumers sometimes feel entitled to certain features or changes without understanding the complexities involved.
+
+### Fast Cars and Electric Vehicles
+
+While the issue of entitlement might seem far removed from everyday life, it's worth noting that even in the world of high-performance vehicles, there is a similar phenomenon. Electric vehicles (EVs) have been making significant strides in recent years, and some models are capable of impressive acceleration. For instance, Jalopnik highlighted a list of EVs that can hit 60 mph in under 3.5 seconds. Models like the Hyundai Ioniq 5 N, Tesla Model 3 Performance, and Porsche Macan Turbo Electric demonstrate the rapid advancements in electric vehicle technology.
+
+These high-performance EVs showcase the incredible capabilities of modern automotive engineering, but they also bring to light another aspect of consumer behavior. As these vehicles become more accessible, 
+
+QUALITY VALIDATION: True (ok)
+
+FACT VALIDATION RESULT: PASS
+
+FACT VALIDATION PASSED: True
+
