@@ -1524,3 +1524,90 @@ FACT VALIDATION RESULT: PASS
 
 FACT VALIDATION PASSED: True
 
+=== Pipeline run 2026-09-30T07:10:34.742013 UTC ===
+
+MODE: evergreen
+
+DISCOVERED EVERGREEN TOPIC: MLOps and machine learning infrastructure
+
+SOURCE COLLECTION URL: https://newsapi.org/v2/everything (q='MLOps and machine learning infrastructure')
+
+SOURCE COLLECTION STATUS: 200
+
+SOURCE COLLECTION BODY: {"status":"ok","totalResults":20,"articles":[{"source":{"id":null,"name":"Substack.com"},"author":"Christian Kästner","title":"How I changed teaching after AI managed to do all my homework assignments","description":"AI forced me to abandon evidence-based best pedagogy practices, focus on oral and written exams, and redo most assignments. Here is what we did in 17-645...","url":"https://thelastsoftwareengineer.substack.com/p/how-i-changed-teaching-after-ai-managed","urlToImage":"https://substackcdn.com/image/fetch/$s_!aOO8!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fbce79a10-6491-4d9c-940d-eabbcfa263f4_2241x1687.png","publishedAt":"2026-09-24T20:51:50Z","content":"Around 2021, well before ChatGPT launched, Vincent Hellendoorn suggested I try GPT-3 on the reading quizzes in my course. It produced convincing answers passing our rubric without actually seeing the… [+21403 chars]"},{"source":{"id":null,"name":"Stackoverflow.blog"},"author":"Silu Panda","title":"Why model versioning is not enough for production AI","description":"An MLOps workflow for evaluating deploying and rolling back AI applications","url":"https://stackoverflow.blog/2026/09/28/why-model-versioning-is-not-enough-for-production-ai/","urlToImage":null,"publishedAt":"2026-09-28T18:24:12Z","content":"Imagine a documentation assistant that starts timing out after a routine retrieval change. The model is the same. The service is healthy. Every deployment check passed. But the retriever now sends mo… [+12143 chars]"},{"source":{"id":null,"name":"Addicted2success.com"},"author":"Addicted2Success Editor","title":"10 Reliable Machine Learning Development Companies in the USA for AI-Powered Personal Finance Apps in 2026","description":"Personal finance apps are moving beyond expense tracking and static dashboards. Most of them are now using machine learning to sort transactions, spot unusual activity, forecast cash flow, suggest savings actions, monitor credit health, and answer questions r…","url":"https://addicted2success.com/ai/best-machine-learning-development-companies-finance-apps/","urlToImage":"https://addicted2success.com/wp-content/uploads/2026/09/Man-with-AI-documents-on-window-1000x600.jpeg","publishedAt":"2026-09-19T05:07:07Z","content":"Personal finance apps are moving beyond expense tracking and static dashboards. Most of them are now using machine learning to sort transactions, spot unusual a
+
+BRIEF: {
+  "mode": "evergreen",
+  "angle": "MLOps and machine learning infrastructure",
+  "facts": [
+    "- Why model versioning is not enough for production AI \u2014 An MLOps workflow for evaluating deploying and rolling back AI applications",
+    "- 10 Reliable Machine Learning Development Companies in the USA for AI-Powered Personal Finance Apps in 2026 \u2014 Personal finance apps are moving beyond expense tracking and static dashboards. Most of them are now using machine learning to sort transactions, spot unusual activity, forecast cash flow, suggest savings actions, monitor credit health, and answer questions r\u2026",
+    "- What is AIOps? \u2014 * AIOps (Artificial Intelligence for IT Operations) applies AI, machine learning, and operational data to detect anomalies, correlate events, identify root causes, and automate incident response.\r\n* It helps IT and platform engineering teams reduce downtime r\u2026"
+  ],
+  "sources": [
+    {
+      "name": "Stackoverflow.blog",
+      "url": "https://stackoverflow.blog/2026/09/28/why-model-versioning-is-not-enough-for-production-ai/"
+    },
+    {
+      "name": "Addicted2success.com",
+      "url": "https://addicted2success.com/ai/best-machine-learning-development-companies-finance-apps/"
+    },
+    {
+      "name": "Databricks.com",
+      "url": "https://www.databricks.com/blog/what-is-aiops"
+    }
+  ]
+}
+
+GENERATION PROMPT (user):
+Mode: evergreen
+Angle/topic: MLOps and machine learning infrastructure
+
+Known facts:
+- Why model versioning is not enough for production AI — An MLOps workflow for evaluating deploying and rolling back AI applications
+- 10 Reliable Machine Learning Development Companies in the USA for AI-Powered Personal Finance Apps in 2026 — Personal finance apps are moving beyond expense tracking and static dashboards. Most of them are now using machine learning to sort transactions, spot unusual activity, forecast cash flow, suggest savings actions, monitor credit health, and answer questions r…
+- What is AIOps? — * AIOps (Artificial Intelligence for IT Operations) applies AI, machine learning, and operational data to detect anomalies, correlate events, identify root causes, and automate incident response.
+* It helps IT and platform engineering teams reduce downtime r…
+
+Write the blog post now.
+
+GENERATION OUTPUT:
+# MLOps and Machine Learning Infrastructure: Beyond Model Versioning
+
+Machine learning (ML) has become a cornerstone of modern applications, particularly in sectors like personal finance where real-time insights and predictive analytics are crucial. As these applications evolve, so does the need for robust MLOps (Machine Learning Operations) practices to ensure reliable and efficient deployment and maintenance. However, model versioning alone is insufficient for production AI environments. Let's explore why and delve into an MLOps workflow that addresses this challenge.
+
+## Why Model Versioning Isn't Enough
+
+Model versioning is a critical aspect of ML development, allowing teams to track changes over time and roll back to previous versions if necessary. While it helps manage different iterations of models, it doesn’t cover the broader spectrum of challenges faced in production environments. Issues such as data drift, model degradation, and the need for continuous monitoring and validation go beyond mere version control.
+
+### Data Drift and Model Degradation
+
+Data drift occurs when the input data used by a machine learning model changes significantly over time, leading to reduced model performance. For instance, in a personal finance app that uses machine learning to forecast cash flow, the economic environment might change, affecting the accuracy of predictions. Similarly, model degradation happens when a model's performance declines over time due to factors like concept drift or changes in underlying patterns.
+
+### Continuous Monitoring and Validation
+
+Continuous monitoring and validation are essential for maintaining the reliability and effectiveness of deployed models. This involves setting up systems to regularly assess model performance against predefined metrics and thresholds. Automated testing frameworks can help identify issues early, ensuring that any anomalies are addressed promptly.
+
+## An MLOps Workflow for Production AI
+
+To effectively manage these challenges, an MLOps workflow should encompass several key components:
+
+### 1. Model Deployment and Monitoring
+
+Automated deployment pipelines should be in place to seamlessly integrate new models into production environments. Once deployed, models must be continuously monitored using AIOps (Artificial Intelligence for IT Operations). AIOps tools can detect anomalies in model performance and correlate events to identify root causes, helping teams respond quickly to issues.
+
+### 2. Model Versioning and Tracking
+
+While model versioning is important, it should be part of a larger tracking system that includes metadata about each model, such as training data, hyperparameters, and performance metrics. This metadata allows for better understanding and management of different model versions.
+
+### 3. Data Management and Feature Store
+
+A robust data management strategy is crucial for maintaining high-quality training data. Implementing a feature store can help centralize and manage features used b
+
+QUALITY VALIDATION: True (ok)
+
+FACT VALIDATION RESULT: PASS
+
+FACT VALIDATION PASSED: True
+

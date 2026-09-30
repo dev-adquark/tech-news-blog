@@ -279,5 +279,20 @@
       "selfish",
       "awful"
     ]
+  },
+  {
+    "date": "2026-09-30",
+    "title": "MLOps and Machine Learning Infrastructure: Beyond Model Versioning",
+    "slug": "mlops-and-machine-learning-infrastructure-beyond-model-versi",
+    "mode": "evergreen",
+    "keywords": [
+      "infrastructure",
+      "machine",
+      "learning",
+      "model",
+      "mlops",
+      "beyond",
+      "versioning"
+    ]
   }
 ]
