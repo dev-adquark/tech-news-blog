@@ -310,5 +310,18 @@
       "version",
       "available"
     ]
+  },
+  {
+    "date": "2026-10-02",
+    "title": "Passwordless Authentication: The Future is Here",
+    "slug": "passwordless-authentication-the-future-is-here",
+    "mode": "evergreen",
+    "keywords": [
+      "passwordless",
+      "adoption",
+      "future",
+      "here",
+      "authentication"
+    ]
   }
 ]

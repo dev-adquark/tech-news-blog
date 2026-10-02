@@ -1679,3 +1679,90 @@ FACT VALIDATION RESULT: PASS
 
 FACT VALIDATION PASSED: True
 
+=== Pipeline run 2026-10-02T07:10:07.675989 UTC ===
+
+MODE: evergreen
+
+DISCOVERED EVERGREEN TOPIC: passwordless authentication adoption
+
+SOURCE COLLECTION URL: https://newsapi.org/v2/everything (q='passwordless authentication adoption')
+
+SOURCE COLLECTION STATUS: 200
+
+SOURCE COLLECTION BODY: {"status":"ok","totalResults":2,"articles":[{"source":{"id":null,"name":"MakeUseOf"},"author":"Tashreef Shareef","title":"I switched from Google Password Manager to Bitwarden, and passwords weren't the reason","description":"There's a bigger risk than weak passwords","url":"https://www.makeuseof.com/google-password-manager-to-bitwarden-switch/","urlToImage":"https://static0.makeuseofimages.com/wordpress/wp-content/uploads/wm/2026/09/samsung-galaxy-z-flip-6-displaying-google-password-manager-settings-menu-with-passwords-and.jpg?w=1600&h=900&fit=crop","publishedAt":"2026-09-16T10:00:14Z","content":"Most of us started using Google Password Manager because it was built into Chrome. It was a no-brainer when a pop-up asked whether we wanted to save our username and password to the browser. The next… [+6786 chars]"},{"source":{"id":null,"name":"Maketecheasier.com"},"author":"Make Tech Easier Editorial","title":"Microsoft warns fake passkey setup requests are being used to compromise work accounts - Make Tech Easier","description":"Passkeys let you sign in to your Google Account with a fingerprint, face scan or device PIN instead of a password. Here's how to add one while keeping 2-Step Verification and backup codes in place as a fallback.","url":"https://maketecheasier.com/how-to-set-up-passkeys-on-your-google-account-and-keep-2-step-verification-as-backup/","urlToImage":"https://maketecheasier.com/wp-content/uploads/2026/09/mte-en-1790241958007.jpg","publishedAt":"2026-09-24T16:17:40Z","content":"An urgent request to set up a passkey can sound like routine IT housekeeping. In a September 9, 2026 security investigation, Microsoft described attackers using that story to lure employees into sign… [+4563 chars]"}]}
+
+No relevant/sourced articles available — proceeding with brief containing no sourced facts.
+
+BRIEF: {
+  "mode": "evergreen",
+  "angle": "passwordless authentication adoption",
+  "facts": [],
+  "sources": []
+}
+
+GENERATION PROMPT (user):
+Mode: evergreen
+Angle/topic: passwordless authentication adoption
+
+Known facts:
+(no specific sourced facts available)
+
+Write the blog post now.
+
+GENERATION OUTPUT:
+# Passwordless Authentication: The Future is Here
+
+Passwordless authentication has been gaining traction in recent years as a more secure and user-friendly alternative to traditional passwords. As users grow increasingly concerned about data security, and as technology evolves, the adoption of passwordless methods is becoming a necessity rather than an option.
+
+## What is Passwordless Authentication?
+
+Passwordless authentication refers to the process of verifying a user's identity without requiring them to remember and input a password. Instead, it relies on other forms of identification such as biometric data (fingerprint, facial recognition), hardware tokens, or one-time verification codes sent to trusted devices.
+
+## Why Move Away from Passwords?
+
+### Security Concerns
+
+Traditional passwords are vulnerable to various attacks, including brute-force attempts, phishing, and credential stuffing. These methods can compromise user accounts and put sensitive information at risk. According to a study by Verizon, 81% of hacking-related breaches utilized stolen credentials.
+
+### User Experience
+
+Passwords often lead to frustration among users due to frequent password resets, complex requirements, and the need to remember multiple passwords for different accounts. This can result in poor user experience and increased support costs for businesses.
+
+### Compliance Requirements
+
+Many industries are subject to stringent compliance regulations that mandate strong authentication methods. Passwordless solutions can help organizations meet these requirements without sacrificing user convenience.
+
+## Common Passwordless Methods
+
+### Biometric Authentication
+
+Biometrics, such as fingerprints, facial recognition, and iris scans, offer a secure and convenient way to authenticate users. These methods are widely supported across mobile devices and can be integrated into existing systems with minimal effort.
+
+### One-Time Verification Codes
+
+One-time verification codes (OTPs) are sent to a user’s trusted device, such as a smartphone. The user then enters this code to complete the authentication process. OTPs can be generated using various methods, including SMS, email, or push notifications.
+
+### Hardware Tokens
+
+Hardware tokens, such as YubiKeys, provide a physical layer of security. Users plug these devices into their computers to verify their identity. While more cumbersome than biometrics, they offer robust security features.
+
+## Challenges in Adoption
+
+Despite its benefits, there are challenges to widespread adoption of passwordless authentication:
+
+### Compatibility
+
+Not all devices and platforms support advanced biometric features, which can limit the effectiveness of some passwordless methods.
+
+### Cost
+
+Implementing and maintaining passwordless systems can be costly, especially for smaller organizations. However, the long-term savings in terms of reduced security incidents and improved user satisfaction can outweigh these initial expenses.
+
+### User Education
+
+QUALITY VALIDATION: True (ok)
+
+FACT VALIDATION RESULT: PASS
+
+FACT VALIDATION PASSED: True
+
