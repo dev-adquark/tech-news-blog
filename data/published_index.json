@@ -455,5 +455,19 @@
       "photoshop",
       "clone"
     ]
+  },
+  {
+    "date": "2026-10-12",
+    "title": "API Security Best Practices for Modern eCommerce Platforms",
+    "slug": "api-security-best-practices-for-modern-ecommerce-platforms",
+    "mode": "evergreen",
+    "keywords": [
+      "best",
+      "practices",
+      "platforms",
+      "security",
+      "modern",
+      "ecommerce"
+    ]
   }
 ]

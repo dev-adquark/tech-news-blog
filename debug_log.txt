@@ -2441,3 +2441,75 @@ FACT VALIDATION RESULT: PASS
 
 FACT VALIDATION PASSED: True
 
+=== Pipeline run 2026-10-12T16:26:48.465821 UTC ===
+
+MODE: evergreen
+
+DISCOVERED EVERGREEN TOPIC: API security best practices
+
+SOURCE COLLECTION URL: https://newsapi.org/v2/everything (q='API security best practices')
+
+SOURCE COLLECTION STATUS: 200
+
+SOURCE COLLECTION BODY: {"status":"ok","totalResults":132,"articles":[{"source":{"id":"the-next-web","name":"The Next Web"},"author":"Ana Maria Constantin","title":"One prompt let researchers take over every AWS AgentCore agent in a region","description":"Researchers at Zenity Labs used a single prompt to one public-facing AI agent on Amazon Bedrock AgentCore to take over every AgentCore agent in the same AWS account and region. The security firm published the research on Thursday, alongside a talk at the SecT…","url":"https://thenextweb.com/news/aws-agentcore-zenity-agentcorruption-one-prompt-agents","urlToImage":"https://media.thenextweb.com/2026/08/zenity-ai.jpg","publishedAt":"2026-10-08T14:14:15Z","content":"Correction, 8 October 2026\r\nAn earlier version of this articles headline said researchers took over every AWS AgentCore agent in a region. The research covered agents within a single AWS account and … [+4443 chars]"},{"source":{"id":null,"name":"Googleblog.com"},"author":"Android Developers","title":"Build your way: Use any AI agent of your choice in Android Studio","description":"News and insights on the Android platform, developer tools, and events.","url":"https://android-developers.googleblog.com/2026/09/build-your-way-use-any-ai-agent-in-android-studio.html","urlToImage":"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgVijlUmODt3ow1Idsd8Ym6PooGBLRhyphenhyphen-iQZDu4HdVmBqD2pXpoToSAS95n2KGmCOPZffaac-lFhs11rbr49ooB6HyzI6ePNGzhQ83xx-5qTwPUOnwlKbWLP5bIPi1CmDy-vU0UVVW_dh-T2jLK33nbI1gBwHxmIBoXV748JStkCSUONOoH5zBBHX0jlLE/s2049/BYOA-Backup-Metadata_1.png","publishedAt":"2026-09-24T15:59:00Z","content":"Posted by Matthew Warner, Product Manager, Android Developer Experience\r\nAI-powered developer tools have become an essential multiplier for engineering productivity, with teams adopting specialized A… [+4918 chars]"},{"source":{"id":null,"name":"Internet"},"author":"info@thehackernews.com (The Hacker News)","title":"Identity Visibility in 2026: The Foundation of Identity Security","description":"Identity visibility is a starting point for modern identity security, because stolen and misused credentials are among the most frequently reported initial access vectors in breach research, including Verizon's annual Data Breach Investigations Report. This a…","url":"https://thehackernews.com/2026/09/identity-visibility-in-2026-foundation.html","urlToImage":"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgTFTNQKV-yV8FRZZRLBPRxZDhk6E7s3v8SpP5xW_aeDyMz-xMvi-
+
+BRIEF: {
+  "mode": "evergreen",
+  "angle": "API security best practices",
+  "facts": [
+    "- Crypto Payments for eCommerce: Security Best Practices for Online Stores \u2014 Checkout pages now commonly accept Bitcoin or USDC alongside Visa. In some countries, shoppers cannot complete a card payment at all. Merchants selling digital goods or expensive items internationally have noticed that a crypto option sometimes closes a sale \u2026"
+  ],
+  "sources": [
+    {
+      "name": "Addicted2success.com",
+      "url": "https://addicted2success.com/cryptonews/crypto-payments-ecommerce-security-best-practices/"
+    }
+  ]
+}
+
+GENERATION PROMPT (user):
+Mode: evergreen
+Angle/topic: API security best practices
+
+Known facts:
+- Crypto Payments for eCommerce: Security Best Practices for Online Stores — Checkout pages now commonly accept Bitcoin or USDC alongside Visa. In some countries, shoppers cannot complete a card payment at all. Merchants selling digital goods or expensive items internationally have noticed that a crypto option sometimes closes a sale …
+
+Write the blog post now.
+
+GENERATION OUTPUT:
+# API Security Best Practices for Modern eCommerce Platforms
+
+In the ever-evolving landscape of online commerce, integrating payment methods like Bitcoin or USDC alongside traditional credit cards has become a necessity. This dual-payment approach not only enhances flexibility but also caters to customers in regions where card payments may be restricted or unavailable. However, this integration introduces new security challenges that merchants must address to protect both their businesses and their customers.
+
+## Understanding the Payment Landscape
+
+With the rise of cryptocurrencies, many eCommerce platforms now offer options for accepting digital currencies alongside traditional payment methods. For instance, Crypto Payments for eCommerce have become a popular choice for businesses selling high-value items or digital goods internationally. While this diversification can attract a broader customer base, it also necessitates robust security measures to prevent fraud and ensure compliance with regulatory standards.
+
+## Key API Security Best Practices
+
+### 1. Implement Strong Authentication Mechanisms
+
+One of the primary concerns with accepting cryptocurrencies is the risk of unauthorized transactions. To mitigate this, merchants should implement strong authentication mechanisms such as two-factor authentication (2FA) and multi-signature wallets. These measures help verify the identity of users and reduce the risk of fraudulent activities.
+
+### 2. Use Secure Communication Protocols
+
+APIs handling sensitive information, including payment details, should use secure communication protocols such as HTTPS or TLS. These protocols encrypt data transmitted between the client and server, ensuring that sensitive information remains confidential and protected from eavesdropping and interception.
+
+### 3. Regularly Update and Patch Systems
+
+Keeping systems up-to-date is crucial in maintaining security. Regularly updating APIs and underlying software can help patch known vulnerabilities and ensure that your system remains resilient against emerging threats. This includes staying informed about the latest security patches and updates provided by payment service providers and other relevant vendors.
+
+### 4. Adopt Zero Trust Architecture
+
+A zero trust architecture assumes that all users and devices are untrusted until proven otherwise. This approach involves verifying every request, regardless of whether it comes from inside or outside the network. By implementing strict access controls and continuous monitoring, you can significantly enhance the security posture of your eCommerce platform.
+
+### 5. Conduct Regular Security Audits and Penetration Testing
+
+Regular security audits and penetration testing help identify and address potential vulnerabilities before they can be exploited. Engaging external security experts to perform these tests can provide valuable insights into the strengths and weaknesses of your system. Additionally, these exercises can help improve ov
+
+QUALITY VALIDATION: True (ok)
+
+FACT VALIDATION RESULT: PASS
+
+FACT VALIDATION PASSED: True
+
