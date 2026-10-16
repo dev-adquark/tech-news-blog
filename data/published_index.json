@@ -515,5 +515,20 @@
       "another",
       "video"
     ]
+  },
+  {
+    "date": "2026-10-16",
+    "title": "Zero Trust Security Architecture: Fixing Zero Visibility for AI Agents",
+    "slug": "zero-trust-security-architecture-fixing-zero-visibility-for",
+    "mode": "evergreen",
+    "keywords": [
+      "architecture",
+      "visibility",
+      "agents",
+      "fixing",
+      "security",
+      "trust",
+      "zero"
+    ]
   }
 ]

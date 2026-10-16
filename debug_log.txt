@@ -2737,3 +2737,77 @@ FACT VALIDATION RESULT: PASS
 
 FACT VALIDATION PASSED: True
 
+=== Pipeline run 2026-10-16T12:04:13.700120 UTC ===
+
+MODE: evergreen
+
+DISCOVERED EVERGREEN TOPIC: zero trust security architecture
+
+SOURCE COLLECTION URL: https://newsapi.org/v2/everything (q='zero trust security architecture')
+
+SOURCE COLLECTION STATUS: 200
+
+SOURCE COLLECTION BODY: {"status":"ok","totalResults":237,"articles":[{"source":{"id":null,"name":"Internet"},"author":"info@thehackernews.com (The Hacker News)","title":"Zero Trust for AI Agents Starts With Fixing Zero Visibility","description":"The way we talk about AI agents is shifting, and the way we implement them requires an even more fundamental shift. While earlier discourse focused on how quickly organizations could stand up agents and how much productivity they could promise, a string of re…","url":"https://thehackernews.com/2026/09/zero-trust-for-ai-agents-starts-with.html","urlToImage":"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhbfTXTCeNSvaPIRWOUJJxKPfYp45QnSjl24XZ1Set210zScJhg03o_TYX0QKPQdcSq-vkiWnymSqBu-bSwcCm1Kb2Te5do1VIcbCQjc_-TOOR6VwqRiHu5LE-tBb0gdrDjmPuDADfUraASQenGh-1gI4PF_xa2GwREsDM4vq4_C-aEU8EJsBBvhykJ1E0/s1700-nu-rw-lo-l85-e365/sans-article.jpg","publishedAt":"2026-09-26T10:30:00Z","content":"The way we talk about AI agents is shifting, and the way we implement them requires an even more fundamental shift. While earlier discourse focused on how quickly organizations could stand up agents … [+9833 chars]"},{"source":{"id":null,"name":"Theregister.com"},"author":"Robin Birtstone","title":"Why security belongs in the network","description":"SPONSORED EXPLAINER: Merging security into the network makes enterprise protection more agile","url":"https://www.theregister.com/security/2026/09/23/sponsored-why-security-belongs-in-the-network/5296790","urlToImage":"https://image.theregister.com/5296792.jpg?imageId=5296792&x=0&y=0&cropw=100&croph=100&panox=0&panoy=0&panow=100&panoh=100&width=1200&height=683","publishedAt":"2026-09-23T08:00:00Z","content":"Every attack leaves a trail across the network, from initial reconnaissance to lateral movement and data exfiltration. That makes the network one of an organizations richest sources of security intel… [+5937 chars]"},{"source":{"id":null,"name":"Github.com"},"author":null,"title":"How HN: Go-dev-auth zero-dependency authentication library for Go","description":"go-dev-auth  The comprehensive authentication library for Go.  One config struct. Batteries included. Own your users. - go-dev-auth/go-dev-auth","url":"https://github.com/go-dev-auth/go-dev-auth","urlToImage":"https://repository-images.githubusercontent.com/1322297741/a319cf38-1d56-458b-85d2-4a0b313808ac","publishedAt":"2026-10-11T13:06:36Z","content":"The CI badge covers the whole matrix on every push: build and tests on\r\nthe oldest supported 
+
+BRIEF: {
+  "mode": "evergreen",
+  "angle": "zero trust security architecture",
+  "facts": [
+    "- Zero Trust for AI Agents Starts With Fixing Zero Visibility \u2014 The way we talk about AI agents is shifting, and the way we implement them requires an even more fundamental shift. While earlier discourse focused on how quickly organizations could stand up agents and how much productivity they could promise, a string of re\u2026"
+  ],
+  "sources": [
+    {
+      "name": "Internet",
+      "url": "https://thehackernews.com/2026/09/zero-trust-for-ai-agents-starts-with.html"
+    }
+  ]
+}
+
+GENERATION PROMPT (user):
+Mode: evergreen
+Angle/topic: zero trust security architecture
+
+Known facts:
+- Zero Trust for AI Agents Starts With Fixing Zero Visibility — The way we talk about AI agents is shifting, and the way we implement them requires an even more fundamental shift. While earlier discourse focused on how quickly organizations could stand up agents and how much productivity they could promise, a string of re…
+
+Write the blog post now.
+
+GENERATION OUTPUT:
+# Zero Trust Security Architecture: Fixing Zero Visibility for AI Agents
+
+In the ever-evolving landscape of cybersecurity, the concept of zero trust security architecture has emerged as a critical framework. This approach emphasizes that no entity inside or outside a network perimeters should be trusted by default and requires verification for every access request. As organizations increasingly rely on AI agents to automate tasks and enhance productivity, it becomes imperative to apply this principle effectively.
+
+## The Evolution of AI Agent Implementation
+
+Historically, the focus when deploying AI agents was on speed and efficiency. Organizations were more concerned with how quickly they could stand up these agents and the immediate productivity gains they promised. However, recent developments highlight the need for a deeper, more secure foundation. A series of incidents have underscored the importance of ensuring that AI agents operate within a secure environment, where trust is earned through continuous verification rather than assumed.
+
+## The Shift in Perspective
+
+The discourse around AI agents is shifting from mere implementation to security and trustworthiness. Organizations must now consider not only how to deploy these agents but also how to ensure their interactions are secure and compliant. This shift is driven by the realization that AI agents, like any other system component, can be vulnerable to attacks and misuse if proper security measures are not in place.
+
+## Why Zero Trust Is Essential for AI Agents
+
+### Addressing Zero Visibility
+
+One of the primary challenges in implementing zero trust for AI agents is addressing "zero visibility." This term refers to the lack of clear understanding of who or what is interacting with sensitive data or systems. Without visibility, it's impossible to verify the identity and intentions of AI agents, making them potential vectors for cyberattacks.
+
+### Enhancing Security Posture
+
+To address this challenge, organizations must adopt a zero trust security architecture that includes robust authentication, authorization, and encryption mechanisms. These measures ensure that every interaction between an AI agent and the network is verified and secured. By doing so, organizations can mitigate risks associated with unauthorized access and data breaches.
+
+### Continuous Verification
+
+Zero trust security is not a one-time setup but an ongoing process. It involves continuous verification of identities and permissions for all entities, including AI agents. This means that even after initial authentication, AI agents must undergo periodic checks to ensure they continue to meet security standards. This dynamic approach helps prevent malicious activities and ensures that security remains a top priority.
+
+## Implementing Zero Trust for AI Agents
+
+### 1. Comprehensive Identity Management
+
+Organizations should implement comprehensive identity management systems that track and authenticate AI agents. This include
+
+QUALITY VALIDATION: True (ok)
+
+FACT VALIDATION RESULT: PASS
+
+FACT VALIDATION PASSED: True
+
