@@ -546,5 +546,20 @@
       "switch",
       "zelda"
     ]
+  },
+  {
+    "date": "2026-10-18",
+    "title": "Ensuring Security in the Open Source Software Supply Chain",
+    "slug": "ensuring-security-in-the-open-source-software-supply-chain",
+    "mode": "evergreen",
+    "keywords": [
+      "source",
+      "security",
+      "ensuring",
+      "chain",
+      "software",
+      "supply",
+      "open"
+    ]
   }
 ]
