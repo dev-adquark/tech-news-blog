@@ -3055,3 +3055,81 @@ FACT VALIDATION RESULT: PASS
 
 FACT VALIDATION PASSED: True
 
+=== Pipeline run 2026-10-20T12:29:56.811363 UTC ===
+
+MODE: evergreen
+
+DISCOVERED EVERGREEN TOPIC: low-code and no-code platforms
+
+SOURCE COLLECTION URL: https://newsapi.org/v2/everything (q='low-code and no-code platforms')
+
+SOURCE COLLECTION STATUS: 200
+
+SOURCE COLLECTION BODY: {"status":"ok","totalResults":330,"articles":[{"source":{"id":"the-next-web","name":"The Next Web"},"author":"Cristian Dina","title":"UiPath’s Michael Atalla on AI slop, junior jobs and a Shaolin monk’s advice","description":"UiPath’s marketing team has stopped paying outside firms to pull together its advertising data. The head of its paid media team built an AI agent on UiPath’s own platform instead, chief marketing officer Michael Atalla told TNW. It collects the data, analyses…","url":"https://thenextweb.com/news/michael-atalla-uipath-ai-agents-marketing-tnw-podcast","urlToImage":"https://media.thenextweb.com/2026/10/michael-atalla-cristian-dina-interview-bucharest-office-window.jpg","publishedAt":"2026-10-13T09:35:55Z","content":"UiPaths marketing team has stopped paying outside firms to pull together its advertising data. The head of its paid media team built an AI agent on UiPaths own platform instead, chief marketing offic… [+4733 chars]"},{"source":{"id":"the-next-web","name":"The Next Web"},"author":"Steve Beyatte","title":"The 9 best accounts receivable automation software platforms for 2026","description":"How nine AR automation platforms compare on collections automation and cash application, and which one keeps its AI inside auditable controls Allianz Research puts average global DSO at around 59 days, while roughly $10 trillion sits in unpaid invoices global…","url":"https://thenextweb.com/news/best-accounts-receivable-automation-software-2026","urlToImage":"https://media.thenextweb.com/2026/10/bookkeeper-laptop-calculator-desk.jpg","publishedAt":"2026-10-07T17:12:46Z","content":"Allianz Research puts average global DSO at around 59 days, while roughly $10 trillion sits in unpaid invoices globally. Cash that sits in receivables is cash a company cant deploy, which is why late… [+28869 chars]"},{"source":{"id":null,"name":"Kotaku"},"author":"Lewis Parker","title":"AI Vibe-Coding Just Hit The Video Game Industry Like An Avalanche","description":"We spoke to Take-Two’s former head of AI and Godot Engine’s executive director about the Claude Opus–shaped problem that the industry is currently facing","url":"https://kotaku.com/ai-vibe-coding-just-hit-the-video-game-industry-like-an-avalanche-2000746366","urlToImage":"https://kotaku.com/app/uploads/2026/04/Slay-the-Spire-2-official-trailer-image-Necrobinder.jpg","publishedAt":"2026-10-15T16:30:35Z","content":"If youre sick of hearing the words vibe-coded and Claude, trust me, youre not alone. Unfor
+
+BRIEF: {
+  "mode": "evergreen",
+  "angle": "low-code and no-code platforms",
+  "facts": [
+    "- The 9 best accounts receivable automation software platforms for 2026 \u2014 How nine AR automation platforms compare on collections automation and cash application, and which one keeps its AI inside auditable controls Allianz Research puts average global DSO at around 59 days, while roughly $10 trillion sits in unpaid invoices global\u2026",
+    "- This Week in Security: New Spectre Attacks, Crushing Quantity of Linux Vulns, Google Gets Too Much AI, and Hacking Lawnmowers \u2014 Just-in-time, or JIT, compilation could be considered a fundamental backbone of modern computing.\u00a0 JIT compilation turns scripting languages like JavaScript or intermediary binary forms like Web Assembly into native code \u2026read more"
+  ],
+  "sources": [
+    {
+      "name": "The Next Web",
+      "url": "https://thenextweb.com/news/best-accounts-receivable-automation-software-2026"
+    },
+    {
+      "name": "Hackaday",
+      "url": "https://hackaday.com/2026/10/09/this-week-in-security-new-spectre-attacks-crushing-quantity-of-linux-vulns-google-gets-too-much-ai-and-hacking-lawnmowers/"
+    }
+  ]
+}
+
+GENERATION PROMPT (user):
+Mode: evergreen
+Angle/topic: low-code and no-code platforms
+
+Known facts:
+- The 9 best accounts receivable automation software platforms for 2026 — How nine AR automation platforms compare on collections automation and cash application, and which one keeps its AI inside auditable controls Allianz Research puts average global DSO at around 59 days, while roughly $10 trillion sits in unpaid invoices global…
+- This Week in Security: New Spectre Attacks, Crushing Quantity of Linux Vulns, Google Gets Too Much AI, and Hacking Lawnmowers — Just-in-time, or JIT, compilation could be considered a fundamental backbone of modern computing.  JIT compilation turns scripting languages like JavaScript or intermediary binary forms like Web Assembly into native code …read more
+
+Write the blog post now.
+
+GENERATION OUTPUT:
+# Low-Code and No-Code Platforms: Empowering Businesses to Automate Accounts Receivable
+
+In the ever-evolving landscape of business technology, low-code and no-code platforms have emerged as powerful tools for streamlining operations, particularly in areas like accounts receivable (AR) automation. These platforms are designed to allow users with minimal technical expertise to build applications and automate processes without writing complex code. This democratization of software development is especially beneficial for businesses looking to improve their cash flow management and reduce the days sales outstanding (DSO).
+
+## The Role of Low-Code and No-Code in AR Automation
+
+According to Allianz Research, the global average DSO stands at around 59 days. This statistic underscores the critical need for efficient AR processes. Low-code and no-code platforms can significantly reduce these days by automating tasks such as invoice creation, payment tracking, and collections. By leveraging these tools, businesses can ensure that their receivables are managed more efficiently, thereby improving cash flow and overall financial health.
+
+## How Low-Code and No-Code Platforms Work
+
+At their core, low-code and no-code platforms simplify the development process through intuitive interfaces and drag-and-drop functionalities. Users can select pre-built templates and components to create custom applications tailored to their specific needs. For instance, a user might use a no-code platform to set up an automated workflow for invoice processing, where each step—from receipt of an invoice to its posting—is clearly defined and executed seamlessly.
+
+## Benefits of Using Low-Code and No-Code for AR Automation
+
+### Increased Efficiency
+
+One of the primary benefits of using low-code and no-code platforms is increased efficiency. These tools enable businesses to automate repetitive tasks, freeing up staff to focus on more strategic activities. For example, automating the posting of payments can save time and reduce the risk of errors.
+
+### Improved Accuracy
+
+Manual processes are prone to human error, which can lead to delays and discrepancies in financial records. Low-code and no-code platforms minimize these risks by ensuring that each step in the process is accurately followed. This not only speeds up the AR cycle but also improves the accuracy of financial data.
+
+### Enhanced Compliance
+
+Maintaining compliance with industry regulations can be challenging, especially when dealing with sensitive financial data. Low-code and no-code platforms often come with built-in security features and audit trails, making it easier for businesses to meet regulatory requirements. This is particularly important given the increasing scrutiny of data privacy and security.
+
+## Challenges and Considerations
+
+While low-code and no-code platforms offer numerous benefits, they are not without challenges. One potential drawback is the initial learning curve for users who may be new to these too
+
+QUALITY VALIDATION: True (ok)
+
+FACT VALIDATION RESULT: PASS
+
+FACT VALIDATION PASSED: True
+
