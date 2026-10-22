@@ -608,5 +608,20 @@
       "redemption",
       "eurogamer"
     ]
+  },
+  {
+    "date": "2026-10-22",
+    "title": "Understanding Zero Trust Security Architecture: A Comprehensive Guide",
+    "slug": "understanding-zero-trust-security-architecture-a-comprehensi",
+    "mode": "evergreen",
+    "keywords": [
+      "understanding",
+      "zero",
+      "trust",
+      "guide",
+      "security",
+      "comprehensive",
+      "architecture"
+    ]
   }
 ]
