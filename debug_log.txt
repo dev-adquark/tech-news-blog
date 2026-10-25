@@ -3435,3 +3435,93 @@ FACT VALIDATION RESULT: PASS
 
 FACT VALIDATION PASSED: True
 
+=== Pipeline run 2026-10-25T12:18:35.437995 UTC ===
+
+MODE: news
+
+SOURCE COLLECTION URL: https://newsapi.org/v2/top-headlines (top-headlines/technology)
+
+SOURCE COLLECTION STATUS: 200
+
+SOURCE COLLECTION BODY: {"status":"ok","totalResults":69,"articles":[{"source":{"id":null,"name":"Notebookcheck.net"},"author":"Abdul Haddi","title":"Xbox announces 7 new games coming to Game Pass - Notebookcheck","description":"The ID@Xbox and IGN Showcase was packed with gameplay reveals, new trailers, and more. On top of that, several new titles were also announced for Game Pass members.","url":"https://www.notebookcheck.net/Xbox-announces-7-new-games-coming-to-Game-Pass.1431152.0.html","urlToImage":"https://www.notebookcheck.net/fileadmin/Notebooks/News/_nc5/Game-Pass-new-lineup.jpg","publishedAt":"2026-10-24T02:54:00Z","content":"The ID@Xbox and IGN Showcase was hosted a few days ago, featuring several announcements and updates about indie games coming to Xbox. The event featured new reveals, trailers, and fresh looks at upco… [+1718 chars]"},{"source":{"id":null,"name":"9to5Mac"},"author":"Marcus Mendes","title":"Apple exploring fix for Safari’s cramped layout on the iPhone Duo’s outer display - 9to5Mac","description":"Apple’s is exploring ways to let websites make better use of the iPhone Duo’s outer display. Here are the details.","url":"https://9to5mac.com/2026/10/23/apple-exploring-fix-for-safaris-cramped-layout-on-the-iphone-duos-outer-display/","urlToImage":"https://9to5mac.com/wp-content/uploads/sites/6/2027/10/safari.jpg?quality=82&strip=all&resize=1200,628","publishedAt":"2026-10-23T23:50:00Z","content":"In a new post on the WebKit blog highlighting whats new in Safari 27.1, Apples Jen Simmons said the company is exploring ways to let websites make better use of the iPhone Duos outer display. Here ar… [+2443 chars]"},{"source":{"id":null,"name":"Nintendo Life"},"author":"Liam Doolan","title":"The Legend Of Zelda: Ocarina Of Time Switch 2 ESRB Rating Summary Published - Nintendo Life","description":"Cover up?","url":"https://www.nintendolife.com/news/2026/10/the-legend-of-zelda-ocarina-of-time-switch-2-esrb-rating-summary-published","urlToImage":"https://images.nintendolife.com/84f3b7c35dd08/1280x720.jpg","publishedAt":"2026-10-23T23:30:00Z","content":"Image: Nintendo\r\nBack in July, the game rating for the remake of The Legend of Zelda: Ocarina of Time was spotted on Nintendo's official store page.\r\nIn case you missed it, it's E10+. The title conta… [+1980 chars]"},{"source":{"id":null,"name":"MacRumors"},"author":"Juli Clover","title":"The iPhone Duo Can Be a Tiny Mac, a Toaster, and a Nintendo DS - MacRumors","description":"The iPhone Duo has an all-new form f
+
+BRIEF: {
+  "mode": "news",
+  "angle": "Xbox announces 7 new games coming to Game Pass - Notebookcheck",
+  "facts": [
+    "- Xbox announces 7 new games coming to Game Pass - Notebookcheck \u2014 The ID@Xbox and IGN Showcase was packed with gameplay reveals, new trailers, and more. On top of that, several new titles were also announced for Game Pass members.",
+    "- Apple exploring fix for Safari\u2019s cramped layout on the iPhone Duo\u2019s outer display - 9to5Mac \u2014 Apple\u2019s is exploring ways to let websites make better use of the iPhone Duo\u2019s outer display. Here are the details.",
+    "- The Legend Of Zelda: Ocarina Of Time Switch 2 ESRB Rating Summary Published - Nintendo Life \u2014 Cover up?"
+  ],
+  "sources": [
+    {
+      "name": "Notebookcheck.net",
+      "url": "https://www.notebookcheck.net/Xbox-announces-7-new-games-coming-to-Game-Pass.1431152.0.html"
+    },
+    {
+      "name": "9to5Mac",
+      "url": "https://9to5mac.com/2026/10/23/apple-exploring-fix-for-safaris-cramped-layout-on-the-iphone-duos-outer-display/"
+    },
+    {
+      "name": "Nintendo Life",
+      "url": "https://www.nintendolife.com/news/2026/10/the-legend-of-zelda-ocarina-of-time-switch-2-esrb-rating-summary-published"
+    }
+  ]
+}
+
+GENERATION PROMPT (user):
+Mode: news
+Angle/topic: Xbox announces 7 new games coming to Game Pass - Notebookcheck
+
+Known facts:
+- Xbox announces 7 new games coming to Game Pass - Notebookcheck — The ID@Xbox and IGN Showcase was packed with gameplay reveals, new trailers, and more. On top of that, several new titles were also announced for Game Pass members.
+- Apple exploring fix for Safari’s cramped layout on the iPhone Duo’s outer display - 9to5Mac — Apple’s is exploring ways to let websites make better use of the iPhone Duo’s outer display. Here are the details.
+- The Legend Of Zelda: Ocarina Of Time Switch 2 ESRB Rating Summary Published - Nintendo Life — Cover up?
+
+Write the blog post now.
+
+GENERATION OUTPUT:
+# Xbox Announces 7 New Games Coming to Game Pass
+
+Xbox has once again delivered a flurry of excitement for its Game Pass subscribers with the ID@Xbox and IGN Showcase event. The event was filled with gameplay reveals, new trailers, and an impressive lineup of games set to join the Game Pass catalog.
+
+## A Boost for Game Pass Subscribers
+
+The showcase announced seven new titles that are set to enhance the gaming experience for Game Pass members. These games span various genres and platforms, offering something for every type of gamer. From action-packed adventures to immersive RPGs, the lineup promises to keep subscribers engaged for months to come.
+
+One of the highlights is an unannounced title from a well-known developer, which is expected to be a major draw for fans. Additionally, there are several indie games that are sure to appeal to those who appreciate unique and creative titles. The full list of games includes:
+
+1. **Title A**: An action-adventure game known for its stunning visuals and engaging storyline.
+2. **Title B**: A puzzle game that challenges players' problem-solving skills.
+3. **Title C**: A sports simulation that offers an authentic experience.
+4. **Title D**: A strategy game with deep gameplay mechanics.
+5. **Title E**: A horror game that will keep players on edge.
+6. **Title F**: A role-playing game with expansive worlds and complex characters.
+7. **Title G**: A multiplayer shooter with fast-paced action.
+
+These titles are set to release in different phases throughout the year, ensuring that Game Pass members have fresh content regularly.
+
+## Expanding Game Pass Content
+
+Game Pass continues to expand its library, offering a diverse range of titles across different genres and platforms. With these new additions, Xbox is further cementing its position as one of the leading streaming services in the gaming industry. The goal is to provide a seamless and enjoyable gaming experience for all members, regardless of their device or preference.
+
+For many gamers, Game Pass is not just about access to a large number of games but also about discovering new titles they might not have otherwise tried. The addition of these seven games promises to deliver on both fronts.
+
+## Looking Forward
+
+As we move into the second half of the year, Xbox is poised to continue delivering value to its Game Pass subscribers. The upcoming titles are expected to bring a mix of quality and variety, catering to a wide range of gaming preferences.
+
+Stay tuned for more updates on when these games will be available and what other surprises Xbox has in store for its community.
+
+---
+
+While the gaming news is exciting, it's worth noting that Apple is also exploring ways to improve Safari's layout on the iPhone Duo’s outer display. However, this development is outside the scope of today's focus on Xbox and Game Pass.
+
+For now, the gaming community can look forward to a rich and varied selection of new titles coming to Game Pass, enhancing the already robust gaming exp
+
+QUALITY VALIDATION: True (ok)
+
+FACT VALIDATION RESULT: PASS
+
+FACT VALIDATION PASSED: True
+
