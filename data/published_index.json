@@ -681,5 +681,16 @@
       "vave",
       "from"
     ]
+  },
+  {
+    "date": "2026-10-28",
+    "title": "The Evolution of AI Agents in the Enterprise",
+    "slug": "the-evolution-of-ai-agents-in-the-enterprise",
+    "mode": "evergreen",
+    "keywords": [
+      "agents",
+      "evolution",
+      "enterprise"
+    ]
   }
 ]
