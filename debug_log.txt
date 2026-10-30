@@ -3834,3 +3834,38 @@ FACT VALIDATION RESULT: PASS
 
 FACT VALIDATION PASSED: True
 
+=== Pipeline run 2026-10-30T13:47:12.907264 UTC ===
+
+MODE: evergreen
+
+DISCOVERED EVERGREEN TOPIC: MLOps and machine learning infrastructure
+
+SOURCE COLLECTION URL: https://newsapi.org/v2/everything (q='MLOps and machine learning infrastructure')
+
+SOURCE COLLECTION STATUS: 200
+
+SOURCE COLLECTION BODY: {"status":"ok","totalResults":15,"articles":[{"source":{"id":null,"name":"Addicted2success.com"},"author":"Addicted2Success Editor","title":"5 Best GEO Companies for Improving AI Recommendation Accuracy","description":"AI visibility is only valuable when the information being surfaced is accurate. A brand may appear in ChatGPT, Gemini, Perplexity, or Claude but still be described with outdated products, incorrect positioning, or incomplete information. For companies relying…","url":"https://addicted2success.com/ai/best-geo-companies-ai-recommendation-accuracy/","urlToImage":"https://addicted2success.com/wp-content/uploads/2026/10/A-woman-in-an-AI-lab-working-on-GEO-search-patterns-1000x600.jpeg","publishedAt":"2026-10-02T20:05:25Z","content":"Personal finance apps are moving beyond expense tracking and static dashboards. Most of them are now using machine learning to sort transactions, spot unusual activity, forecast cash flow, suggest sa… [+10487 chars]"},{"source":{"id":null,"name":"Addicted2success.com"},"author":"Addicted2Success Editor","title":"Anthropic Wants a $2 Trillion Valuation — While Warning the AI Race May Need to Slow","description":"The AI race is gradually entering a new stage, where investors are beginning to assess not only growth rates but also the ability to turn huge computing costs into sustainable profits. Against this backdrop, Anthropic looks particularly interesting, as the co…","url":"https://addicted2success.com/ai/anthropic-ipo-valuation-ai-race-profitability/","urlToImage":"https://addicted2success.com/wp-content/uploads/2026/09/Man-standing-at-window-looking-at-digital-AI-LLM-responses-on-his-window-projection-Large-1000x600.jpeg","publishedAt":"2026-09-30T06:34:21Z","content":"Personal finance apps are moving beyond expense tracking and static dashboards. Most of them are now using machine learning to sort transactions, spot unusual activity, forecast cash flow, suggest sa… [+10487 chars]"},{"source":{"id":null,"name":"Addicted2success.com"},"author":"Addicted2Success Editor","title":"Why the Global Workforce Needs an AI Interpreter in Every Meeting","description":"There is a moment in almost every cross-border meeting that nobody brings up afterward. Somebody says something that matters, the other side nods, and 3 weeks later you learn the nod meant nothing. Your best engineer works out of Warsaw. Your supplier runs ou…","url":"https://addicted2success.com/ai/ai-interpreter-global-workforce-meetings/","urlToImage":"https:
+
+BRIEF: {
+  "mode": "evergreen",
+  "angle": "MLOps and machine learning infrastructure",
+  "facts": [
+    "- Deserializer \u2014 AST-based Static Code Analyzer with Agentic LLM-Powered Relationship Mapping to discover Python RCE paths and deep deserialization chains on AI, LLM, Robotics, Data Science, Machine Learning and Deep Learning (but not limited)."
+  ],
+  "sources": [
+    {
+      "name": "Kitploit.com",
+      "url": "https://kitploit.com/en/tools/github/joshuaprovoste/deserializer/"
+    }
+  ]
+}
+
+GENERATION PROMPT (user):
+Mode: evergreen
+Angle/topic: MLOps and machine learning infrastructure
+
+Known facts:
+- Deserializer — AST-based Static Code Analyzer with Agentic LLM-Powered Relationship Mapping to discover Python RCE paths and deep deserialization chains on AI, LLM, Robotics, Data Science, Machine Learning and Deep Learning (but not limited).
+
+Write the blog post now.
+
