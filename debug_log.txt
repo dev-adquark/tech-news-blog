@@ -3869,3 +3869,48 @@ Known facts:
 
 Write the blog post now.
 
+=== Pipeline run 2026-10-31T13:16:01.000470 UTC ===
+
+MODE: news
+
+SOURCE COLLECTION URL: https://newsapi.org/v2/top-headlines (top-headlines/technology)
+
+SOURCE COLLECTION STATUS: 200
+
+SOURCE COLLECTION BODY: {"status":"ok","totalResults":69,"articles":[{"source":{"id":"bloomberg","name":"Bloomberg"},"author":"Jason Schreier","title":"Why Electronic Arts Shut Down BioWare And Cancelled ‘Mass Effect’ - Bloomberg","description":"Facing financial pressure, the video-game publisher chose ‘Star Wars’ over ‘Mass Effect’","url":"https://www.bloomberg.com/news/newsletters/2026-10-30/why-electronic-arts-shut-down-bioware-and-cancelled-mass-effect","urlToImage":"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/ijvUtZTBNuP8/v8/1200x800.jpg","publishedAt":"2026-10-30T14:00:03Z","content":"Hi everyone. Today were bringing you an explanation for why BioWare closed last week, but first...\r\nThis weeks top gaming news:"},{"source":{"id":null,"name":"Nintendo Life"},"author":"Jim Norman","title":"Nintendo Cancels Kirby Air Riders Halloween Event Following Performance Woes - Nintendo Life","description":"Freeze frame","url":"https://www.nintendolife.com/news/2026/10/nintendo-cancels-kirby-air-riders-halloween-event-following-performance-woes","urlToImage":"https://images.nintendolife.com/0a96007f379cc/1280x720.jpg","publishedAt":"2026-10-30T13:45:00Z","content":"Image: Nintendo\r\nIf you have been keeping up with Kirby Air Riders of late, you might have been excited to dive into the game's new Halloween event this weekend and pick up some spooky Ghost headwear… [+1447 chars]"},{"source":{"id":"the-verge","name":"The Verge"},"author":"Allison Johnson","title":"The Apple Pencil turned the Duo into my new favorite notebook - The Verge","description":"The iPhone Duo’s Apple Pencil compatibility means it can do a pretty good impression of a notebook.","url":"https://www.theverge.com/tech/1022894/iphone-duo-apple-pencil-hands-on","urlToImage":"https://platform.theverge.com/wp-content/uploads/sites/2/2026/10/DSC04364_processed.jpg?quality=90&strip=all&crop=0%2C10.723165084465%2C100%2C78.55366983107&w=1200","publishedAt":"2026-10-30T12:30:00Z","content":"<ul><li></li><li></li><li></li></ul>\r\nThe Apple Pencil turned the Duo into my new favorite notebook\r\nIgnore the pile of previous favorite notebooks; this is the one thats gonna change it all for me.\r… [+8064 chars]"},{"source":{"id":null,"name":"Eurogamer.net"},"author":"Dom Peppiatt","title":"Celeste and TowerFall dev explains why both games were suddenly delisted from Xbox - Eurogamer.net","description":"\"We did this to support the BDS boycott,\" says developer Maddy Thorson.","url":"https://www.eurogamer.net/towerfall-celeste-
+
+BRIEF: {
+  "mode": "news",
+  "angle": "Why Electronic Arts Shut Down BioWare And Cancelled \u2018Mass Effect\u2019 - Bloomberg",
+  "facts": [
+    "- Why Electronic Arts Shut Down BioWare And Cancelled \u2018Mass Effect\u2019 - Bloomberg \u2014 Facing financial pressure, the video-game publisher chose \u2018Star Wars\u2019 over \u2018Mass Effect\u2019",
+    "- Nintendo Cancels Kirby Air Riders Halloween Event Following Performance Woes - Nintendo Life \u2014 Freeze frame",
+    "- The Apple Pencil turned the Duo into my new favorite notebook - The Verge \u2014 The iPhone Duo\u2019s Apple Pencil compatibility means it can do a pretty good impression of a notebook."
+  ],
+  "sources": [
+    {
+      "name": "Bloomberg",
+      "url": "https://www.bloomberg.com/news/newsletters/2026-10-30/why-electronic-arts-shut-down-bioware-and-cancelled-mass-effect"
+    },
+    {
+      "name": "Nintendo Life",
+      "url": "https://www.nintendolife.com/news/2026/10/nintendo-cancels-kirby-air-riders-halloween-event-following-performance-woes"
+    },
+    {
+      "name": "The Verge",
+      "url": "https://www.theverge.com/tech/1022894/iphone-duo-apple-pencil-hands-on"
+    }
+  ]
+}
+
+GENERATION PROMPT (user):
+Mode: news
+Angle/topic: Why Electronic Arts Shut Down BioWare And Cancelled ‘Mass Effect’ - Bloomberg
+
+Known facts:
+- Why Electronic Arts Shut Down BioWare And Cancelled ‘Mass Effect’ - Bloomberg — Facing financial pressure, the video-game publisher chose ‘Star Wars’ over ‘Mass Effect’
+- Nintendo Cancels Kirby Air Riders Halloween Event Following Performance Woes - Nintendo Life — Freeze frame
+- The Apple Pencil turned the Duo into my new favorite notebook - The Verge — The iPhone Duo’s Apple Pencil compatibility means it can do a pretty good impression of a notebook.
+
+Write the blog post now.
+
