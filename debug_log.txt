@@ -4023,3 +4023,67 @@ FACT VALIDATION RESULT: PASS
 
 FACT VALIDATION PASSED: True
 
+=== Pipeline run 2026-11-03T14:49:43.065856 UTC ===
+
+MODE: evergreen
+
+DISCOVERED EVERGREEN TOPIC: low-code and no-code platforms
+
+SOURCE COLLECTION URL: https://newsapi.org/v2/everything (q='low-code and no-code platforms')
+
+SOURCE COLLECTION STATUS: 200
+
+SOURCE COLLECTION BODY: {"status":"ok","totalResults":342,"articles":[{"source":{"id":"the-next-web","name":"The Next Web"},"author":"Cristian Dina","title":"UiPath’s Michael Atalla on AI slop, junior jobs and a Shaolin monk’s advice","description":"UiPath’s marketing team has stopped paying outside firms to pull together its advertising data. The head of its paid media team built an AI agent on UiPath’s own platform instead, chief marketing officer Michael Atalla told TNW. It collects the data, analyses…","url":"https://thenextweb.com/news/michael-atalla-uipath-ai-agents-marketing-tnw-podcast","urlToImage":"https://media.thenextweb.com/2026/10/michael-atalla-cristian-dina-interview-bucharest-office-window.jpg","publishedAt":"2026-10-13T09:35:55Z","content":"UiPaths marketing team has stopped paying outside firms to pull together its advertising data. The head of its paid media team built an AI agent on UiPaths own platform instead, chief marketing offic… [+4733 chars]"},{"source":{"id":"the-next-web","name":"The Next Web"},"author":"Steve Beyatte","title":"The 9 best accounts receivable automation software platforms for 2026","description":"How nine AR automation platforms compare on collections automation and cash application, and which one keeps its AI inside auditable controls Allianz Research puts average global DSO at around 59 days, while roughly $10 trillion sits in unpaid invoices global…","url":"https://thenextweb.com/news/best-accounts-receivable-automation-software-2026","urlToImage":"https://media.thenextweb.com/2026/10/bookkeeper-laptop-calculator-desk.jpg","publishedAt":"2026-10-07T17:12:46Z","content":"Allianz Research puts average global DSO at around 59 days, while roughly $10 trillion sits in unpaid invoices globally. Cash that sits in receivables is cash a company cant deploy, which is why late… [+28869 chars]"},{"source":{"id":null,"name":"Kotaku"},"author":"Lewis Parker","title":"AI Vibe-Coding Just Hit The Video Game Industry Like An Avalanche","description":"We spoke to Take-Two’s former head of AI and Godot Engine’s executive director about the Claude Opus–shaped problem that the industry is currently facing","url":"https://kotaku.com/ai-vibe-coding-just-hit-the-video-game-industry-like-an-avalanche-2000746366","urlToImage":"https://kotaku.com/app/uploads/2026/04/Slay-the-Spire-2-official-trailer-image-Necrobinder.jpg","publishedAt":"2026-10-15T16:30:35Z","content":"If youre sick of hearing the words vibe-coded and Claude, trust me, youre not alone. Unfor
+
+BRIEF: {
+  "mode": "evergreen",
+  "angle": "low-code and no-code platforms",
+  "facts": [
+    "- The 9 best accounts receivable automation software platforms for 2026 \u2014 How nine AR automation platforms compare on collections automation and cash application, and which one keeps its AI inside auditable controls Allianz Research puts average global DSO at around 59 days, while roughly $10 trillion sits in unpaid invoices global\u2026"
+  ],
+  "sources": [
+    {
+      "name": "The Next Web",
+      "url": "https://thenextweb.com/news/best-accounts-receivable-automation-software-2026"
+    }
+  ]
+}
+
+GENERATION PROMPT (user):
+Mode: evergreen
+Angle/topic: low-code and no-code platforms
+
+Known facts:
+- The 9 best accounts receivable automation software platforms for 2026 — How nine AR automation platforms compare on collections automation and cash application, and which one keeps its AI inside auditable controls Allianz Research puts average global DSO at around 59 days, while roughly $10 trillion sits in unpaid invoices global…
+
+Write the blog post now.
+
+GENERATION OUTPUT:
+# Navigating the Future of Accounts Receivable Automation with Low-Code and No-Code Platforms
+
+In today's fast-paced business environment, the efficiency and accuracy of accounts receivable (AR) processes are critical for maintaining healthy cash flow. According to Allianz Research, the average global Days Sales Outstanding (DSO) is around 59 days, indicating a significant amount of time that could be optimized. Moreover, roughly $10 trillion sits in unpaid invoices globally, highlighting the potential gains from streamlining AR processes.
+
+Enter low-code and no-code platforms, which are transforming how businesses handle their AR workflows. These platforms enable organizations to automate and optimize their AR processes without requiring extensive coding knowledge, making them accessible to a broader range of users. This article will explore how these platforms can help reduce DSO, improve collections automation, and enhance cash application processes.
+
+## What Are Low-Code and No-Code Platforms?
+
+Low-code and no-code platforms allow users to build applications using graphical interfaces and pre-built components, eliminating the need for complex programming languages. These tools are designed to be user-friendly, even for those without extensive technical backgrounds. By leveraging drag-and-drop functionality, customizable templates, and pre-configured integrations, these platforms can significantly accelerate the development and deployment of AR automation solutions.
+
+## Enhancing Collections Automation
+
+One of the primary benefits of low-code and no-code platforms in AR automation is their ability to streamline collections processes. With these tools, businesses can create automated workflows that trigger notifications, follow-ups, and payment plans based on specific criteria. For instance, if an invoice remains unpaid beyond a certain period, the platform can automatically send reminder emails or SMS messages to the customer. This proactive approach not only improves communication but also reduces the time spent on manual follow-ups.
+
+Moreover, these platforms can integrate with various communication channels, such as email, social media, and messaging apps, ensuring that customers receive timely reminders regardless of their preferred method of communication. This multi-channel approach helps ensure that no payment is overlooked, thereby reducing the DSO.
+
+## Improving Cash Application Processes
+
+Another key area where low-code and no-code platforms excel is in cash application processes. These tools can automate the reconciliation of payments against outstanding invoices, ensuring that payments are applied correctly and promptly. By integrating with accounting systems, banks, and other financial platforms, these platforms can provide real-time updates on payment statuses, reducing the risk of errors and delays.
+
+For example, when a payment is received, the platform can automatically match it against the corresponding invoice, apply the paym
+
+QUALITY VALIDATION: True (ok)
+
+FACT VALIDATION RESULT: PASS
+
+FACT VALIDATION PASSED: True
+
