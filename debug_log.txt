@@ -4167,3 +4167,73 @@ FACT VALIDATION RESULT: PASS
 
 FACT VALIDATION PASSED: True
 
+=== Pipeline run 2026-11-05T15:08:10.257480 UTC ===
+
+MODE: evergreen
+
+DISCOVERED EVERGREEN TOPIC: API security best practices
+
+SOURCE COLLECTION URL: https://newsapi.org/v2/everything (q='API security best practices')
+
+SOURCE COLLECTION STATUS: 200
+
+SOURCE COLLECTION BODY: {"status":"ok","totalResults":119,"articles":[{"source":{"id":null,"name":"Gizmodo.com"},"author":"Kyle Torpey","title":"Two More Crypto Hardware Wallet Manufacturers Have Been Hacked","description":"Are crypto-focused hardware devices even a good idea?","url":"https://gizmodo.com/two-more-crypto-hardware-wallet-manufacturers-have-been-hacked-2000830786","urlToImage":"https://gizmodo.com/app/uploads/2025/11/crypto_hack-1200x675.jpg","publishedAt":"2026-10-26T21:50:44Z","content":"Two more crypto hardware wallet makers have disclosed security incidents in recent days, adding to an extremely rough stretch for companies that sell devices meant to keep users bitcoin and other cry… [+9069 chars]"},{"source":{"id":"the-next-web","name":"The Next Web"},"author":"Ana Maria Constantin","title":"One prompt let researchers take over every AWS AgentCore agent in a region","description":"Researchers at Zenity Labs used a single prompt to one public-facing AI agent on Amazon Bedrock AgentCore to take over every AgentCore agent in the same AWS account and region. The security firm published the research on Thursday, alongside a talk at the SecT…","url":"https://thenextweb.com/news/aws-agentcore-zenity-agentcorruption-one-prompt-agents","urlToImage":"https://media.thenextweb.com/2026/08/zenity-ai.jpg","publishedAt":"2026-10-08T14:14:15Z","content":"Correction, 8 October 2026\r\nAn earlier version of this articles headline said researchers took over every AWS AgentCore agent in a region. The research covered agents within a single AWS account and … [+4443 chars]"},{"source":{"id":null,"name":"Anthropic.com"},"author":"Anthropic","title":"Expanding our partnership with GSA to bring Claude to all levels of government","description":"We are expanding our partnership with the General Services Administration (GSA) through a new agreement that gives government partners a 40% discount on Claude Enterprise, Claude for Government, and the Claude API.","url":"https://www.anthropic.com/news/expanding-partnership-gsa","urlToImage":"https://www-cdn.anthropic.com/images/4zrzovbb/website/4e3bfa972a8ec391977288fa36de3da1ecd78232-1920x1080.webp","publishedAt":"2026-10-27T22:23:37Z","content":"We are expanding our partnership with the General Services Administration (GSA) through a new agreement that gives government partners a 40% discount on Claude Enterprise, Claude for Government, and … [+3841 chars]"},{"source":{"id":null,"name":"Securelist.com"},"author":"Dmitry Latokhin, Vladimir Kus
+
+BRIEF: {
+  "mode": "evergreen",
+  "angle": "API security best practices",
+  "facts": [
+    "- Deploying AI agents securely: how Kaspersky products mitigate AI threats \u2014 We look at best practices for deploying AI tools securely in corporate environments, with Kaspersky Security Center and Kaspersky Endpoint Security as examples. We also cover ways that EDR and TIP can detect AI agents."
+  ],
+  "sources": [
+    {
+      "name": "Securelist.com",
+      "url": "https://securelist.com/tr/how-to-secure-ai-agents/121444/"
+    }
+  ]
+}
+
+GENERATION PROMPT (user):
+Mode: evergreen
+Angle/topic: API security best practices
+
+Known facts:
+- Deploying AI agents securely: how Kaspersky products mitigate AI threats — We look at best practices for deploying AI tools securely in corporate environments, with Kaspersky Security Center and Kaspersky Endpoint Security as examples. We also cover ways that EDR and TIP can detect AI agents.
+
+Write the blog post now.
+
+GENERATION OUTPUT:
+# API Security Best Practices: Ensuring Secure Deployment of AI Agents
+
+In today's digital landscape, Application Programming Interfaces (APIs) have become a cornerstone of modern software development. They enable seamless communication between different systems and applications, making them indispensable for businesses. However, with the increasing use of Artificial Intelligence (AI) in these APIs, securing them has become more critical than ever. This blog post will explore best practices for deploying AI agents securely within corporate environments, drawing on insights from Kaspersky’s security solutions.
+
+## Understanding the Role of APIs in Modern Applications
+
+APIs serve as the backbone of many enterprise applications, facilitating data exchange and integration across various services. They are essential for enabling functionalities such as real-time data processing, automated workflows, and enhanced user experiences. Given their importance, ensuring the security of APIs is paramount to protect sensitive data and maintain business continuity.
+
+## Mitigating AI Threats with Kaspersky Security Solutions
+
+Kaspersky offers robust security solutions that help organizations mitigate AI threats in their corporate environments. Two key products—Kaspersky Security Center and Kaspersky Endpoint Security—are particularly noteworthy in this context.
+
+### Kaspersky Security Center
+
+Kaspersky Security Center provides a centralized management platform for security policies, monitoring, and compliance. By integrating AI-driven threat detection capabilities, it can effectively identify and respond to potential security breaches, including those involving AI agents. This centralized approach ensures consistent security measures across all endpoints and applications, reducing the risk of unauthorized access or misuse.
+
+### Kaspersky Endpoint Security
+
+Kaspersky Endpoint Security is designed to protect individual endpoints against a wide range of threats. It leverages advanced AI technologies to detect and neutralize malware and other malicious activities. By continuously learning from new threat patterns, this solution can adapt to emerging AI-based threats, ensuring ongoing protection.
+
+## Detecting AI Agents with EDR and TIP
+
+Endpoint Detection and Response (EDR) and Threat Intelligence Platform (TIP) are crucial components in detecting AI agents within an organization. EDR tools provide detailed forensic analysis of endpoint activity, allowing security teams to investigate suspicious behavior and identify potential AI threats. On the other hand, TIP platforms gather and analyze intelligence from various sources to predict and prevent threats, including those related to AI.
+
+### Leveraging EDR for AI Threat Detection
+
+EDR tools can monitor system behaviors and log events in real-time. When combined with AI, these tools can quickly identify anomalies that may indicate the presence of AI agents. For instance, unusual patterns in network traffic, unexpected c
+
+QUALITY VALIDATION: True (ok)
+
+FACT VALIDATION RESULT: PASS
+
+FACT VALIDATION PASSED: True
+

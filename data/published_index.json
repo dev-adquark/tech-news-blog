@@ -751,5 +751,20 @@
       "this",
       "techpowerup"
     ]
+  },
+  {
+    "date": "2026-11-05",
+    "title": "API Security Best Practices: Ensuring Secure Deployment of AI Agents",
+    "slug": "api-security-best-practices-ensuring-secure-deployment-of-ai",
+    "mode": "evergreen",
+    "keywords": [
+      "deployment",
+      "agents",
+      "best",
+      "security",
+      "practices",
+      "ensuring",
+      "secure"
+    ]
   }
 ]
