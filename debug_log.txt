@@ -4313,3 +4313,79 @@ FACT VALIDATION RESULT: PASS
 
 FACT VALIDATION PASSED: True
 
+=== Pipeline run 2026-11-07T13:43:28.404774 UTC ===
+
+MODE: evergreen
+
+DISCOVERED EVERGREEN TOPIC: API security best practices
+
+SOURCE COLLECTION URL: https://newsapi.org/v2/everything (q='API security best practices')
+
+SOURCE COLLECTION STATUS: 200
+
+SOURCE COLLECTION BODY: {"status":"ok","totalResults":119,"articles":[{"source":{"id":null,"name":"Gizmodo.com"},"author":"Kyle Torpey","title":"Two More Crypto Hardware Wallet Manufacturers Have Been Hacked","description":"Are crypto-focused hardware devices even a good idea?","url":"https://gizmodo.com/two-more-crypto-hardware-wallet-manufacturers-have-been-hacked-2000830786","urlToImage":"https://gizmodo.com/app/uploads/2025/11/crypto_hack-1200x675.jpg","publishedAt":"2026-10-26T21:50:44Z","content":"Two more crypto hardware wallet makers have disclosed security incidents in recent days, adding to an extremely rough stretch for companies that sell devices meant to keep users bitcoin and other cry… [+9069 chars]"},{"source":{"id":"the-next-web","name":"The Next Web"},"author":"Ana Maria Constantin","title":"One prompt let researchers take over every AWS AgentCore agent in a region","description":"Researchers at Zenity Labs used a single prompt to one public-facing AI agent on Amazon Bedrock AgentCore to take over every AgentCore agent in the same AWS account and region. The security firm published the research on Thursday, alongside a talk at the SecT…","url":"https://thenextweb.com/news/aws-agentcore-zenity-agentcorruption-one-prompt-agents","urlToImage":"https://media.thenextweb.com/2026/08/zenity-ai.jpg","publishedAt":"2026-10-08T14:14:15Z","content":"Correction, 8 October 2026\r\nAn earlier version of this articles headline said researchers took over every AWS AgentCore agent in a region. The research covered agents within a single AWS account and … [+4443 chars]"},{"source":{"id":null,"name":"Anthropic.com"},"author":"Anthropic","title":"Expanding our partnership with GSA to bring Claude to all levels of government","description":"We are expanding our partnership with the General Services Administration (GSA) through a new agreement that gives government partners a 40% discount on Claude Enterprise, Claude for Government, and the Claude API.","url":"https://www.anthropic.com/news/expanding-partnership-gsa","urlToImage":"https://www-cdn.anthropic.com/images/4zrzovbb/website/4e3bfa972a8ec391977288fa36de3da1ecd78232-1920x1080.webp","publishedAt":"2026-10-27T22:23:37Z","content":"We are expanding our partnership with the General Services Administration (GSA) through a new agreement that gives government partners a 40% discount on Claude Enterprise, Claude for Government, and … [+3841 chars]"},{"source":{"id":null,"name":"Openai.com"},"author":null,"title":"Local privilege esca
+
+BRIEF: {
+  "mode": "evergreen",
+  "angle": "API security best practices",
+  "facts": [
+    "- Deploying AI agents securely: how Kaspersky products mitigate AI threats \u2014 We look at best practices for deploying AI tools securely in corporate environments, with Kaspersky Security Center and Kaspersky Endpoint Security as examples. We also cover ways that EDR and TIP can detect AI agents."
+  ],
+  "sources": [
+    {
+      "name": "Securelist.com",
+      "url": "https://securelist.com/tr/how-to-secure-ai-agents/121444/"
+    }
+  ]
+}
+
+GENERATION PROMPT (user):
+Mode: evergreen
+Angle/topic: API security best practices
+
+Known facts:
+- Deploying AI agents securely: how Kaspersky products mitigate AI threats — We look at best practices for deploying AI tools securely in corporate environments, with Kaspersky Security Center and Kaspersky Endpoint Security as examples. We also cover ways that EDR and TIP can detect AI agents.
+
+Write the blog post now.
+
+GENERATION OUTPUT:
+# Ensuring Secure API Integration: Best Practices for Modern Applications
+
+In today’s digital landscape, APIs (Application Programming Interfaces) are integral to the functionality of modern applications. They enable seamless communication between different software components and facilitate data exchange across various systems. However, as APIs become more ubiquitous, the importance of securing them cannot be overstated. This is particularly true when integrating AI agents into corporate environments.
+
+## Understanding API Security Challenges
+
+API security involves protecting the endpoints, protocols, and data exchanged through these interfaces. Common threats include unauthorized access, data breaches, and denial-of-service attacks. When integrating AI agents, additional considerations arise due to the complexity and dynamic nature of these tools. Ensuring that AI agents operate securely within corporate networks requires a comprehensive approach.
+
+## Best Practices for Secure API Integration
+
+### 1. Implement Strong Authentication and Authorization
+
+One of the foundational aspects of securing APIs is implementing robust authentication and authorization mechanisms. This involves verifying the identity of users and ensuring that they have the appropriate permissions to access specific API endpoints. For instance, OAuth 2.0 and OpenID Connect are widely used standards for secure authentication and authorization.
+
+### 2. Use HTTPS for Secure Data Transmission
+
+HTTPS (Hyper Text Transfer Protocol Secure) should always be used to encrypt data transmitted over the internet. This ensures that sensitive information, such as user credentials and API keys, are not intercepted by malicious actors during transit. Encryption protocols like TLS (Transport Layer Security) provide the necessary security measures to protect data integrity and confidentiality.
+
+### 3. Employ Rate Limiting and Throttling
+
+Rate limiting and throttling are essential techniques to prevent abuse and ensure fair usage of APIs. By setting limits on the number of requests that can be made within a specified time frame, you can mitigate the risk of denial-of-service attacks and ensure that your APIs remain available to legitimate users.
+
+### 4. Validate Input Data
+
+Input validation is crucial in preventing common security vulnerabilities such as SQL injection, cross-site scripting (XSS), and command injection. By validating and sanitizing all input data before processing it, you can significantly reduce the risk of these types of attacks.
+
+### 5. Monitor and Log API Activity
+
+Continuous monitoring and logging of API activity are vital for detecting and responding to security incidents. Logs should capture detailed information about API requests, including timestamps, user IDs, and request parameters. By analyzing these logs, you can identify suspicious patterns and take proactive measures to address potential security issues.
+
+### 6. Leverage Security Tools and Frameworks
+
+Security tools
+
+QUALITY VALIDATION: True (ok)
+
+FACT VALIDATION RESULT: PASS
+
+FACT VALIDATION PASSED: True
+

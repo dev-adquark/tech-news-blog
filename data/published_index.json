@@ -782,5 +782,21 @@
       "going",
       "premium"
     ]
+  },
+  {
+    "date": "2026-11-07",
+    "title": "Ensuring Secure API Integration: Best Practices for Modern Applications",
+    "slug": "ensuring-secure-api-integration-best-practices-for-modern-ap",
+    "mode": "evergreen",
+    "keywords": [
+      "modern",
+      "integration",
+      "security",
+      "secure",
+      "ensuring",
+      "best",
+      "practices",
+      "applications"
+    ]
   }
 ]
