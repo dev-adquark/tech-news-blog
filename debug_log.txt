@@ -4461,3 +4461,89 @@ FACT VALIDATION RESULT: PASS
 
 FACT VALIDATION PASSED: True
 
+=== Pipeline run 2026-11-09T17:06:25.394392 UTC ===
+
+MODE: evergreen
+
+DISCOVERED EVERGREEN TOPIC: open source software supply chain security
+
+SOURCE COLLECTION URL: https://newsapi.org/v2/everything (q='open source software supply chain security')
+
+SOURCE COLLECTION STATUS: 200
+
+SOURCE COLLECTION BODY: {"status":"ok","totalResults":184,"articles":[{"source":{"id":null,"name":"Gizmodo.com"},"author":"Kyle Torpey","title":"There Are Too Many Crypto Hacks Happening. It’s Impossible to Keep Up.","description":"Binance’s $6.3 billion hack grabbed the headlines, but a massive pile of other underreported crypto thefts and security incidents have popped up in recent weeks.","url":"https://gizmodo.com/there-are-too-many-crypto-hacks-happening-its-impossible-to-keep-up-2000833986","urlToImage":"https://gizmodo.com/app/uploads/2026/11/crypto-hack-1200x675.jpg","publishedAt":"2026-11-03T15:35:55Z","content":"Binances $6.3 billion hack and the efforts by North Korea-linked entities to launder the proceeds from it have dominated crypto coverage in recent days, and for good reason. But it is hardly the only… [+10248 chars]"},{"source":{"id":null,"name":"Hackaday"},"author":"Mike Kershaw","title":"This Week in Security: More Linux Bugs, Biggest Crypto Theft Ever, Prusa Printers, Residential Proxies","description":"Linux kernel bugs which can be triggered remotely, without any login, are rare. Most kernel vulnerabilities need an attacker to already be running code on the machine. CVE-2026-98432 is one of those: …read more","url":"https://hackaday.com/2026/11/06/this-week-in-security-more-linux-bugs-biggest-crypto-theft-ever-prusa-printers-residential-proxies/","urlToImage":"https://s0.wp.com/_si/?t=eyJpbWciOiJodHRwczpcL1wvaGFja2FkYXkuY29tXC93cC1jb250ZW50XC91cGxvYWRzXC8yMDIwXC8wN1wvaGFja2FkYXktbG9nby13aXRoLXRleHQtb3BlbmdyYXBoLWRlZmF1bHQtaW1hZ2UuanBnIiwidHh0IjoiSGFja2FkYXkiLCJ0ZW1wbGF0ZSI6ImhpZ2h3YXkiLCJmb250IjoiIiwiYmxvZ19pZCI6MTU2NjcwMTc3fQ.kVPxWrsIQyGdD1cPoxYvzP1mD56qtpkNpW1nAFiZiIgMQ","publishedAt":"2026-11-06T16:21:04Z","content":"Linux kernel bugs which can be triggered remotely, without any login, are rare. Most kernel vulnerabilities need an attacker to already be running code on the machine. CVE-2026-98432 is one of those:… [+28507 chars]"},{"source":{"id":null,"name":"Cohere.com"},"author":"Cohere Team","title":"Concerning behavior from a popular open-weight AI model","description":"Discover how untrusted open-weight AI models can potentially leak data, even when self-hosted. Learn the security risks and how to protect your enterprise.","url":"https://cohere.com/blog/concerning-behaviour-popular-open-weight-ai-model","urlToImage":"https://cdn.sanity.io/images/rjtqmwfu/web3-prod/b966213f9f46bb9cec6ec5a3406e893530b8b292-1200x630.png?w=1200&h=630&q=80&fit=crop&auto=
+
+BRIEF: {
+  "mode": "evergreen",
+  "angle": "open source software supply chain security",
+  "facts": [
+    "- Concerning behavior from a popular open-weight AI model \u2014 Discover how untrusted open-weight AI models can potentially leak data, even when self-hosted. Learn the security risks and how to protect your enterprise.",
+    "- \u26a1 Weekly Recap: This2Shell, That2Shell, Everything's an RCE? Rogue AI, Supply Chain Chaos and More \u2014 This2Shell, That2Shell, Everything2Shell. That's pretty much how the last week went. Critical bugs that let attackers run code remotely are showing up everywhere. Hackers are scanning for targets, some flaws are already being used in attacks, and security tea\u2026",
+    "- Will Linux phones become a viable alternative to the Android/iOS duopoly? \u2014 Linux phones now have the hardware and software to succeed, but it is an open question whether they will become a viable alternative to the Android/iOS duopoly."
+  ],
+  "sources": [
+    {
+      "name": "Cohere.com",
+      "url": "https://cohere.com/blog/concerning-behaviour-popular-open-weight-ai-model"
+    },
+    {
+      "name": "Internet",
+      "url": "https://thehackernews.com/2026/10/weekly-recap-this2shell-that2shell.html"
+    },
+    {
+      "name": "Wordpress.com",
+      "url": "https://amosbbatto.wordpress.com/2026/10/05/linux-phones-alternative/"
+    }
+  ]
+}
+
+GENERATION PROMPT (user):
+Mode: evergreen
+Angle/topic: open source software supply chain security
+
+Known facts:
+- Concerning behavior from a popular open-weight AI model — Discover how untrusted open-weight AI models can potentially leak data, even when self-hosted. Learn the security risks and how to protect your enterprise.
+- ⚡ Weekly Recap: This2Shell, That2Shell, Everything's an RCE? Rogue AI, Supply Chain Chaos and More — This2Shell, That2Shell, Everything2Shell. That's pretty much how the last week went. Critical bugs that let attackers run code remotely are showing up everywhere. Hackers are scanning for targets, some flaws are already being used in attacks, and security tea…
+- Will Linux phones become a viable alternative to the Android/iOS duopoly? — Linux phones now have the hardware and software to succeed, but it is an open question whether they will become a viable alternative to the Android/iOS duopoly.
+
+Write the blog post now.
+
+GENERATION OUTPUT:
+# Ensuring Security in Open Source Software Supply Chains
+
+In the ever-evolving landscape of technology, open source software (OSS) plays a pivotal role. However, with its widespread adoption comes a critical challenge: supply chain security. Recent concerning behaviors from popular AI models have highlighted potential data leakage risks, even when these models are self-hosted. This blog post delves into these security risks and provides actionable steps to protect your enterprise.
+
+## The Risks of Untrusted AI Models
+
+Recent discoveries reveal that untrusted open-source AI models can pose significant security threats. Even when these models are hosted internally, they can inadvertently leak sensitive data. This risk is particularly alarming given the increasing reliance on AI across various industries. For instance, an AI model intended for image recognition might unintentionally expose metadata or personal information if not properly secured.
+
+### How Data Leakage Occurs
+
+Data leakage through AI models can occur in several ways:
+- **Metadata Exposure:** AI models often process large volumes of data. If this data includes personally identifiable information (PII), it can be exposed during training or inference.
+- **Model Inference Attacks:** Attackers can exploit vulnerabilities in the model's inference process to extract sensitive information.
+- **Data Poisoning:** Malicious actors can manipulate training data to inject biases or errors into the model, leading to unintended data exposure.
+
+### Protecting Your Enterprise
+
+To mitigate these risks, enterprises must adopt robust security practices:
+1. **Regular Audits:** Conduct regular security audits of all AI models used within your organization. This includes reviewing the code, understanding the data flow, and identifying potential vulnerabilities.
+2. **Data Encryption:** Encrypt sensitive data both at rest and in transit. Use strong encryption protocols such as AES-256 to protect data from unauthorized access.
+3. **Access Controls:** Implement strict access controls to ensure that only authorized personnel have access to sensitive data and AI models.
+4. **Continuous Monitoring:** Deploy continuous monitoring tools to detect any unusual activity or potential data leaks. Tools like Intrusion Detection Systems (IDS) and Security Information and Event Management (SIEM) solutions can be invaluable.
+5. **Secure Coding Practices:** Adopt secure coding practices to prevent common vulnerabilities such as SQL injection and cross-site scripting (XSS). Regularly update and patch your AI models to address known vulnerabilities.
+
+## Supply Chain Security: A Broader Perspective
+
+The security concerns extend beyond just AI models to the broader realm of open source software supply chains. Recent weeks have seen a flurry of critical bugs that allow remote code execution (RCE), highlighting the need for vigilance in securing OSS components.
+
+### Weekly Recap: Critical Bugs and RCE Vulnerabilities
+
+This past we
+
+QUALITY VALIDATION: True (ok)
+
+FACT VALIDATION RESULT: PASS
+
+FACT VALIDATION PASSED: True
+

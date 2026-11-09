@@ -814,5 +814,21 @@
       "forever",
       "biggest"
     ]
+  },
+  {
+    "date": "2026-11-09",
+    "title": "Ensuring Security in Open Source Software Supply Chains",
+    "slug": "ensuring-security-in-open-source-software-supply-chains",
+    "mode": "evergreen",
+    "keywords": [
+      "chain",
+      "software",
+      "supply",
+      "source",
+      "security",
+      "ensuring",
+      "open",
+      "chains"
+    ]
   }
 ]
