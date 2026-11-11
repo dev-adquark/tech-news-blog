@@ -4633,3 +4633,33 @@ FACT VALIDATION RESULT: PASS
 
 FACT VALIDATION PASSED: True
 
+=== Pipeline run 2026-11-11T14:53:14.292804 UTC ===
+
+MODE: evergreen
+
+DISCOVERED EVERGREEN TOPIC: cloud cost optimization strategies
+
+SOURCE COLLECTION URL: https://newsapi.org/v2/everything (q='cloud cost optimization strategies')
+
+SOURCE COLLECTION STATUS: 200
+
+SOURCE COLLECTION BODY: {"status":"ok","totalResults":55,"articles":[{"source":{"id":"techradar","name":"TechRadar"},"author":"David Boland","title":"AI Storagemaxxing: Your GPUs are optimized, what about your data?","description":"As organizations scale AI workloads, the ability to optimize, protect and move data will become as important to infrastructure strategy as access to compute.","url":"https://www.techradar.com/pro/ai-storagemaxxing-your-gpus-are-optimized-what-about-your-data","urlToImage":"https://cdn.mos.cms.futurecdn.net/M6fvPLRyP9CRCBwfYj7mxL-2560-80.jpg","publishedAt":"2026-10-15T10:01:59Z","content":"Enterprise investment in artificial intelligence has, understandably, been concentrated on compute. Access to GPUs, model performance and the cost of inference have become central considerations as o… [+6798 chars]"},{"source":{"id":null,"name":"InfoQ.com"},"author":"Kushal Kumar Vishwakarma","title":"Article: When Should You Use Liquid Clustering? Benchmarking Lakehouse Layout Strategies","description":"Physical data layout is one of the most consequential decisions in lakehouse engineering. The author compares Liquid Clustering, ZOrdering, and partitioning across four workload types on Delta Lake, uncovering two undocumented failure modes that likely affect…","url":"https://www.infoq.com/articles/liquid-clustering-lakehouse-layout/","urlToImage":"https://res.infoq.com/articles/liquid-clustering-lakehouse-layout/en/headerimage/liquid-clustering-lakehouse-layout-header-1791465984987.jpg","publishedAt":"2026-10-12T11:00:00Z","content":"<ul><li>No single storage layout is universally optimal for lakehouse analytics: The right choice is workload-dependent, because using Liquid Clustering, ZOrder, or Partitioning incorrectly can mater… [+14305 chars]"},{"source":{"id":null,"name":"Skypilot.ai"},"author":null,"title":"Grace Blackwell needs a new scheduler: 27% more usable GPUs from the same racks","description":"NVL72 puts all 72 GPUs in a rack on one NVLink fabric, but only rack-local jobs get the speedup. How SkyPilot keeps multi-node training and inference on NVLink with topology-aware placement, in-place recovery from GPU failures, and automatic defragmentation.","url":"https://skypilot.ai/blog/grace-blackwell-needs-a-new-scheduler","urlToImage":"https://cdn.sanity.io/images/9qcljuzt/production/9b537d6f197cc06af4373cc092fc2652cade50b2-1920x1080.png?rect=0,39,1920,1003&w=1200&h=627&fit=crop&auto=format","publishedAt":"2026-10-29T15:45:05Z","content":"Not all high-speed 
+
+No relevant/sourced articles available — proceeding with brief containing no sourced facts.
+
+BRIEF: {
+  "mode": "evergreen",
+  "angle": "cloud cost optimization strategies",
+  "facts": [],
+  "sources": []
+}
+
+GENERATION PROMPT (user):
+Mode: evergreen
+Angle/topic: cloud cost optimization strategies
+
+Known facts:
+(no specific sourced facts available)
+
+Write the blog post now.
+
