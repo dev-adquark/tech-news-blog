@@ -4708,3 +4708,50 @@ Known facts:
 
 Write the blog post now.
 
+=== Pipeline run 2026-11-13T15:03:58.114967 UTC ===
+
+MODE: evergreen
+
+DISCOVERED EVERGREEN TOPIC: green computing and data center efficiency
+
+SOURCE COLLECTION URL: https://newsapi.org/v2/everything (q='green computing and data center efficiency')
+
+SOURCE COLLECTION STATUS: 200
+
+SOURCE COLLECTION BODY: {"status":"ok","totalResults":48,"articles":[{"source":{"id":null,"name":"Tom's Hardware UK"},"author":"Mark Tyson","title":"China deploys 'world's first' 800-volt DC power system for massive AI data center — seeks to quench power needs with higher conversion and efficiency inside a smaller footprint","description":"New power system is already operational in Ulanqab, China, where it will eventually ‘support up to one million AI accelerators.’","url":"https://www.tomshardware.com/tech-industry/data-centers/china-deploys-worlds-first-800-volt-dc-power-system-for-massive-ai-data-center-seeks-to-quench-power-needs-with-higher-conversion-and-efficiency-inside-a-smaller-footprint","urlToImage":"https://cdn.mos.cms.futurecdn.net/fkjY2tA8FWJnZZBwppsDpM-1920-80.jpg","publishedAt":"2026-11-03T12:40:09Z","content":"Envision Energy says that it has completed the world’s first commercial data center deployment of an integrated 800-volt DC power system. It has been testing the Dubhe Controller, supported by its Du… [+2485 chars]"},{"source":{"id":null,"name":"Nature.com"},"author":"Noa Furth, Christina Riemenschneider, Yishai Arieli, Matan Avni, Michael-Yakov Povolotski, Hadas Yung, Shiri Karagach, Ofir Atrakchi, Nir Erez, Tomer-Meir Salame, Roberta Noberini, Adeline Durand, Grégoire Jouault, Bareket Dassa, Mirie Zerbib, Roni Oren, Ofra Golani, Barak Bar-Zakai, Yael Mavor, Orli Friedman-Eldar, Hadas Kadar-Sfarad, Shani Gilron, Osnat Givon-Madhala, Naama Ronel, Faisal Abu-Rmilah, Itai Moshe, Shahar Ish-Shalom, Ady Yosepovich, Miriam Kaplan, Michal Bakalenik, Maya Dadiani, Rakel Tryggvadottir, Gabriel Shatkin, Mariam Hakobyan, Alexander Kovacsovics, Sebastian D. Mackowiak, Amanda Arnold, Sarah McLaughlin, Ekaterina Andreishcheva, Abhijeet Shinde, Jiaren Zhang, Daniel Jones, Einav Nili Gal-Yam, Tamar Geiger, Tiziana Bonaldi, Andrew P. Feinberg, Alexander Meissner, Celine Vallot, Guy Ron, Efrat Shema","title":"Epigenetic heterogeneity in breast tumours informs diagnosis and prognosis","description":"Single-cell epigenetic analyses reveal a conserved epigenetic signature across patients that may help identify those at increased risk for disease relapse in breast cancer.","url":"https://www.nature.com/articles/s41586-026-11230-y","urlToImage":"https://media.springernature.com/m685/springer-static/image/art%3A10.1038%2Fs41586-026-11230-y/MediaObjects/41586_2026_11230_Fig1_HTML.png","publishedAt":"2026-11-11T00:00:00Z","content":"Human participants\r\nCollection and analyses of
+
+BRIEF: {
+  "mode": "evergreen",
+  "angle": "green computing and data center efficiency",
+  "facts": [
+    "- China deploys 'world's first' 800-volt DC power system for massive AI data center \u2014 seeks to quench power needs with higher conversion and efficiency inside a smaller footprint \u2014 New power system is already operational in Ulanqab, China, where it will eventually \u2018support up to one million AI accelerators.\u2019",
+    "- Green Data Center Market to Reach USD 90.38 Billion by 2035 as AI Density Accelerates Liquid Cooling, Power Efficiency and Retrofit Spending - DC Market Insights \u2014 Market expands at 12.96% CAGR; direct-to-chip liquid cooling grows to USD 17.33 billion while retrofit spending reaches USD 18.41 billion by 2035 LONDON, Oct. 16, 2026 /PRNewswire/ -- The \"Green Data Center Market - Growth, Share, Opportunities & Competitive \u2026",
+    "- Delta Unveils Microgrid Solutions and the Newly Launched SST-based DC Power System for the AI Era at Energy Taiwan 2026. \u2014 The debuting prefabricated SST-based Power System reduces on-site deployment time by up to 50%. TAIPEI, Oct. 14, 2026 /PRNewswire/ -- Delta, a global leader in power management and smart green solutions, is unveiling its latest Microgrid Solutions for AI fact\u2026"
+  ],
+  "sources": [
+    {
+      "name": "Tom's Hardware UK",
+      "url": "https://www.tomshardware.com/tech-industry/data-centers/china-deploys-worlds-first-800-volt-dc-power-system-for-massive-ai-data-center-seeks-to-quench-power-needs-with-higher-conversion-and-efficiency-inside-a-smaller-footprint"
+    },
+    {
+      "name": "PRNewswire",
+      "url": "https://www.prnewswire.com/news-releases/green-data-center-market-to-reach-usd-90-38-billion-by-2035-as-ai-density-accelerates-liquid-cooling-power-efficiency-and-retrofit-spending---dc-market-insights-302903805.html"
+    },
+    {
+      "name": "PRNewswire",
+      "url": "https://www.prnewswire.com/news-releases/delta-unveils-microgrid-solutions-and-the-newly-launched-sst-based-dc-power-system-for-the-ai-era-at-energy-taiwan-2026-302908448.html"
+    }
+  ]
+}
+
+GENERATION PROMPT (user):
+Mode: evergreen
+Angle/topic: green computing and data center efficiency
+
+Known facts:
+- China deploys 'world's first' 800-volt DC power system for massive AI data center — seeks to quench power needs with higher conversion and efficiency inside a smaller footprint — New power system is already operational in Ulanqab, China, where it will eventually ‘support up to one million AI accelerators.’
+- Green Data Center Market to Reach USD 90.38 Billion by 2035 as AI Density Accelerates Liquid Cooling, Power Efficiency and Retrofit Spending - DC Market Insights — Market expands at 12.96% CAGR; direct-to-chip liquid cooling grows to USD 17.33 billion while retrofit spending reaches USD 18.41 billion by 2035 LONDON, Oct. 16, 2026 /PRNewswire/ -- The "Green Data Center Market - Growth, Share, Opportunities & Competitive …
+- Delta Unveils Microgrid Solutions and the Newly Launched SST-based DC Power System for the AI Era at Energy Taiwan 2026. — The debuting prefabricated SST-based Power System reduces on-site deployment time by up to 50%. TAIPEI, Oct. 14, 2026 /PRNewswire/ -- Delta, a global leader in power management and smart green solutions, is unveiling its latest Microgrid Solutions for AI fact…
+
+Write the blog post now.
+
