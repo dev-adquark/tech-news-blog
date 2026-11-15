@@ -4800,3 +4800,33 @@ Known facts:
 
 Write the blog post now.
 
+=== Pipeline run 2026-11-15T14:29:23.513372 UTC ===
+
+MODE: evergreen
+
+DISCOVERED EVERGREEN TOPIC: ransomware defense strategies
+
+SOURCE COLLECTION URL: https://newsapi.org/v2/everything (q='ransomware defense strategies')
+
+SOURCE COLLECTION STATUS: 200
+
+SOURCE COLLECTION BODY: {"status":"ok","totalResults":2,"articles":[{"source":{"id":null,"name":"Cisa.gov"},"author":"CISA","title":"#StopRansomware: SafePay Ransomware","description":"Advisory at a Glance\n<table>\n\n<tr>\n<th>Title</th>\n<td>#StopRansomware: SafePay Ransomware</td>\n</tr>\n<tr>\n<th>Original Publication </th>\n<td>October 20, 2026</td>\n</tr>\n<tr>\n<th>Executive Summary</th>\n<td>\nThis advisory details recent activity by the SafePay …","url":"https://www.cisa.gov/news-events/cybersecurity-advisories/aa26-293a","urlToImage":null,"publishedAt":"2026-10-19T19:18:07Z","content":"Advisory at a Glance\r\n<table><tr><th>Title</th><td>#StopRansomware: SafePay Ransomware</td></tr><tr><th>Original Publication </th><td>October 20, 2026</td></tr><tr><th>Executive Summary</th><td>This … [+37276 chars]"},{"source":{"id":null,"name":"Microsoft.com"},"author":"Rob Lefferts","title":"IDC MarketScape names Microsoft a Leader in the 2026 Worldwide Modern Endpoint Security for Enterprises Vendor Assessment","description":"IDC has named Microsoft a Leader in the 2026 IDC MarketScape for Worldwide Modern Endpoint Security for Enterprises.\nThe post IDC MarketScape names Microsoft a Leader in the 2026 Worldwide Modern Endpoint Security for Enterprises Vendor Assessment appeared fi…","url":"https://www.microsoft.com/en-us/security/blog/2026/10/29/idc-marketscape-names-microsoft-a-leader-in-the-2026-worldwide-modern-endpoint-security-for-enterprises-vendor-assessment/","urlToImage":"https://www.microsoft.com/en-us/security/blog/wp-content/uploads/2026/10/IDC-Leader-3.jpg","publishedAt":"2026-10-29T16:00:00Z","content":"Today, we’re proud to share thatMicrosoft has been named a Leader in the 2026 IDC MarketScape for Worldwide Modern Endpoint Security for Enterprises (Doc #US54123526, September 2026). The IDC Markets… [+7216 chars]"}]}
+
+No relevant/sourced articles available — proceeding with brief containing no sourced facts.
+
+BRIEF: {
+  "mode": "evergreen",
+  "angle": "ransomware defense strategies",
+  "facts": [],
+  "sources": []
+}
+
+GENERATION PROMPT (user):
+Mode: evergreen
+Angle/topic: ransomware defense strategies
+
+Known facts:
+(no specific sourced facts available)
+
+Write the blog post now.
+
