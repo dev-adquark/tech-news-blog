@@ -4830,3 +4830,48 @@ Known facts:
 
 Write the blog post now.
 
+=== Pipeline run 2026-11-16T16:42:43.870516 UTC ===
+
+MODE: news
+
+SOURCE COLLECTION URL: https://newsapi.org/v2/top-headlines (top-headlines/technology)
+
+SOURCE COLLECTION STATUS: 200
+
+SOURCE COLLECTION BODY: {"status":"ok","totalResults":67,"articles":[{"source":{"id":null,"name":"Cricinfo.com"},"author":"Karthik Krishnaswamy","title":"What a short! Arshdeep becomes most rounded version of himself - Cricinfo","description":"He bowled the second-most short balls in the ODIs against NZ, apart from skilfully using the wobble-seam delivery","url":"https://www.cricinfo.com/story/arshdeep-singh-becomes-most-rounded-version-of-himself-with-short-ball-and-wobble-seam-1562790","urlToImage":"https://img1.hscicdn.com/image/upload/f_auto/lsci/db/PICTURES/CMS/425300/425301.6.jpg","publishedAt":"2026-11-15T15:25:00Z","content":"Match AnalysisHe bowled the second-most short balls in the ODIs against NZ, apart from skilfully using the wobble-seam delivery"},{"source":{"id":null,"name":"Jalopnik"},"author":"Dave Goldberg","title":"5 Generations Of The Chevy Impala SS Ranked From Best To Worst Horsepower Ratings - Jalopnik","description":"Despite gross power ratings, the 425-hp W-series 409 and L78 427 Impala SS models of the '60s remain the most powerful, followed by the latest 9th-gen versions.","url":"https://www.jalopnik.com/2310765/generations-chevy-impala-ss-ranked-best-to-worst-horsepower-ratings/","urlToImage":"https://www.jalopnik.com/img/gallery/5-generations-of-the-chevy-impala-ss-ranked-from-best-to-worst-horsepower-ratings/l-intro-1793889739.jpg","publishedAt":"2026-11-15T13:05:00Z","content":"Mention a Chevy Impala, and thoughts of an unremarkable family sedan may come to mind, but add an SS next to the nameplate and things change. The Impala SS (Super Sport) is a pure horsepower play tha… [+1487 chars]"},{"source":{"id":null,"name":"Push Square"},"author":"Liam Croft","title":"PlayStation Black Friday Sale Knocks Up to $100 Off PS5 Accessories, PSVR2 - Push Square","description":"But no PS5 consoles included","url":"https://www.pushsquare.com/news/2026/11/playstation-black-friday-sale-knocks-up-to-usd100-off-ps5-accessories-psvr2","urlToImage":"https://images.pushsquare.com/caee43ed6e6bb/1280x720.jpg","publishedAt":"2026-11-15T13:00:00Z","content":"Alongside its ongoing PS Store Black Friday sale and a new PS Plus promotion that goes live tomorrow, Sony has also detailed the range of discounts it'll apply to PS5 accessories from 16th November 2… [+1773 chars]"}]}
+
+BRIEF: {
+  "mode": "news",
+  "angle": "What a short! Arshdeep becomes most rounded version of himself - Cricinfo",
+  "facts": [
+    "- What a short! Arshdeep becomes most rounded version of himself - Cricinfo \u2014 He bowled the second-most short balls in the ODIs against NZ, apart from skilfully using the wobble-seam delivery",
+    "- 5 Generations Of The Chevy Impala SS Ranked From Best To Worst Horsepower Ratings - Jalopnik \u2014 Despite gross power ratings, the 425-hp W-series 409 and L78 427 Impala SS models of the '60s remain the most powerful, followed by the latest 9th-gen versions.",
+    "- PlayStation Black Friday Sale Knocks Up to $100 Off PS5 Accessories, PSVR2 - Push Square \u2014 But no PS5 consoles included"
+  ],
+  "sources": [
+    {
+      "name": "Cricinfo.com",
+      "url": "https://www.cricinfo.com/story/arshdeep-singh-becomes-most-rounded-version-of-himself-with-short-ball-and-wobble-seam-1562790"
+    },
+    {
+      "name": "Jalopnik",
+      "url": "https://www.jalopnik.com/2310765/generations-chevy-impala-ss-ranked-best-to-worst-horsepower-ratings/"
+    },
+    {
+      "name": "Push Square",
+      "url": "https://www.pushsquare.com/news/2026/11/playstation-black-friday-sale-knocks-up-to-usd100-off-ps5-accessories-psvr2"
+    }
+  ]
+}
+
+GENERATION PROMPT (user):
+Mode: news
+Angle/topic: What a short! Arshdeep becomes most rounded version of himself - Cricinfo
+
+Known facts:
+- What a short! Arshdeep becomes most rounded version of himself - Cricinfo — He bowled the second-most short balls in the ODIs against NZ, apart from skilfully using the wobble-seam delivery
+- 5 Generations Of The Chevy Impala SS Ranked From Best To Worst Horsepower Ratings - Jalopnik — Despite gross power ratings, the 425-hp W-series 409 and L78 427 Impala SS models of the '60s remain the most powerful, followed by the latest 9th-gen versions.
+- PlayStation Black Friday Sale Knocks Up to $100 Off PS5 Accessories, PSVR2 - Push Square — But no PS5 consoles included
+
+Write the blog post now.
+
