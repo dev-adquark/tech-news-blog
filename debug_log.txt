@@ -4875,3 +4875,44 @@ Known facts:
 
 Write the blog post now.
 
+=== Pipeline run 2026-11-17T16:39:01.818576 UTC ===
+
+MODE: evergreen
+
+DISCOVERED EVERGREEN TOPIC: data privacy regulations and compliance
+
+SOURCE COLLECTION URL: https://newsapi.org/v2/everything (q='data privacy regulations and compliance')
+
+SOURCE COLLECTION STATUS: 200
+
+SOURCE COLLECTION BODY: {"status":"ok","totalResults":112,"articles":[{"source":{"id":"the-verge","name":"The Verge"},"author":"Nilay Patel","title":"Bill Gates says to prepare for 20 years of ‘tumultuous’ AI disruption","description":"Today, I’m talking to Bill Gates, cofounder and former CEO of Microsoft and chairman of the Gates Foundation. You may have noticed Bill in the news more lately — he’s been on something of a tour for the past few months, ever since publishing an essay in late …","url":"https://www.theverge.com/podcast/1015408/bill-gates-ai-interview-microsoft-openai-anthropic-risk-policy-regulation","urlToImage":"https://platform.theverge.com/wp-content/uploads/sites/2/2026/10/268806_Bill_Gates_NQuamina-Woo_0007_a8ca1f.jpg?quality=90&strip=all&crop=0%2C10.732984293194%2C100%2C78.534031413613&w=1200","publishedAt":"2026-10-22T13:20:55Z","content":"<ul><li></li><li></li><li></li></ul>\r\nThe Microsoft cofounder isnt an AI doomer, but he says its still the most dangerous weapon of all time.\r\nby\r\nNilay PatelClose\r\nPosts from this author will be add… [+64853 chars]"},{"source":{"id":"techradar","name":"TechRadar"},"author":"Craig Hale","title":"Many firms are still falling behind when it comes to getting their AI infrastructure up to speed","description":"Many EMEA enterprises are being held back by their data infrastructure, but they're actually struggling with complex regulations.","url":"https://www.techradar.com/pro/many-firms-are-still-falling-behind-when-it-comes-to-getting-their-ai-infrastructure-up-to-speed","urlToImage":"https://cdn.mos.cms.futurecdn.net/8wpFenQRvaR59PFWSpksdc-1920-80.jpg","publishedAt":"2026-10-21T11:02:20Z","content":"<ul><li>Two in three IT leaders say their infrastructure isn't ready to handle AI and analytics</li><li>Complex data regulations are giving them a major headache</li><li>AI PCs also form part of the … [+2456 chars]"},{"source":{"id":null,"name":"Block.xyz"},"author":null,"title":"Dessa: the most authentic full-duplex speech model ever built","description":"You learned to talk by listening. So did Dessa. A research preview of a full-duplex speech model.","url":"https://block.xyz/dessa","urlToImage":"https://block.xyz/dessa/_media/6865f35ec6013672f8f8/assets/marketing/variants/v3.jpg","publishedAt":"2026-10-23T19:09:54Z","content":"Effective Date: October 21, 2026\r\nThis Privacy Notice describes how Block, Inc. and our affiliates (collectively, Block, we, and us) collect, use, disclose, transfer, store, retain or otherwise p
+
+BRIEF: {
+  "mode": "evergreen",
+  "angle": "data privacy regulations and compliance",
+  "facts": [
+    "- Many firms are still falling behind when it comes to getting their AI infrastructure up to speed \u2014 Many EMEA enterprises are being held back by their data infrastructure, but they're actually struggling with complex regulations.",
+    "- Thailand says new data centers can't be louder than a hair dryer \u2014 but will the new 70dB limit actually help those living nearby? \u2014 Thailand introduces new data center regulations covering noise, heat, and water consumption, including a 70 dBA ceiling for operating facilities."
+  ],
+  "sources": [
+    {
+      "name": "TechRadar",
+      "url": "https://www.techradar.com/pro/many-firms-are-still-falling-behind-when-it-comes-to-getting-their-ai-infrastructure-up-to-speed"
+    },
+    {
+      "name": "TechRadar",
+      "url": "https://www.techradar.com/pro/thailand-says-new-data-centers-cant-be-louder-than-a-hair-dryer-but-will-the-new-70db-limit-actually-help-those-living-nearby"
+    }
+  ]
+}
+
+GENERATION PROMPT (user):
+Mode: evergreen
+Angle/topic: data privacy regulations and compliance
+
+Known facts:
+- Many firms are still falling behind when it comes to getting their AI infrastructure up to speed — Many EMEA enterprises are being held back by their data infrastructure, but they're actually struggling with complex regulations.
+- Thailand says new data centers can't be louder than a hair dryer — but will the new 70dB limit actually help those living nearby? — Thailand introduces new data center regulations covering noise, heat, and water consumption, including a 70 dBA ceiling for operating facilities.
+
+Write the blog post now.
+
