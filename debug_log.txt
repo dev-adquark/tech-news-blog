@@ -5047,3 +5047,33 @@ Known facts:
 
 Write the blog post now.
 
+=== Pipeline run 2026-11-21T15:03:43.817164 UTC ===
+
+MODE: evergreen
+
+DISCOVERED EVERGREEN TOPIC: cloud cost optimization strategies
+
+SOURCE COLLECTION URL: https://newsapi.org/v2/everything (q='cloud cost optimization strategies')
+
+SOURCE COLLECTION STATUS: 200
+
+SOURCE COLLECTION BODY: {"status":"ok","totalResults":66,"articles":[{"source":{"id":null,"name":"Eleanorwiesler.com"},"author":"robotics","title":"We taught robots to carve marble sculptures","description":"Autonomous toolpathing at Monumental Labs: how our system turns a 3D model and a block of marble into a finished sculpture, with no human in the loop.","url":"https://eleanorwiesler.com/blog/robotic-stone-carving/","urlToImage":"https://eleanorwiesler.com/public/img/blog/autonomous-toolpathing/slide-pass-01.jpg","publishedAt":"2026-11-18T17:03:53Z","content":"We taught KUKA KR240 robots how to carve marble sculptures.\r\nThis month, my team and I at Monumental Labs announced the first end-to-end autonomous CNC stone carving system of its kind. Sebastian Mar… [+7554 chars]"},{"source":{"id":null,"name":"Modelplane.ai"},"author":"Modelplane","title":"An Open Field Guide to Inference Engineering","description":"A field guide to inference concepts, production operations, tooling, and career development for platform engineers.","url":"https://docs.modelplane.ai/guides/inference-guide/","urlToImage":"https://modelplane.ai/api/og?title=An+Open+Field+Guide+to+Inference+Engineering","publishedAt":"2026-11-10T17:55:07Z","content":"Numbers, prices and tool versions are as of October 2026.\r\nThis guide is for platform engineers new to inference. If you need to understand\r\nhow models and GPUs work together and how to run inference… [+57790 chars]"},{"source":{"id":null,"name":"Skypilot.ai"},"author":null,"title":"Grace Blackwell needs a new scheduler: 27% more usable GPUs from the same racks","description":"NVL72 puts all 72 GPUs in a rack on one NVLink fabric, but only rack-local jobs get the speedup. How SkyPilot keeps multi-node training and inference on NVLink with topology-aware placement, in-place recovery from GPU failures, and automatic defragmentation.","url":"https://skypilot.ai/blog/grace-blackwell-needs-a-new-scheduler","urlToImage":"https://cdn.sanity.io/images/9qcljuzt/production/9b537d6f197cc06af4373cc092fc2652cade50b2-1920x1080.png?rect=0,39,1920,1003&w=1200&h=627&fit=crop&auto=format","publishedAt":"2026-10-29T15:45:05Z","content":"Not all high-speed interconnects are created equal, and using the wrong one can be quite costly: running the same distributed training job over InfiniBand rather than NVLink can degrade performance b… [+14557 chars]"},{"source":{"id":null,"name":"Cisco.com"},"author":"Murtaza Doctor","title":"Dynamic model routing: The new SD-WAN for the AI 
+
+No relevant/sourced articles available — proceeding with brief containing no sourced facts.
+
+BRIEF: {
+  "mode": "evergreen",
+  "angle": "cloud cost optimization strategies",
+  "facts": [],
+  "sources": []
+}
+
+GENERATION PROMPT (user):
+Mode: evergreen
+Angle/topic: cloud cost optimization strategies
+
+Known facts:
+(no specific sourced facts available)
+
+Write the blog post now.
+
