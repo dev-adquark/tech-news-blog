@@ -5077,3 +5077,48 @@ Known facts:
 
 Write the blog post now.
 
+=== Pipeline run 2026-11-22T15:01:12.283873 UTC ===
+
+MODE: news
+
+SOURCE COLLECTION URL: https://newsapi.org/v2/top-headlines (top-headlines/technology)
+
+SOURCE COLLECTION STATUS: 200
+
+SOURCE COLLECTION BODY: {"status":"ok","totalResults":58,"articles":[{"source":{"id":null,"name":"Wccftech"},"author":"Francesco De Meo","title":"Grand Theft Auto VI Hits 60 FPS and Above on Xbox Series X Through a Quick Resume Glitch, but Gameplay Runs at Double Speed - Wccftech","description":"An Xbox Series X Quick Resume glitch unlocks Grand Theft Auto VI's framerate past 30 FPS, though with a major catch","url":"https://wccftech.com/grand-theft-auto-vi-60-fps-xbox-series-x-glitch/","urlToImage":"https://cdn.wccftech.com/wp-content/uploads/2026/11/Grand-Theft-Auto-VI-60-FPS-Xbox-Series-X-Glitch-1920x1080.jpg","publishedAt":"2026-11-21T09:21:23Z","content":"In true Rockstar Games tradition, Grand Theft Auto VIlaunched with a 30 FPS target on PlayStation 5 and Xbox Series X|S due to technical reasons, as even the PlayStation 5 Pro's CPU cannot handle the… [+2043 chars]"},{"source":{"id":null,"name":"Fox Business"},"author":"Michael Sinkewicz","title":"Grand Theft Auto VI shatters entertainment records with staggering $3.79B debut - Fox Business","description":"Rockstar Games says \"Grand Theft Auto VI\" hit $3.79 billion in first-day sales, topping \"Avengers: Endgame's\" $2.94 billion worldwide box office run.","url":"https://www.foxbusiness.com/entertainment/grand-theft-auto-vi-shatters-entertainment-records-staggering-3-79b-debut","urlToImage":"https://a57.foxnews.com/static.foxbusiness.com/foxbusiness.com/content/uploads/2026/11/0/0/grand-theft-auto-vi-record-breaking-launch.jpg?ve=1&tl=1","publishedAt":"2026-11-21T07:59:58Z","content":"\"Grand Theft Auto VI\" made history this week with a staggering $3.79 billion in sales during its first 24 hours, surpassing the box office totals of major Hollywood blockbusters and making it the big… [+2677 chars]"},{"source":{"id":null,"name":"Nintendo Life"},"author":"Liam Doolan","title":"Zelda's Ocarina Remake Is One Of Metacritic's Highest-Rated Games In 2026, According To User Scores - Nintendo Life","description":"Players' voice","url":"https://www.nintendolife.com/news/2026/11/zeldas-ocarina-remake-is-one-of-metacritics-highest-rated-games-in-2026-according-to-user-scores","urlToImage":"https://images.nintendolife.com/0ff8b95fda54c/1280x720.jpg","publishedAt":"2026-11-21T05:30:00Z","content":"Image: Nintendo\r\nIt's been a huge year for the games industry with all sorts of heavy-hitters releasing over the past few months, and as we look towards the end of 2026, we're now checking in on Meta… [+1749 chars]"},{"source":{"id":null,"n
+
+BRIEF: {
+  "mode": "news",
+  "angle": "Grand Theft Auto VI Hits 60 FPS and Above on Xbox Series X Through a Quick Resume Glitch, but Gameplay Runs at Double Speed - Wccftech",
+  "facts": [
+    "- Grand Theft Auto VI Hits 60 FPS and Above on Xbox Series X Through a Quick Resume Glitch, but Gameplay Runs at Double Speed - Wccftech \u2014 An Xbox Series X Quick Resume glitch unlocks Grand Theft Auto VI's framerate past 30 FPS, though with a major catch",
+    "- Grand Theft Auto VI shatters entertainment records with staggering $3.79B debut - Fox Business \u2014 Rockstar Games says \"Grand Theft Auto VI\" hit $3.79 billion in first-day sales, topping \"Avengers: Endgame's\" $2.94 billion worldwide box office run.",
+    "- Zelda's Ocarina Remake Is One Of Metacritic's Highest-Rated Games In 2026, According To User Scores - Nintendo Life \u2014 Players' voice"
+  ],
+  "sources": [
+    {
+      "name": "Wccftech",
+      "url": "https://wccftech.com/grand-theft-auto-vi-60-fps-xbox-series-x-glitch/"
+    },
+    {
+      "name": "Fox Business",
+      "url": "https://www.foxbusiness.com/entertainment/grand-theft-auto-vi-shatters-entertainment-records-staggering-3-79b-debut"
+    },
+    {
+      "name": "Nintendo Life",
+      "url": "https://www.nintendolife.com/news/2026/11/zeldas-ocarina-remake-is-one-of-metacritics-highest-rated-games-in-2026-according-to-user-scores"
+    }
+  ]
+}
+
+GENERATION PROMPT (user):
+Mode: news
+Angle/topic: Grand Theft Auto VI Hits 60 FPS and Above on Xbox Series X Through a Quick Resume Glitch, but Gameplay Runs at Double Speed - Wccftech
+
+Known facts:
+- Grand Theft Auto VI Hits 60 FPS and Above on Xbox Series X Through a Quick Resume Glitch, but Gameplay Runs at Double Speed - Wccftech — An Xbox Series X Quick Resume glitch unlocks Grand Theft Auto VI's framerate past 30 FPS, though with a major catch
+- Grand Theft Auto VI shatters entertainment records with staggering $3.79B debut - Fox Business — Rockstar Games says "Grand Theft Auto VI" hit $3.79 billion in first-day sales, topping "Avengers: Endgame's" $2.94 billion worldwide box office run.
+- Zelda's Ocarina Remake Is One Of Metacritic's Highest-Rated Games In 2026, According To User Scores - Nintendo Life — Players' voice
+
+Write the blog post now.
+
