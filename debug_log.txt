@@ -5122,3 +5122,50 @@ Known facts:
 
 Write the blog post now.
 
+=== Pipeline run 2026-11-23T18:56:33.389478 UTC ===
+
+MODE: evergreen
+
+DISCOVERED EVERGREEN TOPIC: quantum computing readiness for businesses
+
+SOURCE COLLECTION URL: https://newsapi.org/v2/everything (q='quantum computing readiness for businesses')
+
+SOURCE COLLECTION STATUS: 200
+
+SOURCE COLLECTION BODY: {"status":"ok","totalResults":8,"articles":[{"source":{"id":"techradar","name":"TechRadar"},"author":"Dr Megan Anderson","title":"The quantum computing race is becoming a deployment race","description":"Organizations are now focusing on viable quantum solutions, shifting the conversation from theoretical potential towards practical application.","url":"https://www.techradar.com/pro/the-quantum-computing-race-is-becoming-a-deployment-race","urlToImage":"https://cdn.mos.cms.futurecdn.net/d4oN2QTeNf8QYJDmjZnAKE-1920-80.jpg","publishedAt":"2026-11-18T15:04:25Z","content":"For the past decade, success in quantum computing has been measured through research breakthroughs, investment, and technical milestones. This is beginning to change. Across industries, organizations… [+8406 chars]"},{"source":{"id":"techradar","name":"TechRadar"},"author":"Matthew Albans","title":"Preparing for a post-quantum future","description":"Acting now will help protect against potentially huge security risks further down the line.","url":"https://www.techradar.com/pro/preparing-for-a-post-quantum-future","urlToImage":"https://cdn.mos.cms.futurecdn.net/d4oN2QTeNf8QYJDmjZnAKE-1920-80.jpg","publishedAt":"2026-11-18T10:18:48Z","content":"Quantum computing is one of the most significant technological leaps in human history. Although it has the potential to revolutionize drug discovery, climate modelling, and material science, there al… [+8155 chars]"},{"source":{"id":null,"name":"PR Newswire UK"},"author":null,"title":"Instanodes Introduces Post-Quantum Accounts for Ethereum and Solana","description":"New cryptographic engineering and quantum-readiness services help blockchain businesses assess emerging security risks and prepare account infrastructure for future cryptographic requirements. MOHALI, India, Nov. 3, 2026 /PRNewswire/ -- Instanodes, a blockcha…","url":"https://www.prnewswire.co.uk/news-releases/instanodes-introduces-post-quantum-accounts-for-ethereum-and-solana-302927778.html","urlToImage":"https://mmx.prnewswire.com/media/MS2026257/Top-Banner-Updated.jpg?id=OA3054857&p=facebook","publishedAt":"2026-11-03T11:49:00Z","content":"New cryptographic engineering and quantum-readiness services help blockchain businesses assess emerging security risks and prepare account infrastructure for future cryptographic requirements.\r\nMOHAL… [+4448 chars]"},{"source":{"id":null,"name":"BusinessLine"},"author":"PTI","title":"IBM investing $3 bn annually in India, plans $10 bn global quantum p
+
+BRIEF: {
+  "mode": "evergreen",
+  "angle": "quantum computing readiness for businesses",
+  "facts": [
+    "- The quantum computing race is becoming a deployment race \u2014 Organizations are now focusing on viable quantum solutions, shifting the conversation from theoretical potential towards practical application.",
+    "- Preparing for a post-quantum future \u2014 Acting now will help protect against potentially huge security risks further down the line.",
+    "- Instanodes Introduces Post-Quantum Accounts for Ethereum and Solana \u2014 New cryptographic engineering and quantum-readiness services help blockchain businesses assess emerging security risks and prepare account infrastructure for future cryptographic requirements. MOHALI, India, Nov. 3, 2026 /PRNewswire/ -- Instanodes, a blockcha\u2026"
+  ],
+  "sources": [
+    {
+      "name": "TechRadar",
+      "url": "https://www.techradar.com/pro/the-quantum-computing-race-is-becoming-a-deployment-race"
+    },
+    {
+      "name": "TechRadar",
+      "url": "https://www.techradar.com/pro/preparing-for-a-post-quantum-future"
+    },
+    {
+      "name": "PR Newswire UK",
+      "url": "https://www.prnewswire.co.uk/news-releases/instanodes-introduces-post-quantum-accounts-for-ethereum-and-solana-302927778.html"
+    }
+  ]
+}
+
+GENERATION PROMPT (user):
+Mode: evergreen
+Angle/topic: quantum computing readiness for businesses
+
+Known facts:
+- The quantum computing race is becoming a deployment race — Organizations are now focusing on viable quantum solutions, shifting the conversation from theoretical potential towards practical application.
+- Preparing for a post-quantum future — Acting now will help protect against potentially huge security risks further down the line.
+- Instanodes Introduces Post-Quantum Accounts for Ethereum and Solana — New cryptographic engineering and quantum-readiness services help blockchain businesses assess emerging security risks and prepare account infrastructure for future cryptographic requirements. MOHALI, India, Nov. 3, 2026 /PRNewswire/ -- Instanodes, a blockcha…
+
+Write the blog post now.
+
