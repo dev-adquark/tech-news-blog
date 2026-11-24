@@ -5169,3 +5169,48 @@ Known facts:
 
 Write the blog post now.
 
+=== Pipeline run 2026-11-24T18:35:53.726649 UTC ===
+
+MODE: news
+
+SOURCE COLLECTION URL: https://newsapi.org/v2/top-headlines (top-headlines/technology)
+
+SOURCE COLLECTION STATUS: 200
+
+SOURCE COLLECTION BODY: {"status":"ok","totalResults":60,"articles":[{"source":{"id":null,"name":"Tom's Guide"},"author":"https://www.tomsguide.com/author/rory-mellon","title":"Black Friday streaming deals LIVE — today's best discounts from $0.99 on Paramount+, Apple TV, Peacock, Prime Video add-ons and more - Tom's Guide","description":"Stream more, spend less","url":"https://www.tomsguide.com/live/news/black-friday-streaming-deals-live-november-23-2026","urlToImage":"https://cdn.mos.cms.futurecdn.net/dYUZSpvYvyaaH4ToVkXJLT-2560-80.jpg","publishedAt":"2026-11-23T14:35:22Z","content":"2026-11-23T14:35:22.775ZStarz is jut $2.99 in this Prime Video add-on deal!\r\n(Image credit: Lionsgate Films / Pictorial Press Ltd./ Alamy)\r\nWant to watch \"Michael\" with your family over Thanksgiving?… [+8039 chars]"},{"source":{"id":null,"name":"BBC News"},"author":null,"title":"GTA 6 hacker released on licence with warning 'don't let this happen again' - BBC","description":"21-year-old Arion Kurtaj pleaded guilty to the Rockstar Games hack and others he carried out when he was a teenager.","url":"https://www.bbc.com/news/articles/cqpv9kr7pxmro","urlToImage":"https://ichef.bbci.co.uk/news/1024/branded_news/e22e/live/1d07a600-e269-11f1-a094-5fdc692f3e33.png","publishedAt":"2026-11-23T14:08:50Z","content":"Multiple offender Arion Kurtaj, from Oxford, was released from custody with the judge warning him: \"Don't let this happen again.\""},{"source":{"id":null,"name":"Forbes"},"author":"Forbes","title":"‘Grand Theft Auto 6’ Is Being Review Bombed On Metacritic - Forbes","description":null,"url":"https://www.forbes.com/sites/paultassi/2026/11/23/grand-theft-auto-6-is-being-review-bombed-on-metacritic/","urlToImage":null,"publishedAt":"2026-11-23T14:02:00Z","content":null},{"source":{"id":null,"name":"Videocardz.com"},"author":null,"title":"Samsung officially launches world’s first 1,100Hz monitor, Odyssey G6 costs $893 - VideoCardz.com","description":"Samsung's Odyssey G6 is finally launching after its announcement in December 2025. The Fast IPS monitor supports up to 1,100Hz at HD resolution and 600Hz at QHD.","url":"https://videocardz.com/newz/samsung-officially-launches-worlds-first-1100hz-monitor-odyssey-g6-costs-893","urlToImage":"https://cdn.videocardz.com/1/2026/11/SAMSUNG-ODYSSEY-G6-1100HZ-MONITOR.webp","publishedAt":"2026-11-23T13:30:39Z","content":"Samsung has officially launched its Odyssey G6 (G60H) gaming monitor. The 27-inch Fast IPS display supports refresh rates of up to 1,100Hz, al
+
+BRIEF: {
+  "mode": "news",
+  "angle": "Black Friday streaming deals LIVE \u2014 today's best discounts from $0.99 on Paramount+, Apple TV, Peacock, Prime Video add-ons and more - Tom's Guide",
+  "facts": [
+    "- Black Friday streaming deals LIVE \u2014 today's best discounts from $0.99 on Paramount+, Apple TV, Peacock, Prime Video add-ons and more - Tom's Guide \u2014 Stream more, spend less",
+    "- GTA 6 hacker released on licence with warning 'don't let this happen again' - BBC \u2014 21-year-old Arion Kurtaj pleaded guilty to the Rockstar Games hack and others he carried out when he was a teenager.",
+    "- \u2018Grand Theft Auto 6\u2019 Is Being Review Bombed On Metacritic - Forbes"
+  ],
+  "sources": [
+    {
+      "name": "Tom's Guide",
+      "url": "https://www.tomsguide.com/live/news/black-friday-streaming-deals-live-november-23-2026"
+    },
+    {
+      "name": "BBC News",
+      "url": "https://www.bbc.com/news/articles/cqpv9kr7pxmro"
+    },
+    {
+      "name": "Forbes",
+      "url": "https://www.forbes.com/sites/paultassi/2026/11/23/grand-theft-auto-6-is-being-review-bombed-on-metacritic/"
+    }
+  ]
+}
+
+GENERATION PROMPT (user):
+Mode: news
+Angle/topic: Black Friday streaming deals LIVE — today's best discounts from $0.99 on Paramount+, Apple TV, Peacock, Prime Video add-ons and more - Tom's Guide
+
+Known facts:
+- Black Friday streaming deals LIVE — today's best discounts from $0.99 on Paramount+, Apple TV, Peacock, Prime Video add-ons and more - Tom's Guide — Stream more, spend less
+- GTA 6 hacker released on licence with warning 'don't let this happen again' - BBC — 21-year-old Arion Kurtaj pleaded guilty to the Rockstar Games hack and others he carried out when he was a teenager.
+- ‘Grand Theft Auto 6’ Is Being Review Bombed On Metacritic - Forbes
+
+Write the blog post now.
+
