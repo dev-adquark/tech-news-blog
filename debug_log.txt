@@ -5214,3 +5214,50 @@ Known facts:
 
 Write the blog post now.
 
+=== Pipeline run 2026-11-25T17:45:53.005533 UTC ===
+
+MODE: evergreen
+
+DISCOVERED EVERGREEN TOPIC: MLOps and machine learning infrastructure
+
+SOURCE COLLECTION URL: https://newsapi.org/v2/everything (q='MLOps and machine learning infrastructure')
+
+SOURCE COLLECTION STATUS: 200
+
+SOURCE COLLECTION BODY: {"status":"ok","totalResults":12,"articles":[{"source":{"id":null,"name":"Kdnuggets.com"},"author":"Vinod Chugani","title":"5 AI Certifications Worth Paying For in 2026 (And Which to Skip)","description":"A data-backed guide to the credentials that actually move the needle for data scientists and machine learning practitioners.","url":"https://www.kdnuggets.com/5-ai-certifications-worth-paying-for-in-2026-and-which-to-skip","urlToImage":"https://www.kdnuggets.com/wp-content/uploads/5-ai-certifications-worth-paying-for-2026.png","publishedAt":"2026-11-02T13:00:00Z","content":"The AI certification market has exploded. By 2026, AI credentials account for nearly 30% of all professional certifications being pursued, a 20x increase from pre-ChatGPT levels, according to labor m… [+18270 chars]"},{"source":{"id":null,"name":"Kdnuggets.com"},"author":"Vinod Chugani","title":"The AI Skills That Actually Show Up in Job Postings Right Now","description":"Which AI skills appear most often in job postings right now, and what do they mean for your career?","url":"https://www.kdnuggets.com/the-ai-skills-that-actually-show-up-in-job-postings-right-now","urlToImage":"https://www.kdnuggets.com/wp-content/uploads/kdn-chugani-ai-skills-job-postings-right-now-feature.png","publishedAt":"2026-10-29T14:00:00Z","content":"Spend any time on a job board right now and you'll see AI mentioned everywhere. But there's a gap between what shows up as a vague requirement and what employers are actually screening for, and that … [+11012 chars]"},{"source":{"id":null,"name":"Pyimagesearch.com"},"author":"Vikram Singh","title":"What Is MLOps? Architecture, MLOps vs DevOps, and LLMOps","description":"Table of Contents What Is MLOps? Architecture, MLOps vs DevOps, and LLMOps What Is MLOps? Why MLOps Matters for Production Machine Learning Core Principles of MLOps 1. Automation 2. Reproducibility 3. Scalability 4. Monitoring and Governance MLOps vs DevOps: …","url":"https://pyimagesearch.com/2026/11/09/what-is-mlops-architecture-mlops-vs-devops-and-llmops/","urlToImage":"https://pyimagesearch.com/wp-content/uploads/2026/11/mlops-architecture-mlops-devops-llmops-featured.png","publishedAt":"2026-11-09T13:45:00Z","content":"In this lesson, you will learn what MLOps is and why it is essential for scaling machine learning systems. We will explore how MLOps extends DevOps to manage not just code, but also data, models, and… [+23564 chars]"},{"source":{"id":null,"name":"Kdnuggets.com"},"author":"Vinod
+
+BRIEF: {
+  "mode": "evergreen",
+  "angle": "MLOps and machine learning infrastructure",
+  "facts": [
+    "- 5 AI Certifications Worth Paying For in 2026 (And Which to Skip) \u2014 A data-backed guide to the credentials that actually move the needle for data scientists and machine learning practitioners.",
+    "- What Is MLOps? Architecture, MLOps vs DevOps, and LLMOps \u2014 Table of Contents What Is MLOps? Architecture, MLOps vs DevOps, and LLMOps What Is MLOps? Why MLOps Matters for Production Machine Learning Core Principles of MLOps 1. Automation 2. Reproducibility 3. Scalability 4. Monitoring and Governance MLOps vs DevOps: \u2026",
+    "- Production-Ready Docker for MLOps: Docker Compose, GPUs, and Ollama \u2014 Table of Contents Production-Ready Docker for MLOps: Docker Compose, GPUs, and Ollama Why Docker Matters for Production MLOps Configuring Our Development Environment Project Structure Multi-Stage Docker Builds for Smaller ML Inference Images Docker Compose fo\u2026"
+  ],
+  "sources": [
+    {
+      "name": "Kdnuggets.com",
+      "url": "https://www.kdnuggets.com/5-ai-certifications-worth-paying-for-in-2026-and-which-to-skip"
+    },
+    {
+      "name": "Pyimagesearch.com",
+      "url": "https://pyimagesearch.com/2026/11/09/what-is-mlops-architecture-mlops-vs-devops-and-llmops/"
+    },
+    {
+      "name": "Pyimagesearch.com",
+      "url": "https://pyimagesearch.com/2026/11/23/production-ready-docker-for-mlops-docker-compose-gpus-and-ollama/"
+    }
+  ]
+}
+
+GENERATION PROMPT (user):
+Mode: evergreen
+Angle/topic: MLOps and machine learning infrastructure
+
+Known facts:
+- 5 AI Certifications Worth Paying For in 2026 (And Which to Skip) — A data-backed guide to the credentials that actually move the needle for data scientists and machine learning practitioners.
+- What Is MLOps? Architecture, MLOps vs DevOps, and LLMOps — Table of Contents What Is MLOps? Architecture, MLOps vs DevOps, and LLMOps What Is MLOps? Why MLOps Matters for Production Machine Learning Core Principles of MLOps 1. Automation 2. Reproducibility 3. Scalability 4. Monitoring and Governance MLOps vs DevOps: …
+- Production-Ready Docker for MLOps: Docker Compose, GPUs, and Ollama — Table of Contents Production-Ready Docker for MLOps: Docker Compose, GPUs, and Ollama Why Docker Matters for Production MLOps Configuring Our Development Environment Project Structure Multi-Stage Docker Builds for Smaller ML Inference Images Docker Compose fo…
+
+Write the blog post now.
+
