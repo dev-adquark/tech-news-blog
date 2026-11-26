@@ -5261,3 +5261,48 @@ Known facts:
 
 Write the blog post now.
 
+=== Pipeline run 2026-11-26T17:29:55.341054 UTC ===
+
+MODE: news
+
+SOURCE COLLECTION URL: https://newsapi.org/v2/top-headlines (top-headlines/technology)
+
+SOURCE COLLECTION STATUS: 200
+
+SOURCE COLLECTION BODY: {"status":"ok","totalResults":69,"articles":[{"source":{"id":null,"name":"Forbes"},"author":"Forbes","title":"How To Unlock Hurricane Weather In ‘GTA 6’ - Forbes","description":null,"url":"https://www.forbes.com/sites/paultassi/2026/11/25/how-to-unlock-hurricane-weather-in-gta-6/","urlToImage":null,"publishedAt":"2026-11-25T14:15:34Z","content":null},{"source":{"id":null,"name":"Eurogamer.net"},"author":"Dom Peppiatt","title":"I'm having a much better time in GTA 6 now I've disabled its pesky Criminal Profile pings - Eurogamer.net","description":"The controversial criminal profile system has split opinion in GTA 6, but I think it's great. And it's even better if you're blind to it.","url":"https://www.eurogamer.net/im-having-a-much-better-time-in-gta-6-now-ive-disabled-its-pesky-criminal-profile-pings","urlToImage":"https://assetsio.gnwcdn.com/gta-lucia-psycho.jpg?width=1200&height=630&fit=crop&enable=upscale&auto=webp","publishedAt":"2026-11-25T14:06:00Z","content":"Do you think you'd enjoy invasive UI elements in real life? You crouch to fuss your dog, and a little ping activates in your retina, informing you that you've just earned plus-three serotonin. Your b… [+7583 chars]"},{"source":{"id":null,"name":"Forbes"},"author":"Forbes","title":"1 Small Habit That Makes Every Conversation More Enjoyable, By A Psychologist - Forbes","description":null,"url":"https://www.forbes.com/sites/traversmark/2026/11/25/1-small-habit-that-makes-every-conversation-more-enjoyable-by-a-psychologist/","urlToImage":null,"publishedAt":"2026-11-25T13:30:09Z","content":null},{"source":{"id":null,"name":"Tom's Guide"},"author":"https://www.tomsguide.com/author/will-salmon, https://www.tomsguide.com/author/tom-pritchard, https://www.tomsguide.com/author/anthony-spadafora, https://www.tomsguide.com/author/scott-younker, https://www.tomsguide.com/author/jeff-parsons","title":"Apple Black Friday deals LIVE: Lowest prices now on iPhones, iPads, AirPods, MacBooks, Apple Watches and more - Tom's Guide","description":"The best Apple deals as picked by shopping experts","url":"https://www.tomsguide.com/live/news/apple-black-friday-deals-wednesday-november-25-2026","urlToImage":"https://cdn.mos.cms.futurecdn.net/FWNxuP9YcXJkUwYzHvcUkR-2560-80.jpg","publishedAt":"2026-11-25T13:25:07Z","content":"2026-11-25T15:00:02.413ZThe most important Apple Pencil is cheaper than ever\r\n(Image credit: Future)\r\nIf you've picked up an iPhone Duo, or you're waiting for it to arrive, you're going to want
+
+BRIEF: {
+  "mode": "news",
+  "angle": "How To Unlock Hurricane Weather In \u2018GTA 6\u2019 - Forbes",
+  "facts": [
+    "- How To Unlock Hurricane Weather In \u2018GTA 6\u2019 - Forbes",
+    "- I'm having a much better time in GTA 6 now I've disabled its pesky Criminal Profile pings - Eurogamer.net \u2014 The controversial criminal profile system has split opinion in GTA 6, but I think it's great. And it's even better if you're blind to it.",
+    "- 1 Small Habit That Makes Every Conversation More Enjoyable, By A Psychologist - Forbes"
+  ],
+  "sources": [
+    {
+      "name": "Forbes",
+      "url": "https://www.forbes.com/sites/paultassi/2026/11/25/how-to-unlock-hurricane-weather-in-gta-6/"
+    },
+    {
+      "name": "Eurogamer.net",
+      "url": "https://www.eurogamer.net/im-having-a-much-better-time-in-gta-6-now-ive-disabled-its-pesky-criminal-profile-pings"
+    },
+    {
+      "name": "Forbes",
+      "url": "https://www.forbes.com/sites/traversmark/2026/11/25/1-small-habit-that-makes-every-conversation-more-enjoyable-by-a-psychologist/"
+    }
+  ]
+}
+
+GENERATION PROMPT (user):
+Mode: news
+Angle/topic: How To Unlock Hurricane Weather In ‘GTA 6’ - Forbes
+
+Known facts:
+- How To Unlock Hurricane Weather In ‘GTA 6’ - Forbes
+- I'm having a much better time in GTA 6 now I've disabled its pesky Criminal Profile pings - Eurogamer.net — The controversial criminal profile system has split opinion in GTA 6, but I think it's great. And it's even better if you're blind to it.
+- 1 Small Habit That Makes Every Conversation More Enjoyable, By A Psychologist - Forbes
+
+Write the blog post now.
+
