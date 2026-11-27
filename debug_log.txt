@@ -5306,3 +5306,33 @@ Known facts:
 
 Write the blog post now.
 
+=== Pipeline run 2026-11-27T17:11:13.323569 UTC ===
+
+MODE: evergreen
+
+DISCOVERED EVERGREEN TOPIC: passwordless authentication adoption
+
+SOURCE COLLECTION URL: https://newsapi.org/v2/everything (q='passwordless authentication adoption')
+
+SOURCE COLLECTION STATUS: 200
+
+SOURCE COLLECTION BODY: {"status":"ok","totalResults":3,"articles":[{"source":{"id":null,"name":"Microsoft.com"},"author":"Microsoft Threat Intelligence","title":"What defenders need to know about ARTEX, the agentic AI framework threat actors abuse","description":"The AI-powered penetration testing framework ARTEX has been abused by threat actors like Storm-0940, Storm-3358, Onyx Sleet, Pearl Sleet, Crystal Typhoon, and Salt Typhoon to accelerate their existing workflows related to network reconnaissance, credential at…","url":"https://www.microsoft.com/en-us/security/blog/2026/11/25/what-defenders-need-to-know-artex-agentic-ai-framework-threat-actors-abuse/","urlToImage":"https://www.microsoft.com/en-us/security/blog/wp-content/uploads/2026/11/ARTEX-featured.png","publishedAt":"2026-11-25T18:09:06Z","content":"In this article\r\nSince its release in July 2026, the AI-powered penetration testing framework ARTEX has been abused by many threat actors to accelerate their existing workflows related to network rec… [+51043 chars]"},{"source":{"id":null,"name":"Help Net Security"},"author":"Help Net Security","title":"Week in review: Refrigeration cyberattacks hit European retailers again, Patch Tuesday forecast","description":"Here’s an overview of some of last week’s most interesting news, articles, interviews and videos: The first ten lines of a command policy for AI coding agents In this Help Net Security interview, Vinay Thakker, CTO of KloudStax, explains how to set identity, …","url":"https://www.helpnetsecurity.com/2026/11/08/week-in-review-refrigeration-cyberattacks-hit-european-retailers-again-patch-tuesday-forecast/","urlToImage":"https://img.helpnetsecurity.com/wp-content/uploads/2023/12/01112506/cybersecurity_week_in_review2.jpg","publishedAt":"2026-11-08T09:00:21Z","content":"Heres an overview of some of last weeks most interesting news, articles, interviews and videos:\r\nThe first ten lines of a command policy for AI coding agentsIn this Help Net Security interview, Vinay… [+20005 chars]"},{"source":{"id":null,"name":"Pypi.org"},"author":null,"title":"fdai-lifecycle-hub added to PyPI","description":"FDAI Lifecycle Hub that computes signed Lifecycle Plans for Hub-managed installations","url":"https://pypi.org/project/fdai-lifecycle-hub/","urlToImage":null,"publishedAt":"2026-10-31T04:10:17Z","content":"fdai-lifecycle-hub enrolls installations, computes the next signed Lifecycle Plan for each\r\nenrolled installation, and serves it to the installation's lifecycle agent. I
+
+No relevant/sourced articles available — proceeding with brief containing no sourced facts.
+
+BRIEF: {
+  "mode": "evergreen",
+  "angle": "passwordless authentication adoption",
+  "facts": [],
+  "sources": []
+}
+
+GENERATION PROMPT (user):
+Mode: evergreen
+Angle/topic: passwordless authentication adoption
+
+Known facts:
+(no specific sourced facts available)
+
+Write the blog post now.
+
