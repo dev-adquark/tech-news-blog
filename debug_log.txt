@@ -5336,3 +5336,48 @@ Known facts:
 
 Write the blog post now.
 
+=== Pipeline run 2026-11-28T15:56:25.987377 UTC ===
+
+MODE: news
+
+SOURCE COLLECTION URL: https://newsapi.org/v2/top-headlines (top-headlines/technology)
+
+SOURCE COLLECTION STATUS: 200
+
+SOURCE COLLECTION BODY: {"status":"ok","totalResults":64,"articles":[{"source":{"id":"cnn","name":"CNN"},"author":"Mike Andronico","title":"Here are the 26 best Black Friday laptop deals on products we’ve tested and love - CNN","description":"Computers are too pricey these days, so our PC expert found the best Black Friday laptop and desktop deals that bring them back to a reasonable price.","url":"https://www.cnn.com/cnn-underscored/deals/black-friday-laptop-computer-deals-2026-11-27","urlToImage":"https://media.cnn.com/api/v1/images/stellar/prod/apple-imac-m6-cnnu-03.jpg?c=16x9&q=w_800,c_fill","publishedAt":"2026-11-27T14:35:00Z","content":"Want more deals? Visit CNN Underscoreds Guide to Black Friday for wall-to-wall coverage of the best discounts to be found during the biggest shopping event of the year.\r\nBlack Friday is officially un… [+5864 chars]"},{"source":{"id":null,"name":"Tom's Guide"},"author":"https://www.tomsguide.com/author/lloyd-coombes, https://www.tomsguide.com/author/peter-wolinski, https://www.tomsguide.com/author/nikita-achanta, https://www.tomsguide.com/author/tony-polanco, https://www.tomsguide.com/author/scott-younker, https://www.tomsguide.com/author/jeff-parsons","title":"I’ve found the best Black Friday PS5 deals LIVE including DualSense controllers, console stock updates and games from $9 - Tom's Guide","description":"The best PS5 Black Friday deals for every budget","url":"https://www.tomsguide.com/live/news/ps5-black-friday-deals-november-27-2026","urlToImage":"https://cdn.mos.cms.futurecdn.net/Pbn8TY868G6zDeCew6Egvm-2560-80.png","publishedAt":"2026-11-27T12:44:15Z","content":"2026-11-27T12:44:15.776ZAnd this Assassin's Creed title in paricular is very underrated... and worth grabbing for 70% off\r\n(Image credit: Ubisoft)\r\nAs someone who has played every single Assassin's C… [+11130 chars]"},{"source":{"id":"mashable","name":"Mashable"},"author":"Joseph Green","title":"The Pokémon TCG 30th Celebration Elite Trainer Box is back in stock for Black Friday: Buy at market price - Mashable","description":"No, the $59.99 deal has not returned.","url":"https://mashable.com/life/nov-27-pokemon-tcg-30th-celebration-elite-trainer-box-black-friday-deal","urlToImage":"https://helios-i.mashable.com/imagery/articles/014YVM1vYIgcEsDBBqAnkIs/hero-image.fill.size_1200x675.v1795775449.jpg","publishedAt":"2026-11-27T11:26:27Z","content":null},{"source":{"id":"cnn","name":"CNN"},"author":"Mike Andronico","title":"I’m obsessed with my Nintendo Switch 2. Here are 21 
+
+BRIEF: {
+  "mode": "news",
+  "angle": "Here are the 26 best Black Friday laptop deals on products we\u2019ve tested and love - CNN",
+  "facts": [
+    "- Here are the 26 best Black Friday laptop deals on products we\u2019ve tested and love - CNN \u2014 Computers are too pricey these days, so our PC expert found the best Black Friday laptop and desktop deals that bring them back to a reasonable price.",
+    "- I\u2019ve found the best Black Friday PS5 deals LIVE including DualSense controllers, console stock updates and games from $9 - Tom's Guide \u2014 The best PS5 Black Friday deals for every budget",
+    "- The Pok\u00e9mon TCG 30th Celebration Elite Trainer Box is back in stock for Black Friday: Buy at market price - Mashable \u2014 No, the $59.99 deal has not returned."
+  ],
+  "sources": [
+    {
+      "name": "CNN",
+      "url": "https://www.cnn.com/cnn-underscored/deals/black-friday-laptop-computer-deals-2026-11-27"
+    },
+    {
+      "name": "Tom's Guide",
+      "url": "https://www.tomsguide.com/live/news/ps5-black-friday-deals-november-27-2026"
+    },
+    {
+      "name": "Mashable",
+      "url": "https://mashable.com/life/nov-27-pokemon-tcg-30th-celebration-elite-trainer-box-black-friday-deal"
+    }
+  ]
+}
+
+GENERATION PROMPT (user):
+Mode: news
+Angle/topic: Here are the 26 best Black Friday laptop deals on products we’ve tested and love - CNN
+
+Known facts:
+- Here are the 26 best Black Friday laptop deals on products we’ve tested and love - CNN — Computers are too pricey these days, so our PC expert found the best Black Friday laptop and desktop deals that bring them back to a reasonable price.
+- I’ve found the best Black Friday PS5 deals LIVE including DualSense controllers, console stock updates and games from $9 - Tom's Guide — The best PS5 Black Friday deals for every budget
+- The Pokémon TCG 30th Celebration Elite Trainer Box is back in stock for Black Friday: Buy at market price - Mashable — No, the $59.99 deal has not returned.
+
+Write the blog post now.
+
